@@ -57,3 +57,6 @@ Este proyecto utiliza la licencia Reconocimiento-No Comercial-Sin Derivados 2.5(
 >Enlace de Figma con los Mock Ups-->https://www.figma.com/file/UUXvSrQcc56LgRY083Jg5D/DPS?node-id=0%3A1
 
 >Documento con Mock Ups-->https://drive.google.com/file/d/1nLLfPbYnoT3sTYuHIVRxuFP9J3TIkMFI/view?usp=sharing
+
+>Docuemento Primer Avance-->https://drive.google.com/file/d/1H4WIaKpQTmlXq5a8ZwX-6aFB3J_7aBDS/view?usp=sharing
+
