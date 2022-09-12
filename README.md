@@ -14,6 +14,18 @@ La cual cada una tendrá subcategorías y diferentes niveles de dificultad que a
 
 >Git
 
+>Node Js
+
+>Expo
+
+>Android Studio
+
+>JDK
+
+>Firebase
+
+>React Native
+
 #Licencia
 
 Este proyecto utiliza la licencia Reconocimiento-No Comercial-Sin Derivados 2.5(CC BY-NC-ND 2.5) que indica:
