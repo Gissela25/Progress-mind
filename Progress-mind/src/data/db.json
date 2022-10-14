@@ -1,5 +1,265 @@
 {
-    "questions":[
+    "categorias":[
+        {
+            "id":"programacion",
+            "subcategoria":{
+               "html":{
+                "nivel1":[
+                    {
+                        "question": "¿Cual de los siguientes no es un lenguaje de programación?",
+                        "options": ["HTML","JavaScript","C#","C++"],
+                        "correct_option": "HTML",
+                        "withImg":false,
+                        "img":"",
+                        "id": 1
+                    },
+                    {
+                        "question": "¿Cual de los siguientes no es un lenguaje de programación?",
+                        "options": ["CSS","Java","F#","Ruby"],
+                        "correct_option": "CSS",
+                        "withImg":false,
+                        "img":"",
+                        "id": 2
+                    },
+                    {
+                        "question": "¿Cual de las siguientes opciones es un controlador de versiones?",
+                        "options": ["GIT","VS Code","Node JS","Hyper-V"],
+                        "correct_option": "GIT",
+                        "img":"",
+                        "id": 3
+                    },
+                    {
+                        "question": "¿Cual de los siguientes programas no es un virtualizador de VM?",
+                        "options": ["Hyper-V","VirtualBox","VM-Ware","Netbeans"],
+                        "correct_option": "Netbeans",
+                        "img":"",
+                        "withImg":false,
+                        "id": 4
+                    },
+                    {
+                        "question": "¿Cuál de los siguientes no es un tipo de accesibilidad a variables?",
+                        "options": ["Private","Internal","Protected","Public"],
+                        "correct_option": "Internal",
+                        "img":"",
+                        "withImg":false,
+                        "id": 5
+                    }
+                ],
+                "nivel2":[
+
+                ], 
+                "nivel3":[
+                    
+                ],
+                "content":true 
+               },
+               "css":{
+                "nivel1":[
+
+                ],
+                "nivel2":[
+ 
+                ],
+                "nivel3":[
+                 
+                ],
+                "content":false 
+               },
+               "js":{
+                "nivel1":[
+
+                ],
+                "nivel2":[
+ 
+                ],
+                "nivel3":[
+                 
+                ],
+                "content":false 
+               },
+               "csharp":{
+                "nivel1":[
+
+                ],
+                "nivel2":[
+ 
+                ],
+                "nivel3":[
+                 
+                ],
+                "content":false  
+               },
+               "php":{
+                "nivel1":[
+
+                ],
+                "nivel2":[
+ 
+                ],
+                "nivel3":[
+                 
+                ],
+                "content":false  
+               },
+               "react":{
+                "nivel1":[
+
+                ],
+                "nivel2":[
+ 
+                ],
+                "nivel3":[
+                 
+                ],
+                "content":false  
+               }
+            }
+        },
+        {
+            "id":"matematica",
+            "subcategoria":{
+                "cad":{
+                    "nivel1":[
+                        {
+                            "question": "¿A qué concepto pertenece la siguiente definición?",
+                            "img":"https://www.neurochispas.com/wp-content/uploads/2022/08/Formula-de-la-derivada-de-una-funcion-usando-limites.png",
+                            "options": ["Derivada","Limite","Integral","Formula General"],
+                            "correct_option": "Derivada",
+                            "withImg":true,
+                            "id": 1
+                        },
+                        {
+                            "question": "¿A qué tipo de función pertence la siguiente gráfica?",
+                            "img":"https://euclides.org/wp-content/uploads/2021/12/3x.png",
+                            "options": ["Logaritmica","Polinomial","Exponencial","Cuadrática"],
+                            "correct_option": "Exponencial",
+                            "withImg":true,
+                            "id": 2
+                        },
+                        {
+                            "question": "¿A qué tipo de función pertence la siguiente gráfica?",
+                            "img":"https://www.fhybea.com/herramientas/imagenes_articulos/graficar-seno/graficar-seno.png",
+                            "options": ["Coseno","Seno","Exponencial","Tangente"],
+                            "correct_option": "Seno",
+                            "withImg":true,
+                            "id": 3
+                        },
+                        {
+                            "question": "¿A qué tipo de función pertence la siguiente gráfica?",
+                            "img":"https://www.fhybea.com/herramientas/imagenes_articulos/graficar-tangente/grafica-tangente.png",
+                            "options": ["Tangente","Seno","Secante","Cotangente"],
+                            "correct_option": "Tangente",
+                            "withImg":true,
+                            "id": 4
+                        },
+                        {
+                            "question": "¿Cual es la regla de derivación que se presenta en la imagen?",
+                            "img":"https://www.neurochispas.com/wp-content/uploads/2022/03/Formula-para-la-regla-del-cociente-de-derivadas.jpg",
+                            "options": ["Cociente","Producto","Raíz Cuadrada","Logaritmo Leperiano"],
+                            "correct_option": "Cociente",
+                            "withImg":true,
+                            "id": 5
+                        }
+                    ],
+                    "nivel2":[
+     
+                    ],
+                    "nivel3":[
+                     
+                    ],
+                    "content":true   
+                   },
+                   "cai":{
+                    "nivel1":[
+
+                    ],
+                    "nivel2":[
+     
+                    ],
+                    "nivel3":[
+                     
+                    ],
+                    "content":false   
+                   },
+                   "cvv":{
+                    "nivel1":[
+
+                    ],
+                    "nivel2":[
+     
+                    ],
+                    "nivel3":[
+                     
+                    ],
+                    "content":false   
+                   },
+                   "caa":{
+                    "nivel1":[
+
+                    ],
+                    "nivel2":[
+     
+                    ],
+                    "nivel3":[
+                     
+                    ],
+                    "content":false   
+                   },
+                   "edi":{
+                    "nivel1":[
+
+                    ],
+                    "nivel2":[
+     
+                    ],
+                    "nivel3":[
+                     
+                    ],
+                    "content":false   
+                   }
+            }
+        },
+        {
+            "id":"fisica",
+            "subcategoria":{
+                "cdp":{
+                    "nivel1":[
+
+                    ],
+                    "nivel2":[
+     
+                    ],
+                    "nivel3":[
+                     
+                    ],
+                    "content":false   
+                   },
+                   "eym":{
+                    "nivel1":[
+
+                    ],
+                    "nivel2":[
+     
+                    ],
+                    "nivel3":[
+                     
+                    ],
+                    "content":false   
+                   },
+                   "ofc":{
+                    "nivel1":[
+
+                    ],
+                    "nivel2":[
+     
+                    ],
+                    "nivel3":[
+                     
+                    ],
+                    "content":false    
+                   }
+            }
+        }
         
     ]
 }
