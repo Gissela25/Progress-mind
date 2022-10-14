@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.10",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/bottom-tabs": "^6.4.0",
     "@react-navigation/native": "^6.0.13",
@@ -16,12 +17,12 @@
     "axios": "^1.1.2",
     "dotenv": "^16.0.3",
     "expo": "^46.0.15",
-    "expo-constants": "13.1.1",
+    "expo-constants": "~13.2.4",
     "expo-status-bar": "~1.4.0",
     "firebase": "9.6.11",
     "json-server": "^0.17.0",
     "react": "18.0.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "18.0.0",
     "react-native": "0.69.6",
     "react-native-elements": "^3.4.2",
     "react-native-gesture-handler": "~2.5.0",
