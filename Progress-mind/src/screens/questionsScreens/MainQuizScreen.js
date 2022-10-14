@@ -1,6 +1,9 @@
 import React from "react";
 import { Text, View, Button, Pressable, TouchableOpacity } from "react-native";
 import GlobalStyles from "../../styles/GlobalStyles";
+import { getAuth, signOut } from 'firebase/auth';
+
+const auth = getAuth();
 
 const MainQuizScreen = ({navigation}) => {
     return(
@@ -26,6 +29,8 @@ const MainQuizScreen = ({navigation}) => {
                 })}>
                     <Text style={GlobalStyles.textButtons}>Física</Text>
                 </Pressable>
+
+                <Button title="Sign Out" style={{marginTop:10}} onPress={() => signOut(auth)} />
         </View>
     );
 }
