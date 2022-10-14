@@ -24,6 +24,18 @@ export default function Navigation() {
             <Stack.Screen name="Physical" component={PhysicalCategoryScreen} options={{ title: 'Física' }} />
             <Stack.Screen name="Levels" component={LevelsScreen} options={{ title: 'Niveles' }} />
             <Stack.Screen name="Questions" component={QuestionsScreen} options={{ title: 'Quiz' }} /> */}
+import SignInScreen from '../screens/SignInScreen';
+import SignUpScreen from '../screens/SignUpScreen';
+
+const Stack = createStackNavigator();
+export default function Navigation() {
+    return (
+        <Stack.Navigator  screenOptions={{
+            headerShown: false,
+        }}>
+            {/* <Stack.Screen name="Splash" component={SplashScreen} options={{ title: 'Splash' }} /> */}
+            <Stack.Screen name="SignInScreen" component={SignInScreen} options={{ title: 'Login' }} />
+            <Stack.Screen name="SignUpScreen" component={SignUpScreen} options={{ title: 'Login' }} />
         </Stack.Navigator>
     );
 }
