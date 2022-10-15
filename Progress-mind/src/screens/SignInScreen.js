@@ -56,6 +56,10 @@ const SignInScreen = ({ navigation }) => {
                 <TouchableOpacity onPress={() => navigation.navigate('Sign Up')}>
                     <Text style={SignStyles.Textsignupstyle}>Registrarse</Text>
                 </TouchableOpacity>
+                <TouchableOpacity style={{alignItems: 'center'}}>
+                    <Text style={SignStyles.Textsignupstyle}>Inicia Sesión con Google</Text>
+                </TouchableOpacity>
+                
             </View>
         </View>
     );
