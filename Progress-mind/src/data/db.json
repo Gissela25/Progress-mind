@@ -1,265 +1,1465 @@
 {
-    "categorias":[
+    "categorias": [
         {
-            "id":"programacion",
-            "subcategoria":{
-               "html":{
-                "nivel1":[
-                    {
-                        "question": "¿Cual de los siguientes no es un lenguaje de programación?",
-                        "options": ["HTML","JavaScript","C#","C++"],
-                        "correct_option": "HTML",
-                        "withImg":false,
-                        "img":"",
-                        "id": 1
-                    },
-                    {
-                        "question": "¿Cual de los siguientes no es un lenguaje de programación?",
-                        "options": ["CSS","Java","F#","Ruby"],
-                        "correct_option": "CSS",
-                        "withImg":false,
-                        "img":"",
-                        "id": 2
-                    },
-                    {
-                        "question": "¿Cual de las siguientes opciones es un controlador de versiones?",
-                        "options": ["GIT","VS Code","Node JS","Hyper-V"],
-                        "correct_option": "GIT",
-                        "img":"",
-                        "id": 3
-                    },
-                    {
-                        "question": "¿Cual de los siguientes programas no es un virtualizador de VM?",
-                        "options": ["Hyper-V","VirtualBox","VM-Ware","Netbeans"],
-                        "correct_option": "Netbeans",
-                        "img":"",
-                        "withImg":false,
-                        "id": 4
-                    },
-                    {
-                        "question": "¿Cuál de los siguientes no es un tipo de accesibilidad a variables?",
-                        "options": ["Private","Internal","Protected","Public"],
-                        "correct_option": "Internal",
-                        "img":"",
-                        "withImg":false,
-                        "id": 5
-                    }
-                ],
-                "nivel2":[
-
-                ], 
-                "nivel3":[
-                    
-                ],
-                "content":true 
-               },
-               "css":{
-                "nivel1":[
-
-                ],
-                "nivel2":[
- 
-                ],
-                "nivel3":[
-                 
-                ],
-                "content":false 
-               },
-               "js":{
-                "nivel1":[
-
-                ],
-                "nivel2":[
- 
-                ],
-                "nivel3":[
-                 
-                ],
-                "content":false 
-               },
-               "csharp":{
-                "nivel1":[
-
-                ],
-                "nivel2":[
- 
-                ],
-                "nivel3":[
-                 
-                ],
-                "content":false  
-               },
-               "php":{
-                "nivel1":[
-
-                ],
-                "nivel2":[
- 
-                ],
-                "nivel3":[
-                 
-                ],
-                "content":false  
-               },
-               "react":{
-                "nivel1":[
-
-                ],
-                "nivel2":[
- 
-                ],
-                "nivel3":[
-                 
-                ],
-                "content":false  
-               }
-            }
-        },
-        {
-            "id":"matematica",
-            "subcategoria":{
-                "cad":{
-                    "nivel1":[
+            "id": "programacion",
+            "subcategoria": {
+                "html": {
+                    "nivel1": [
                         {
-                            "question": "¿A qué concepto pertenece la siguiente definición?",
-                            "img":"https://www.neurochispas.com/wp-content/uploads/2022/08/Formula-de-la-derivada-de-una-funcion-usando-limites.png",
-                            "options": ["Derivada","Limite","Integral","Formula General"],
-                            "correct_option": "Derivada",
-                            "withImg":true,
+                            "question": "¿Qué significa HTML?",
+                            "options": [
+                                "Hyperlinks and Text Markup Language",
+                                "Hyper Text Markup Language",
+                                "Home Tool Markup Language"
+                            ],
+                            "correct_option": "Hyper Text Markup Language",
+                            "withImg": false,
+                            "img": "",
                             "id": 1
                         },
                         {
-                            "question": "¿A qué tipo de función pertence la siguiente gráfica?",
-                            "img":"https://euclides.org/wp-content/uploads/2021/12/3x.png",
-                            "options": ["Logaritmica","Polinomial","Exponencial","Cuadrática"],
-                            "correct_option": "Exponencial",
-                            "withImg":true,
+                            "question": "¿Cuál es el elemento HTML correcto para insertar un salto de línea?",
+                            "options": [
+                                "<lb>",
+                                "<break>",
+                                "<br>"
+                            ],
+                            "correct_option": "<br> ",
+                            "withImg": false,
+                            "img": "",
                             "id": 2
                         },
                         {
-                            "question": "¿A qué tipo de función pertence la siguiente gráfica?",
-                            "img":"https://www.fhybea.com/herramientas/imagenes_articulos/graficar-seno/graficar-seno.png",
-                            "options": ["Coseno","Seno","Exponencial","Tangente"],
-                            "correct_option": "Seno",
-                            "withImg":true,
+                            "question": "¿Qué elemento HTML define el título de un documento?",
+                            "options": [
+                                "<meta>",
+                                "<head>",
+                                "<title>"
+                            ],
+                            "correct_option": "<title>",
+                            "img": "",
                             "id": 3
                         },
                         {
-                            "question": "¿A qué tipo de función pertence la siguiente gráfica?",
-                            "img":"https://www.fhybea.com/herramientas/imagenes_articulos/graficar-tangente/grafica-tangente.png",
-                            "options": ["Tangente","Seno","Secante","Cotangente"],
-                            "correct_option": "Tangente",
-                            "withImg":true,
+                            "question": "¿Qué elemento HTML se utiliza para especificar un encabezado para un documento o sección?",
+                            "options": [
+                                "<header>",
+                                "<break>",
+                                "<heading>"
+                            ],
+                            "correct_option": "<header>",
+                            "img": "",
+                            "withImg": false,
                             "id": 4
                         },
                         {
-                            "question": "¿Cual es la regla de derivación que se presenta en la imagen?",
-                            "img":"https://www.neurochispas.com/wp-content/uploads/2022/03/Formula-para-la-regla-del-cociente-de-derivadas.jpg",
-                            "options": ["Cociente","Producto","Raíz Cuadrada","Logaritmo Leperiano"],
-                            "correct_option": "Cociente",
-                            "withImg":true,
+                            "question": "Elija el elemento HTML correcto para el encabezado más grande:",
+                            "options": [
+                                "<h1>",
+                                "<heading>",
+                                "<head>"
+                            ],
+                            "correct_option": "<h1> ",
+                            "img": "",
+                            "withImg": false,
                             "id": 5
+                        },
+                        {
+                            "question": "¿Qué carácter se utiliza para indicar una etiqueta final?",
+                            "options": [
+                                "<",
+                                "/",
+                                "^"
+                            ],
+                            "correct_option": "^",
+                            "img": "",
+                            "withImg": false,
+                            "id": 6
+                        },
+                        {
+                            "question": "¿Cómo puedes hacer una lista numerada?",
+                            "options": [
+                                "<ul>",
+                                "<ol>",
+                                "<list>"
+                            ],
+                            "correct_option": "",
+                            "img": "",
+                            "withImg": false,
+                            "id": 7
+                        },
+                        {
+                            "question": "Es Visual Studio Code es un editor de código fuente:",
+                            "options": [
+                                "VERDADERO",
+                                "FALSO"
+                            ],
+                            "correct_option": "VERDADERO",
+                            "img": "",
+                            "withImg": false,
+                            "id": 8
+                        },
+                        {
+                            "question": "¿Cuál es el elemento HTML correcto para reproducir archivos de video?",
+                            "options": [
+                                "<movie>",
+                                "<video>",
+                                "<media>"
+                            ],
+                            "correct_option": "<video>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 9
+                        },
+                        {
+                            "question": "¿Cuál es el elemento HTML correcto para reproducir archivos de audio",
+                            "options": [
+                                "<mp3>",
+                                "<sound>",
+                                "<audio>"
+                            ],
+                            "correct_option": "<audio>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 10
                         }
                     ],
-                    "nivel2":[
-     
+                    "nivel2": [
+                        {
+                            "question": "¿Son todos estos elementos de tabla <table><tr><td>?",
+                            "options": [
+                                "Verdadero",
+                                "Falso"
+                            ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 11
+                        },
+                        {
+                            "question": "¿Cuál es el HTML correcto para hacer una casilla de verificación?",
+                            "options": [
+                                "<input type=checkbox>",
+                                "<check>",
+                                "<input type=check>"
+                            ],
+                            "correct_option": "<input type=checkbox>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 12
+                        },
+                        {
+                            "question": "¿Cuál es el HTML correcto para agregar un color de fondo?",
+                            "options": [
+                                "<body style=background-color:yellow;>",
+                                "<background>yellow</background>",
+                                "<body bg=yellow>"
+                            ],
+                            "correct_option": "<body style=background-color:yellow;>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 13
+                        },
+                        {
+                            "question": "Elija el elemento HTML correcto para definir el texto importante",
+                            "options": [
+                                "<em>",
+                                "<italic>",
+                                "<i>"
+                            ],
+                            "correct_option": "<em>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 14
+                        },
+                        {
+                            "question": "¿Cómo se puede abrir un enlace en una nueva pestaña/ventana del navegador?",
+                            "options": [
+                                "<a href='url' target= 'new'>",
+                                "<a href=’url’ target=’_blank’>",
+                                "<a href= url new>"
+                            ],
+                            "correct_option": "<a href=’url’ target=’_blank’>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 15
+                        },
+                        {
+                            "question": "Elija el elemento HTML correcto para definir texto importante",
+                            "options": [
+                                "<strong>",
+                                "<important>",
+                                "<i>"
+                            ],
+                            "correct_option": "<strong>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 16
+                        },
+                        {
+                            "question": "¿Qué tipo de documento es correcto para HTML5?",
+                            "options": [
+                                "<!DOCTYPE html>",
+                                "<!DOCTYPE HTML5>",
+                                "<!DOCTYPE HTML4>"
+                            ],
+                            "correct_option": "<!DOCTYPE html>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 17
+                        },
+                        {
+                            "question": "En HTML, puede incrustar elementos SVG directamente en una página HTML.",
+                            "options": [
+                                "Verdadero",
+                                "Falso"
+                            ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 18
+                        },
+                        {
+                            "question": "El elemento HTML <canvas> se utiliza para:",
+                            "options": [
+                                "Dibujar gráficos",
+                                "Mostrar registros de la base de datos",
+                                "Manipular datos en MySQL"
+                            ],
+                            "correct_option": "Dibujar gráficos",
+                            "img": "",
+                            "withImg": false,
+                            "id": 19
+                        },
+                        {
+                            "question": "5.¿Qué elemento HTML se usa para mostrar una medida escalar dentro de un rango?",
+                            "options": [
+                                "<gauge>",
+                                "<measure>",
+                                "<meter>"
+                            ],
+                            "correct_option": "<meter>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 20
+                        }
                     ],
-                    "nivel3":[
-                     
+                    "nivel3": [
+                        {
+                            "question": "¿Cuál es el HTML correcto para insertar una imagen?",
+                            "options": [
+                                "<img href='image.gif' alt='MyImage'>",
+                                "<img src='image.gif' alt='MyImage'>",
+                                "<image src='image.gif' alt='MyImage'>"
+                            ],
+                            "correct_option": "<img src='image.gif' alt='MyImage'>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 21
+                        },
+                        {
+                            "question": "En HTML, ¿Qué define el elemento <aside>?",
+                            "options": [
+                                "Contenido aparte del contenido de la página",
+                                "El juego de caracteres ASCII; Para enviar información entre equipos en Internet",
+                                "Una lista de navegación que se mostrará en el lado izquierdo de la página"
+                            ],
+                            "correct_option": "Contenido aparte del contenido de la página",
+                            "img": "",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": "¿Los gráficos definidos por SVG están en qué formato?",
+                            "options": [
+                                "CSS",
+                                "HTML",
+                                "XML"
+                            ],
+                            "correct_option": "XML",
+                            "img": "",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "En HTML, onblur y onfocus son:",
+                            "options": [
+                                "Atributos de estilo",
+                                "Elementos HTML",
+                                "Atributos de evento"
+                            ],
+                            "correct_option": "Atributos de evento",
+                            "img": "",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": "Un <iframe> se utiliza para mostrar una página web dentro de una página web",
+                            "options": [
+                                "Verdadero",
+                                "Falso"
+                            ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": "¿Quién está haciendo los estándares Web?",
+                            "options": [
+                                "Google",
+                                "Mozilla",
+                                "The World Wide Web Consortium"
+                            ],
+                            "correct_option": "The World Wide Web Consortium",
+                            "img": "",
+                            "withImg": false,
+                            "id": 26
+                        },
+                        {
+                            "question": "¿Cuál es el HTML correcto para insertar una imagen de fondo?",
+                            "options": [
+                                "<body bg='background.gif'>",
+                                "<body style='background-image:url(background.gif)'>",
+                                "<background img='background.gif'>"
+                            ],
+                            "correct_option": "<body style='background-image:url(background.gif)'>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "¿Qué atributo HTML especifica un texto alternativo para una imagen, si la imagen no se puede mostrar?",
+                            "options": [
+                                "Title",
+                                "alt",
+                                "src"
+                            ],
+                            "correct_option": "alt",
+                            "img": "",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": "El atributo global HTML, contenteditable se utiliza para:",
+                            "options": [
+                                "Actualizar contenido desde el servidor",
+                                "Especificar si el contenido de un elemento debe ser editable o no",
+                                "Especifica un menú contextual para un elemento. El menú aparece cuando un usuario hace clic derecho en el elemento"
+                            ],
+                            "correct_option": "Especificar si el contenido de un elemento debe ser editable o no",
+                            "img": "",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "¿Qué elemento HTML se usa para especificar un pie de página para un documento o sección?",
+                            "options": [
+                                "<footer>",
+                                "<section>",
+                                "<bottom>"
+                            ],
+                            "correct_option": "",
+                            "img": "",
+                            "withImg": false,
+                            "id": 30
+                        }
                     ],
-                    "content":true   
-                   },
-                   "cai":{
-                    "nivel1":[
-
+                    "content": true
+                },
+                "css": {
+                    "nivel1": [],
+                    "nivel2": [],
+                    "nivel3": [],
+                    "content": false
+                },
+                "js": {
+                    "nivel1": [
+                        {
+                            "question": "¿Dentro de qué elemento HTML ponemos el JavaScript?",
+                            "options": [
+                                "<script>",
+                                "<js>",
+                                "<javascript>"
+                            ],
+                            "correct_option": "<script>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 1
+                        },
+                        {
+                            "question": "El archivo JavaScript externo debe contener la etiqueta <script>.",
+                            "options": [
+                                "Falso",
+                                "Verdadero"
+                            ],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 2
+                        },
+                        {
+                            "question": "¿Qué operador se utiliza para asignar un valor a una variable?",
+                            "options": [
+                                "-",
+                                "*",
+                                "="
+                            ],
+                            "correct_option": "=",
+                            "img": "",
+                            "withImg": false,
+                            "id": 3
+                        },
+                        {
+                            "question": "¿Cómo llamas a una función llamada myFunction?",
+                            "options": [
+                                "call function myFunction()",
+                                "call myFunction()",
+                                "myFunction()"
+                            ],
+                            "correct_option": "myFunction()",
+                            "img": "",
+                            "withImg": false,
+                            "id": 4
+                        },
+                        {
+                            "question": "¿Cómo se crea una función en JavaScript?",
+                            "options": [
+                                "function:myFunction()",
+                                "function myFunction()",
+                                "function = myFunction()"
+                            ],
+                            "correct_option": "function myFunction()",
+                            "img": "",
+                            "withImg": false,
+                            "id": 5
+                        },
+                        {
+                            "question": "¿Cómo se puede agregar un comentario en un JavaScript?",
+                            "options": [
+                                "<!--This is a comment-->",
+                                "//This is a comment",
+                                "'This is a comment"
+                            ],
+                            "correct_option": "<!--This is a comment-->",
+                            "img": "",
+                            "withImg": false,
+                            "id": 6
+                        },
+                        {
+                            "question": "¿Cómo insertar un comentario que tiene más de una línea?",
+                            "options": [
+                                "<!--This comment hasmore than one line-->",
+                                "/*This comment has more than one line*/",
+                                "//This comment has more than one line//"
+                            ],
+                            "correct_option": "/*This comment has more than one line*/",
+                            "img": "",
+                            "withImg": false,
+                            "id": 7
+                        },
+                        {
+                            "question": "JavaScript es la misma que Java",
+                            "options": [
+                                "Falso",
+                                "Verdadero"
+                            ],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 8
+                        },
+                        {
+                            "question": "¿Qué evento ocurre cuando el usuario hace clic en un elemento HTML?",
+                            "options": [
+                                "onmouseover",
+                                "onmouseclick",
+                                "onclick"
+                            ],
+                            "correct_option": "",
+                            "img": "",
+                            "withImg": false,
+                            "id": 9
+                        },
+                        {
+                            "question": "¿JavaScript distingue entre mayúsculas y minúsculas?",
+                            "options": [
+                                "Si",
+                                "No"
+                            ],
+                            "correct_option": "Si",
+                            "img": "",
+                            "withImg": false,
+                            "id": 10
+                        }
                     ],
-                    "nivel2":[
-     
+                    "nivel2": [
+                        {
+                            "question": "¿Dónde está el lugar correcto para insertar un JavaScript?",
+                            "options": [
+                                "La  <body> seccion",
+                                "Ambas  <head> seccion y  <body> seccion son correctas",
+                                "La <head> seccion"
+                            ],
+                            "correct_option": "Ambas  <head> seccion y  <body> seccion son correctas",
+                            "img": "",
+                            "withImg": false,
+                            "id": 11
+                        },
+                        {
+                            "question": "¿Cuál es la sintaxis correcta para referirse a un script externo llamado xxx.js?",
+                            "options": [
+                                "<script name='xxx.js'>",
+                                "<script href='xxx.js'>",
+                                "<script src='xxx.js'>"
+                            ],
+                            "correct_option": "<script src='xxx.js'>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 12
+                        },
+                        {
+                            "question": "¿Cómo escribir una declaración IF en JavaScript?",
+                            "options": [
+                                "if i = 5",
+                                "if i = 5 then",
+                                "if (i == 5)"
+                            ],
+                            "correct_option": "if (i == 5)",
+                            "img": "",
+                            "withImg": false,
+                            "id": 13
+                        },
+                        {
+                            "question": "¿Cómo se puede detectar el nombre del navegador del cliente?",
+                            "options": [
+                                "client.navName",
+                                "navigator.appName",
+                                "browser.name"
+                            ],
+                            "correct_option": "navigator.appName",
+                            "img": "",
+                            "withImg": false,
+                            "id": 14
+                        },
+                        {
+                            "question": "¿Cómo se escribe 'Hello World' en un cuadro de alerta?",
+                            "options": [
+                                "msgBox('Hello World');",
+                                "alertBox('Hello World');",
+                                "alert('Hello World');"
+                            ],
+                            "correct_option": "alert('Hello World');",
+                            "img": "",
+                            "withImg": false,
+                            "id": 15
+                        },
+                        {
+                            "question": "¿Cómo comienza un bucle WHILE?",
+                            "options": [
+                                "while (i <= 10; i++)",
+                                "while i = 1 to 10",
+                                "while (i <= 10)"
+                            ],
+                            "correct_option": "while (i <= 10)",
+                            "img": "",
+                            "withImg": false,
+                            "id": 16
+                        },
+                        {
+                            "question": "¿Cómo se declara una variable de JavaScript?",
+                            "options": [
+                                "variable carName;",
+                                "var carName;",
+                                "v carName;"
+                            ],
+                            "correct_option": "var carName;",
+                            "img": "",
+                            "withImg": false,
+                            "id": 17
+                        },
+                        {
+                            "question": "¿Qué devolverá el siguiente código?: Boolean(10 > 9)",
+                            "options": [
+                                "Verdadero",
+                                "Falso"
+                            ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 18
+                        },
+                        {
+                            "question": "¿Cómo encuentras el número con el valor más alto de x e y?",
+                            "options": [
+                                "Math.ceil(x, y)",
+                                "top(x, y)",
+                                "Math.max(x, y)"
+                            ],
+                            "correct_option": "Math.max(x, y)",
+                            "img": "",
+                            "withImg": false,
+                            "id": 19
+                        },
+                        {
+                            "question": "¿Cómo redondeas el número 7.25 al entero más cercano?",
+                            "options": [
+                                "Math.rnd(7.25)",
+                                "Math.round(7.25)",
+                                "round(7.25)"
+                            ],
+                            "correct_option": "Math.round(7.25)",
+                            "img": "",
+                            "withImg": false,
+                            "id": 20
+                        }
                     ],
-                    "nivel3":[
-                     
+                    "nivel3": [
+                        {
+                            "question": "",
+                            "options": [
+                                "",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "correct_option": "",
+                            "img": "",
+                            "withImg": false,
+                            "id": 21
+                        }
                     ],
-                    "content":false   
-                   },
-                   "cvv":{
-                    "nivel1":[
-
-                    ],
-                    "nivel2":[
-     
-                    ],
-                    "nivel3":[
-                     
-                    ],
-                    "content":false   
-                   },
-                   "caa":{
-                    "nivel1":[
-
-                    ],
-                    "nivel2":[
-     
-                    ],
-                    "nivel3":[
-                     
-                    ],
-                    "content":false   
-                   },
-                   "edi":{
-                    "nivel1":[
-
-                    ],
-                    "nivel2":[
-     
-                    ],
-                    "nivel3":[
-                     
-                    ],
-                    "content":false   
-                   }
+                    "content": true
+                },
+                "csharp": {
+                    "nivel1": [],
+                    "nivel2": [],
+                    "nivel3": [],
+                    "content": false
+                },
+                "php": {
+                    "nivel1": [],
+                    "nivel2": [],
+                    "nivel3": [],
+                    "content": false
+                },
+                "react": {
+                    "nivel1": [],
+                    "nivel2": [],
+                    "nivel3": [],
+                    "content": false
+                }
             }
         },
         {
-            "id":"fisica",
-            "subcategoria":{
-                "cdp":{
-                    "nivel1":[
-
+            "id": "matematica",
+            "subcategoria": {
+                "cad": {
+                    "nivel1": [
+                        {
+                            "question": "Una curva en el plano corresponde a una función si:",
+                            "img": "",
+                            "options": [
+                                "una línea vertical la corta en varios puntos",
+                                "Una línea vertical la corta en a lo sumo un punto",
+                                "Una línea horizontal la corta en un punto",
+                                "una línea vertical no corta la curva"
+                            ],
+                            "correct_option": "Una línea vertical la corta en a lo sumo un punto",
+                            "withImg": true,
+                            "id": 1
+                        },
+                        {
+                            "question": "A que función le corresponden los siguientes gráficos:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N1Pregunta2.jpg",
+                            "options": [
+                                "Función lineal",
+                                "Función exponencial",
+                                "Función valor absoluto",
+                                "Función Reciproca"
+                            ],
+                            "correct_option": "Función lineal",
+                            "withImg": true,
+                            "id": 2
+                        },
+                        {
+                            "question": "El dominio de una función se define como:",
+                            "img": "",
+                            "options": [
+                                "Un conjunto cualquiera A",
+                                "Todos los reales",
+                                "Los posibles valores que puede tomar la variable independiente",
+                                "Un conjunto de parejas ordenadas del plano"
+                            ],
+                            "correct_option": "Los posibles valores que puede tomar la variable independiente",
+                            "withImg": true,
+                            "id": 3
+                        },
+                        {
+                            "question": "El dominio de la función f(x)=x/(x-2), es:",
+                            "img": "",
+                            "options": [
+                                "Todos los reales, excepto el 2",
+                                "Los reales positivos",
+                                "Los reales negativos",
+                                "Los números irracionales"
+                            ],
+                            "correct_option": "Todos los reales, excepto el 2",
+                            "withImg": true,
+                            "id": 4
+                        },
+                        {
+                            "question": "A que función corresponde el siguiente grafico",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N1pregunta5.jpg",
+                            "options": [
+                                "Función lineal",
+                                "Función exponencial",
+                                "Función valor absoluto",
+                                "Función Reciproca"
+                            ],
+                            "correct_option": "Función valor absoluto",
+                            "withImg": true,
+                            "id": 5
+                        },
+                        {
+                            "question": "De las siguientes funciones cual es función trigonométrica",
+                            "img": "",
+                            "options": [
+                                "y=cosx",
+                                "y=x3",
+                                "y=2x-1",
+                                "y=ex"
+                            ],
+                            "correct_option": "y=cosx",
+                            "withImg": true,
+                            "id": 6
+                        },
+                        {
+                            "question": "La composición fog de las funciones f(x)=2x-1 y g(x)=x2, es",
+                            "img": "",
+                            "options": [
+                                "2x^2-1",
+                                "2x-1",
+                                "4x2-1",
+                                "x-3"
+                            ],
+                            "correct_option": "2x^2-1",
+                            "withImg": true,
+                            "id": 7
+                        },
+                        {
+                            "question": "La asíntota horizontal de la función f(x)=(2x-1)/(x+1) es:",
+                            "img": "",
+                            "options": [
+                                "y=0",
+                                "y=3",
+                                "y=4",
+                                "y=2"
+                            ],
+                            "correct_option": "y=2",
+                            "withImg": true,
+                            "id": 8
+                        },
+                        {
+                            "question": "La asíntota vertical de la función f(x)=(2x-1)/(x+1) es:",
+                            "img": "",
+                            "options": [
+                                "x= -1",
+                                "x=3",
+                                "x=0",
+                                "x=1"
+                            ],
+                            "correct_option": "x= -1",
+                            "withImg": true,
+                            "id": 9
+                        },
+                        {
+                            "question": "a que función corresponden los siguientes gráficos:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N1pregunta10.jpg",
+                            "options": [
+                                "Función lineal",
+                                "Función exponencial",
+                                "Función valor absoluto",
+                                "Función Reciproca"
+                            ],
+                            "correct_option": "Función Reciproca",
+                            "withImg": true,
+                            "id": 10
+                        }
                     ],
-                    "nivel2":[
-     
+                    "nivel2": [
+                        {
+                            "question": "A que derivada corresponde la siguiente formula:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta11.jpg",
+                            "options": [
+                                "Derivada de una constante",
+                                "Derivada de una raíz cuadrada",
+                                "Derivada de un cociente",
+                                "Derivada de una suma"
+                            ],
+                            "correct_option": "Derivada de una constante",
+                            "withImg": true,
+                            "id": 11
+                        },
+                        {
+                            "question": "A que derivada corresponde la siguiente formula:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta12.jpg",
+                            "options": [
+                                "Derivada de una constante",
+                                "Derivada de una raíz cuadrada",
+                                "Derivada de un cociente",
+                                "Derivada de una suma"
+                            ],
+                            "correct_option": "Derivada de una raíz cuadrada",
+                            "withImg": true,
+                            "id": 12
+                        },
+                        {
+                            "question": "A que derivada corresponde la siguiente formula:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta13.jpg",
+                            "options": [
+                                "Derivada de una constante por una función",
+                                "Derivada de una raíz cuadrada",
+                                "Derivada de una constante",
+                                "Derivada de un cociente"
+                            ],
+                            "correct_option": "Derivada de una constante por una función",
+                            "withImg": true,
+                            "id": 13
+                        },
+                        {
+                            "question": "A que derivada corresponde la siguiente formula:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta14.jpg",
+                            "options": [
+                                "Derivada de una constante por una función",
+                                "Derivada de una raíz cuadrada",
+                                "Derivada de una constante",
+                                "Derivada de un cociente"
+                            ],
+                            "correct_option": "Derivada de un cociente",
+                            "withImg": true,
+                            "id": 14
+                        },
+                        {
+                            "question": "A que derivada corresponde la siguiente formula:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta15.jpg",
+                            "options": [
+                                "Derivada de producto",
+                                "Derivada de una raíz cuadrada",
+                                "Derivada de una constante",
+                                "Derivada de un cociente"
+                            ],
+                            "correct_option": "Derivada de producto",
+                            "withImg": true,
+                            "id": 15
+                        },
+                        {
+                            "question": "A que derivada corresponde la siguiente formula:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta16.jpg",
+                            "options": [
+                                "Derivada de seno",
+                                "Derivada de una raíz cuadrada",
+                                "Derivada de un cociente",
+                                "Derivada de una constante por una función"
+                            ],
+                            "correct_option": "Derivada de seno",
+                            "withImg": true,
+                            "id": 16
+                        },
+                        {
+                            "question": "A que derivada corresponde la siguiente formula:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta17.jpg",
+                            "options": [
+                                "Derivada de seno",
+                                "Derivada de un logaritmo",
+                                "Derivada de un cociente",
+                                "Derivada de un logaritmo neperiano"
+                            ],
+                            "correct_option": "Derivada de un logaritmo",
+                            "withImg": true,
+                            "id": 17
+                        },
+                        {
+                            "question": "A que derivada corresponde la siguiente formula:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta18.jpg",
+                            "options": [
+                                "Derivada de seno",
+                                "Derivada de un logaritmo",
+                                "Derivada de un cociente",
+                                "Derivada de una función exponencial"
+                            ],
+                            "correct_option": "Derivada de una función exponencial",
+                            "withImg": true,
+                            "id": 18
+                        },
+                        {
+                            "question": "A que derivada corresponde la siguiente formula:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta19.jpg",
+                            "options": [
+                                "Derivada de seno",
+                                "Derivada de una raíz cuadrada",
+                                "Derivada de un cociente",
+                                "Derivada de una cotangente"
+                            ],
+                            "correct_option": "Derivada de una cotangente",
+                            "withImg": true,
+                            "id": 19
+                        },
+                        {
+                            "question": "A que derivada corresponde la siguiente formula:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta20.jpg",
+                            "options": [
+                                "Derivada de seno",
+                                "Derivada de una raíz cuadrada",
+                                "Derivada de un cociente",
+                                "Derivada de una tangente"
+                            ],
+                            "correct_option": "Derivada de una tangente",
+                            "withImg": true,
+                            "id": 20
+                        }
                     ],
-                    "nivel3":[
-                     
+                    "nivel3": [
+                        {
+                            "question": "El criterio de la primera derivada proporciona la monotonía de una función f derivable en un intervalo I=(a,b):",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3pregunta21.jpg",
+                            "options": [
+                                "Verdadero",
+                                "Falso"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 21
+                        },
+                        {
+                            "question": "los puntos que anulan la primera derivada (llamados puntos críticos) son candidatos a ser:",
+                            "img": "",
+                            "options": [
+                                "Extremos relativos",
+                                "Asíntota vertical",
+                                "Asíntota horizontal",
+                                "de cotejo"
+                            ],
+                            "correct_option": "Extremos relativos",
+                            "withImg": true,
+                            "id": 22
+                        },
+                        {
+                            "question": "Para resolver un problema de la primera derivada se deben seguir los pasos en el siguiente orden",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3pregunta23.jpg",
+                            "options": [
+                                "Falso",
+                                "Verdadero"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 23
+                        },
+                        {
+                            "question": "El siguiente enunciado pertenece al criterio de la segunda derivada:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3pregunta24.jpg",
+                            "options": [
+                                "Falso",
+                                "Verdadero"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 24
+                        },
+                        {
+                            "question": "Si z es un máximo o un mínimo relativo, se dice que es:",
+                            "img": "",
+                            "options": [
+                                "un extremo relativo.",
+                                "Coordenada",
+                                "Punto máximo",
+                                "Punto mínimo"
+                            ],
+                            "correct_option": "un extremo relativo.",
+                            "withImg": true,
+                            "id": 25
+                        },
+                        {
+                            "question": "Si z es un máximo o un mínimo para todo el dominio de la función, se dice que es un:",
+                            "img": "",
+                            "options": [
+                                "Extremo relativo",
+                                "línea vertical",
+                                "Extremo absoluto",
+                                "Extremo horizontal"
+                            ],
+                            "correct_option": "Extremo absoluto",
+                            "withImg": true,
+                            "id": 26
+                        },
+                        {
+                            "question": "El siguiente concepto pertenece a un extremo relativo o local:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3prregunta27.jpg",
+                            "options": [
+                                "Verdadero",
+                                "Falso"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 27
+                        },
+                        {
+                            "question": "La aplicación directa del criterio de la segunda derivada es determinar si los puntos críticos de una función (puntos que anulan la primera derivada) son máximos o mínimos",
+                            "img": "",
+                            "options": [
+                                "Falso",
+                                "Verdadero"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 28
+                        },
+                        {
+                            "question": "Los puntos que anulan la segunda derivada son candidatos a ser:",
+                            "img": "",
+                            "options": [
+                                "Puntos de inflexión",
+                                "Puntos críticos",
+                                "Puntos no críticos",
+                                "Puntos mínimos"
+                            ],
+                            "correct_option": "Puntos de inflexión",
+                            "withImg": true,
+                            "id": 29
+                        },
+                        {
+                            "question": "Los puntos de inflexión se pueden determinar cómo:",
+                            "img": "",
+                            "options": [
+                                "Concavidad y convexidad",
+                                "No relativos",
+                                "Extremos relativos",
+                                "negativos"
+                            ],
+                            "correct_option": "Concavidad y convexidad",
+                            "withImg": true,
+                            "id": 30
+                        }
                     ],
-                    "content":false   
-                   },
-                   "eym":{
-                    "nivel1":[
-
+                    "content": true
+                },
+                "cai": {
+                    "nivel1": [
+                        {
+                            "question": "La integral definida siempre nos da el cambio neto en una cantidad, no el valor real de esa cantidad. Para encontrar el valor real, necesitamos sumar una condición inicial a la integral definida.",
+                            "img": "",
+                            "options": [
+                                "Falso",
+                                "Verdadero"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 1
+                        },
+                        {
+                            "question": "Edén caminó a una razón de r(t)kilómetros por hora (donde t es el tiempo en horas) ¿Que representa la siguiente expresión?",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta2.jpg",
+                            "options": [
+                                "Edén caminó 6 kilómetros en 3 horas",
+                                "Edén caminó 6 kilómetros cada hora",
+                                "Edén caminó 6 kilómetros durante la tercera hora",
+                                "La razón de Edén se incrementó por 6 kilómetros por hora entre las horas 2 y 3"
+                            ],
+                            "correct_option": "Edén caminó 6 kilómetros durante la tercera hora",
+                            "withImg": true,
+                            "id": 2
+                        },
+                        {
+                            "question": "Para cualquier función r la integral definida describe la acumulación de valores entre t=a y t=b",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta3.jpg",
+                            "options": [
+                                "Verdadero",
+                                "Falso"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 3
+                        },
+                        {
+                            "question": "¿Qué clase de suma de Riemann describe la siguiente grafica?:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta4.png",
+                            "options": [
+                                "Suma de Riemann izquierda",
+                                "Suma de Riemann derecha"
+                            ],
+                            "correct_option": "Suma de Riemann derecha",
+                            "withImg": true,
+                            "id": 4
+                        },
+                        {
+                            "question": " términos subdivisiones o particiones son comúnmente mencionados cuando se trabaja con sumas de Riemann. Estos se refieren al número de partes en las que dividimos el intervalo en x para construir los rectángulos.",
+                            "img": "",
+                            "options": [
+                                "Verdadero",
+                                "Falso"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 5
+                        },
+                        {
+                            "question": "¿Cuál es la descripción correcta de las subdivisiones en esta suma de Riemann?",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta6.jpg",
+                            "options": [
+                                "Cinco subdivisiones uniformes",
+                                "Cinco subdivisiones no uniformes",
+                                "Seis subdivisiones uniformes",
+                                "Seis subdivisiones no uniformes"
+                            ],
+                            "correct_option": "Seis subdivisiones uniformes",
+                            "withImg": true,
+                            "id": 6
+                        },
+                        {
+                            "question": "Las sumas de Riemann son aproximaciones del área bajo una curva, por lo que casi siempre serán un poco más grandes que el área real (una sobrestimación) o un poco más pequeñas que el área real (una subestimación)",
+                            "img": "",
+                            "options": [
+                                "Falso",
+                                "Verdadero"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 7
+                        },
+                        {
+                            "question": "¿Esta suma de Riemann es una sobrestimación o subestimación del área real?",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta8.jpg",
+                            "options": [
+                                "Sobrestimación",
+                                "Subestimación"
+                            ],
+                            "correct_option": "Sobrestimación",
+                            "withImg": true,
+                            "id": 8
+                        },
+                        {
+                            "question": "Mientras más subdivisiones (es decir, rectángulos) usemos para aproximar el área, mejor será la aproximación.",
+                            "img": "",
+                            "options": [
+                                "Falso",
+                                "Verdadero"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 9
+                        },
+                        {
+                            "question": "La siguiente información según lo estudiado sobre sumas de Riemann es:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta10.jpg",
+                            "options": [
+                                "Verdadero",
+                                "Falso"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 10
+                        }
                     ],
-                    "nivel2":[
-     
+                    "nivel2": [
+                        {
+                            "question": "Escoge la expresión que utiliza cuatro trapecios para aproximar el área bajo la gráfica de la función f(x) = 2 ln (x] en el intervalo [2,8]",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta11.jpg",
+                            "options": [
+                                "3/2 (ln2+2ln3.5+2ln5+2ln6.5+ln8)",
+                                "3(ln2+2ln3.5+2ln5+2ln6.5+ln8)",
+                                "ln2+2ln3.5+2ln5+2ln6.5+ln8",
+                                "9/2 (ln2+2ln3.5+2ln5+2ln6.5+ln8)"
+                            ],
+                            "correct_option": "3/2 (ln2+2ln3.5+2ln5+2ln6.5+ln8)",
+                            "withImg": true,
+                            "id": 11
+                        },
+                        {
+                            "question": "Escoge la expresión que utiliza tres trapecios para aproximar el área bajo la gráfica de la función f en el intervalo [-1, 5]",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta12.jpg",
+                            "options": [
+                                "2 (f(-1)+f(1)+f(3)+f(5))",
+                                "1(f(-1)+f(1)+f(3)+f(5))",
+                                "f(-1)+2⋅f(1)+2⋅f(3)+f(5)",
+                                "1/2 (f(-1)+f(1)+f(3)+f(5))"
+                            ],
+                            "correct_option": "f(-1)+2⋅f(1)+2⋅f(3)+f(5)",
+                            "withImg": true,
+                            "id": 12
+                        },
+                        {
+                            "question": "La notación de suma (o notación sigma) nos permite escribir una suma con muchos términos en una sola expresión. Mientras que la notación de suma tiene muchos usos en las matemáticas (y especialmente en el cálculo), queremos enfocarnos en cómo podemos usarla para escribir sumas de Riemann.",
+                            "img": "",
+                            "options": [
+                                "Verdadero",
+                                "Falso"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 13
+                        },
+                        {
+                            "question": "La suma de Riemann completa puede escribirse de la siguiente manera:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta14.jpg",
+                            "options": [
+                                "Falso",
+                                "Verdadero"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 14
+                        },
+                        {
+                            "question": "Que propiedad de las integrales definidas es la siguiente:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta15.jpg",
+                            "options": [
+                                "Multiplicación por una constante",
+                                "Suma / diferencia",
+                                "Inversión del intervalo de integración",
+                                "Intervalo de longitud cero"
+                            ],
+                            "correct_option": "Suma / diferencia",
+                            "withImg": true,
+                            "id": 15
+                        },
+                        {
+                            "question": "Que propiedad de las integrales definidas es la siguiente:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta16.jpg",
+                            "options": [
+                                "Suma / diferencia",
+                                "Multiplicación por una constante",
+                                "Inversión del intervalo de integración",
+                                "Intervalo de longitud cero"
+                            ],
+                            "correct_option": "Multiplicación por una constante",
+                            "withImg": true,
+                            "id": 16
+                        },
+                        {
+                            "question": "Que propiedad de las integrales definidas es la siguiente:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta17.jpg",
+                            "options": [
+                                "Suma / diferencia",
+                                "Multiplicación por una constante",
+                                "Inversión del intervalo de integración",
+                                "Intervalo de longitud cero"
+                            ],
+                            "correct_option": "Inversión del intervalo de integración",
+                            "withImg": true,
+                            "id": 17
+                        },
+                        {
+                            "question": "Que propiedad de las integrales definidas es la siguiente:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta18.jpg",
+                            "options": [
+                                "Suma / diferencia",
+                                "Multiplicación por una constante",
+                                "Inversión del intervalo de integración",
+                                "Intervalo de longitud cero"
+                            ],
+                            "correct_option": "Intervalo de longitud cero",
+                            "withImg": true,
+                            "id": 18
+                        },
+                        {
+                            "question": "Que propiedad de las integrales definidas es la siguiente:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta19.jpg",
+                            "options": [
+                                "Suma de intervalos",
+                                "Multiplicación por una constante",
+                                "Inversión del intervalo de integración",
+                                "Intervalo de longitud cero"
+                            ],
+                            "correct_option": "Suma de intervalos",
+                            "withImg": true,
+                            "id": 19
+                        },
+                        {
+                            "question": "Una suma de Riemann es una aproximación del área bajo la curva, al dividirla en varias formas simples (tales como rectángulos o trapecios).",
+                            "img": "",
+                            "options": [
+                                "Falso",
+                                "Verdadero"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 20
+                        }
                     ],
-                    "nivel3":[
-                     
+                    "nivel3": [
+                        {
+                            "question": "Que tipo de integrales son las siguientes:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3Pregunta21.jpg",
+                            "options": [
+                                "Potenciales",
+                                "Constantes",
+                                "Logarítmicas",
+                                "Exponencial"
+                            ],
+                            "correct_option": "Potenciales",
+                            "withImg": true,
+                            "id": 21
+                        },
+                        {
+                            "question": "Que tipo de integrales son las siguientes:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta22.jpg",
+                            "options": [
+                                "Potenciales",
+                                "Constantes",
+                                "Logarítmicas",
+                                "Exponencial"
+                            ],
+                            "correct_option": "Exponencial",
+                            "withImg": true,
+                            "id": 22
+                        },
+                        {
+                            "question": "Que tipo de integrales son las siguientes:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta23.jpg",
+                            "options": [
+                                "seno",
+                                "Constantes",
+                                "coseno",
+                                "tangente"
+                            ],
+                            "correct_option": "seno",
+                            "withImg": true,
+                            "id": 23
+                        },
+                        {
+                            "question": "",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta24.jpg",
+                            "options": [
+                                "seno",
+                                "Constantes",
+                                "coseno",
+                                "tangente"
+                            ],
+                            "correct_option": "coseno",
+                            "withImg": true,
+                            "id": 24
+                        },
+                        {
+                            "question": "Que tipo de integrales son las siguientes:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta25.jpg",
+                            "options": [
+                                "seno",
+                                "Constantes",
+                                "coseno",
+                                "tangente"
+                            ],
+                            "correct_option": "tangente",
+                            "withImg": true,
+                            "id": 25
+                        },
+                        {
+                            "question": "Qué tipo de integrales son las siguientes",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta26.jpg",
+                            "options": [
+                                "seno",
+                                "cotangente",
+                                "arcoseno",
+                                "arcotangente"
+                            ],
+                            "correct_option": "cotangente",
+                            "withImg": true,
+                            "id": 26
+                        },
+                        {
+                            "question": "Qué tipo de integrales son las siguientes:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta27.jpg",
+                            "options": [
+                                "seno",
+                                "cotangente",
+                                "arcoseno",
+                                "arcotangente"
+                            ],
+                            "correct_option": "arcoseno",
+                            "withImg": true,
+                            "id": 27
+                        },
+                        {
+                            "question": "Qué tipo de integrales son las siguientes:",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta28.jpg",
+                            "options": [
+                                "seno",
+                                "cotangente",
+                                "arcoseno",
+                                "arcotangente"
+                            ],
+                            "correct_option": "arcotangente",
+                            "withImg": true,
+                            "id": 28
+                        },
+                        {
+                            "question": "Qué tipo de integrales son las siguientes:",
+                            "img": "",
+                            "options": [
+                                "cotangente",
+                                "arcoseno",
+                                "Por partes",
+                                "tangente"
+                            ],
+                            "correct_option": "Por partes",
+                            "withImg": true,
+                            "id": 29
+                        },
+                        {
+                            "question": "Los métodos para calcular el volumen de un sólido de revolución mas frecuentes en calculo integral son: Método de las capas y método de discos o arandelas.",
+                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta29.jpg",
+                            "options": [
+                                "Verdadero",
+                                "Falso"
+                            ],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 30
+                        }
                     ],
-                    "content":false   
-                   },
-                   "ofc":{
-                    "nivel1":[
-
-                    ],
-                    "nivel2":[
-     
-                    ],
-                    "nivel3":[
-                     
-                    ],
-                    "content":false    
-                   }
+                    "content": true
+                },
+                "cvv": {
+                    "nivel1": [],
+                    "nivel2": [],
+                    "nivel3": [],
+                    "content": false
+                },
+                "caa": {
+                    "nivel1": [],
+                    "nivel2": [],
+                    "nivel3": [],
+                    "content": false
+                },
+                "edi": {
+                    "nivel1": [],
+                    "nivel2": [],
+                    "nivel3": [],
+                    "content": false
+                }
+            }
+        },
+        {
+            "id": "fisica",
+            "subcategoria": {
+                "cdp": {
+                    "nivel1": [],
+                    "nivel2": [],
+                    "nivel3": [],
+                    "content": false
+                },
+                "eym": {
+                    "nivel1": [],
+                    "nivel2": [],
+                    "nivel3": [],
+                    "content": false
+                },
+                "ofc": {
+                    "nivel1": [],
+                    "nivel2": [],
+                    "nivel3": [],
+                    "content": false
+                }
             }
         }
-        
     ]
 }
