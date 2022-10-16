@@ -1,15 +1,33 @@
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Text, View, Image, TouchableOpacity, TextInput } from 'react-native';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import * as GoogleSignIn from 'expo-auth-session/providers/google'
+import * as WebBrowser from 'expo-web-browser';
 import SignStyles from '../styles/SignStyles'
+import { Google } from '../config/Google';
 
 const auth = getAuth();
+WebBrowser.maybeCompleteAuthSession();
 
 const SignInScreen = ({ navigation }) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [validationMessage, setvalidationMessage] = useState('');
+    const [request, response, promptAsync] = GoogleSignIn.useAuthRequest({
+        expoClientId: Google.expo,
+        iosClientId: Google.ios,
+        androidClientId: Google.android,
+        //  webClientId: 'GOOGLE_GUID.apps.googleusercontent.com',
+    });
+
+    useEffect(() => {
+        if (response?.type === "success") {
+            const { authentication } = response;
+            navigation.navigate('MainQuizScreen');
+            console.log(response);
+        }
+    }, [response])
 
     async function login() {
         if (email === '' || password === '') {
@@ -56,10 +74,10 @@ const SignInScreen = ({ navigation }) => {
                 <TouchableOpacity onPress={() => navigation.navigate('Sign Up')}>
                     <Text style={SignStyles.Textsignupstyle}>Registrarse</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={{alignItems: 'center'}}>
+                <TouchableOpacity style={{ alignItems: 'center' }} disabled={!request} onPress={() => promptAsync()}>
                     <Text style={SignStyles.Textsignupstyle}>Inicia Sesión con Google</Text>
                 </TouchableOpacity>
-                
+
             </View>
         </View>
     );
