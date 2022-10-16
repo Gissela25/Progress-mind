@@ -65,7 +65,7 @@ const ProgrammingCategoryScreen = ({route, navigation}) =>{
                     id:"php",
                     array: subCategoryQuestions
                 })}>
-                    <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/informatica/php.png" }} style={{ width: 100, height: 50, marginLeft: 110, marginTop: 25 }}>
+                    <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/informatica/phpnn.png" }} style={{ width: 100, height: 50, marginLeft: 110, marginTop: 25 }}>
                 </ImageBackground>
                 </Pressable>
                 <Pressable 
