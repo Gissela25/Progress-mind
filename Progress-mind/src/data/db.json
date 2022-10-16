@@ -533,7 +533,7 @@
                         }
                     ],
                     "nivel3": [],
-                    "content": false
+                    "content": true
                 },
                 "js": {
                     "nivel1": [
@@ -959,7 +959,7 @@
                         }
                     ],
                     "nivel3": [],
-                    "content": false
+                    "content": true
                 },
                 "php": {
                     "nivel1": [

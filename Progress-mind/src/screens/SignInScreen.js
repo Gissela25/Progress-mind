@@ -18,16 +18,16 @@ const SignInScreen = ({ navigation }) => {
         expoClientId: Google.expo,
         iosClientId: Google.ios,
         androidClientId: Google.android,
-      //  webClientId: 'GOOGLE_GUID.apps.googleusercontent.com',
-      });
+        //  webClientId: 'GOOGLE_GUID.apps.googleusercontent.com',
+    });
 
-      useEffect(()=>{
-        if(response?.type==="success"){
-            const {authentication} = response;
-            navigation.navigate('Sign Up');
+    useEffect(() => {
+        if (response?.type === "success") {
+            const { authentication } = response;
+            navigation.navigate('MainQuizScreen');
             console.log(response);
         }
-      }, [response])
+    }, [response])
 
     async function login() {
         if (email === '' || password === '') {
@@ -74,10 +74,10 @@ const SignInScreen = ({ navigation }) => {
                 <TouchableOpacity onPress={() => navigation.navigate('Sign Up')}>
                     <Text style={SignStyles.Textsignupstyle}>Registrarse</Text>
                 </TouchableOpacity>
-                    <TouchableOpacity style={{alignItems: 'center'}} disabled={!request} onPress={()=>promptAsync()}>
-                        <Text style={SignStyles.Textsignupstyle}>Inicia Sesión con Google</Text>
-                    </TouchableOpacity>
-                
+                <TouchableOpacity style={{ alignItems: 'center' }} disabled={!request} onPress={() => promptAsync()}>
+                    <Text style={SignStyles.Textsignupstyle}>Inicia Sesión con Google</Text>
+                </TouchableOpacity>
+
             </View>
         </View>
     );

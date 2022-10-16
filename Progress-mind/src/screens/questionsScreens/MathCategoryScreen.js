@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, Pressable, Alert } from "react-native";
+import { View, Text, ScrollView, Pressable, Alert, ImageBackground } from "react-native";
 import GlobalStyles from "../../styles/GlobalStyles";
 import axios from 'axios';
 import { useEffect, useState } from "react";
@@ -31,7 +31,8 @@ const MathCategoryScreen = ({route, navigation}) =>{
                     id:"cad",
                     array: subCategoryQuestions
                 })}>
-            <Text style={GlobalStyles.textButtonsCaterogry}>Cálculo Diferencial</Text>
+                <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/cadnn.png" }} style={{ width: 100, height: 80, marginLeft: 110, marginTop: 20 }}>
+                </ImageBackground>
         </Pressable>
         <Pressable 
         style={GlobalStyles.buttonsCategory}
@@ -39,7 +40,8 @@ const MathCategoryScreen = ({route, navigation}) =>{
                     id:"cai",
                     array: subCategoryQuestions
                 })}>
-            <Text style={GlobalStyles.textButtonsCaterogry}>Cálculo Integral</Text>
+                <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/cainn.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 20 }}>
+                </ImageBackground>
         </Pressable>
         <Pressable 
         style={GlobalStyles.buttonsCategory}
@@ -47,7 +49,8 @@ const MathCategoryScreen = ({route, navigation}) =>{
                     id:"cvv",
                     array: subCategoryQuestions
                 })}>
-            <Text style={GlobalStyles.textButtonsCaterogry}>Cálculo de Varias Variables</Text>
+                <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/cvvnn.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 20 }}>
+                </ImageBackground>
         </Pressable>
         <Pressable 
         style={GlobalStyles.buttonsCategory}
@@ -55,7 +58,8 @@ const MathCategoryScreen = ({route, navigation}) =>{
                     id:"caa",
                     array: subCategoryQuestions
                 })}>
-            <Text style={GlobalStyles.textButtonsCaterogry}>Cálculo Avanzado</Text>
+                <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/caann.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 20 }}>
+                </ImageBackground>
         </Pressable>
         <Pressable 
         style={GlobalStyles.buttonsCategory}
@@ -63,7 +67,8 @@ const MathCategoryScreen = ({route, navigation}) =>{
                     id:"edi",
                     array: subCategoryQuestions
                 })}>
-            <Text style={GlobalStyles.textButtonsCaterogry}>Ecuaciones Diferenciales</Text>
+                <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/edinn.png" }} style={{ width: 100, height: 80, marginLeft: 110, marginTop: 8 }}>
+                </ImageBackground>
         </Pressable>
 
 </ScrollView>

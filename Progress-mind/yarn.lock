@@ -1153,7 +1153,7 @@
     node-forge "^1.2.1"
     nullthrows "^1.1.1"
 
-"@expo/config-plugins@4.1.5":
+"@expo/config-plugins@4.1.5", "@expo/config-plugins@^4.0.14":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-4.1.5.tgz#9d357d2cda9c095e511b51583ede8a3b76174068"
   integrity sha512-RVvU40RtZt12HavuDAe+LDIq9lHj7sheOfMEHdmpJ/uTA8pgvkbc56XF6JHQD+yRr6+uhhb+JnAasGq49dsQbw==
@@ -3868,6 +3868,15 @@ expo-font@~10.2.1:
   dependencies:
     fontfaceobserver "^2.1.0"
 
+expo-google-sign-in@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/expo-google-sign-in/-/expo-google-sign-in-11.0.0.tgz#137ec3b66623550838cd3509c593afd403b3e9d9"
+  integrity sha512-PLpVoMXGK56z2UPu0nABkrjUGyOtN0l9U9sUV5dSQuqV/k9mDYndjpRUpfbEDOAsF1v6fkyqyF+J2XPyt+tugQ==
+  dependencies:
+    "@expo/config-plugins" "^4.0.14"
+    expo-modules-core "0.9.0"
+    invariant "^2.2.4"
+
 expo-keep-awake@~10.2.0:
   version "10.2.0"
   resolved "https://registry.npmjs.org/expo-keep-awake/-/expo-keep-awake-10.2.0.tgz"
@@ -3899,6 +3908,14 @@ expo-modules-core@0.11.7:
   version "0.11.7"
   resolved "https://registry.npmjs.org/expo-modules-core/-/expo-modules-core-0.11.7.tgz"
   integrity sha512-lTH6MYULX99JK3zN4bhjRD3I9Y1CGx0RAhpZ6gCTO8GQ/DNw4xZRUwburKL9dJeZM5G1xJOcGoBkTfeMjUVe+g==
+  dependencies:
+    compare-versions "^3.4.0"
+    invariant "^2.2.4"
+
+expo-modules-core@0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-0.9.0.tgz#77846235481149afe28bbe1d1167059594c4f1d1"
+  integrity sha512-V/CGV8M783AbrFJOrpkcDh+ldQgwWFOyAtpAo4y+GuipUmBE1JZe7zq7s2kdu51Axjljt7IzinuEMshMatM5JQ==
   dependencies:
     compare-versions "^3.4.0"
     invariant "^2.2.4"
