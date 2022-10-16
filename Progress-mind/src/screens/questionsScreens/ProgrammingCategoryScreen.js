@@ -1,4 +1,4 @@
-import { View, Text, Pressable, ScrollView, Image } from "react-native";
+import { View, Text, Pressable, ScrollView, ImageBackground } from "react-native";
 import GlobalStyles from "../../styles/GlobalStyles";
 import axios from 'axios';
 import { useEffect, useState } from "react";
@@ -29,8 +29,8 @@ const ProgrammingCategoryScreen = ({route, navigation}) =>{
                     id:"html",
                     array: subCategoryQuestions
                 })}>
-                    <Text style={GlobalStyles.textButtonsCaterogry}>HTML 
-                   </Text>
+                 <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/informatica/html.png" }} style={{ width: 100, height: 60, marginLeft: 110, marginTop: 20 }}>
+                </ImageBackground>
                 </Pressable>
                 <Pressable 
                 style={GlobalStyles.buttonsCategory}
@@ -38,7 +38,8 @@ const ProgrammingCategoryScreen = ({route, navigation}) =>{
                     id:"css",
                     array: subCategoryQuestions
                 })}>
-                    <Text style={GlobalStyles.textButtonsCaterogry}>CSS</Text>
+                    <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/informatica/cssn.png" }} style={{ width: 100, height: 80, marginLeft: 110, marginTop: 12 }}>
+                </ImageBackground>
                 </Pressable>
                 <Pressable 
                 style={GlobalStyles.buttonsCategory}
@@ -46,7 +47,8 @@ const ProgrammingCategoryScreen = ({route, navigation}) =>{
                     id:"js",
                     array: subCategoryQuestions
                 })}>
-                    <Text style={GlobalStyles.textButtonsCaterogry}>JavaScript</Text>
+                    <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/informatica/jsn12.png" }} style={{ width: 100, height: 60, marginLeft: 110, marginTop: 20 }}>
+                </ImageBackground>
                 </Pressable>
                 <Pressable 
                 style={GlobalStyles.buttonsCategory}
@@ -54,7 +56,8 @@ const ProgrammingCategoryScreen = ({route, navigation}) =>{
                     id:"csharp",
                     array: subCategoryQuestions
                 })}>
-                    <Text style={GlobalStyles.textButtonsCaterogry}>C#</Text>
+                             <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/informatica/cs.png" }} style={{ width: 100, height: 50, marginLeft: 110, marginTop: 25 }}>
+                </ImageBackground>
                 </Pressable>
                 <Pressable 
                 style={GlobalStyles.buttonsCategory}
@@ -62,7 +65,8 @@ const ProgrammingCategoryScreen = ({route, navigation}) =>{
                     id:"php",
                     array: subCategoryQuestions
                 })}>
-                    <Text style={GlobalStyles.textButtonsCaterogry}>PHP</Text>
+                    <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/informatica/php.png" }} style={{ width: 100, height: 50, marginLeft: 110, marginTop: 25 }}>
+                </ImageBackground>
                 </Pressable>
                 <Pressable 
                 style={GlobalStyles.buttonsCategory}
@@ -70,7 +74,8 @@ const ProgrammingCategoryScreen = ({route, navigation}) =>{
                     id:"react",
                     array: subCategoryQuestions
                 })}>
-                    <Text style={GlobalStyles.textButtonsCaterogry}>React</Text>
+                    <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/informatica/reactn1.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 20 }}>
+                </ImageBackground>
                 </Pressable>
         </ScrollView>
     );

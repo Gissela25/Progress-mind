@@ -524,7 +524,9 @@
                             "id": 19
                         },
                         {
+
                             "question": "¿Cuál es la sintaxis CSS correcta para poner en negrita todos los elementos <p>?",
+
                             "options": ["p {font-weight:bold;}","<p style=text-size:bold;>","<p style=font-size:bold;>"],
                             "correct_option": "p{font-weight:bold;}",
                             "img": "",
@@ -615,6 +617,7 @@
                         }
                     ],
                     "content": false
+
                 },
                 "js": {
                     "nivel1": [
@@ -1189,6 +1192,7 @@
                         }
                     ],
                     "content": false
+
                 },
                 "php": {
                     "nivel1": [

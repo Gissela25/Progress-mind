@@ -21,13 +21,15 @@ export default
         "**/*"
       ],
       "ios": {
-        "supportsTablet": true
+        "supportsTablet": true,
+        "bundleIdentifier": "host.exp.exponent"
       },
       "android": {
         "adaptiveIcon": {
           "foregroundImage": "./assets/adaptive-icon.png",
           "backgroundColor": "#FFFFFF"
-        }
+        },
+        "package": "host.exp.exponent"
       },
       "web": {
         "favicon": "./assets/favicon.png"

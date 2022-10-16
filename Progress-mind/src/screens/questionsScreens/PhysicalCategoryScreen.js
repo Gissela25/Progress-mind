@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, Pressable } from "react-native";
+import { View, Text, ScrollView, Pressable , ImageBackground} from "react-native";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import GlobalStyles from "../../styles/GlobalStyles";
@@ -28,7 +28,8 @@ const PhysicalCategoryScreen = ({route, navigation}) =>{
                     id:"cdp",
                     array: subCategoryQuestions
                 })}>
-            <Text style={GlobalStyles.textButtonsCaterogry}>Cinemática y Dinámica de Particulas</Text>
+             <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/fisica/cdpnn.png" }} style={{ width: 100, height: 80, marginLeft: 110, marginTop: 20 }}>
+                </ImageBackground>
         </Pressable>
         <Pressable 
         style={GlobalStyles.buttonsCategory}
@@ -36,7 +37,8 @@ const PhysicalCategoryScreen = ({route, navigation}) =>{
                     id:"eym",
                     array: subCategoryQuestions
                 })}>
-            <Text style={GlobalStyles.textButtonsCaterogry}>Electricidad y Magnetismo</Text>
+             <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/fisica/EMA.png" }} style={{ width: 100, height: 58, marginLeft: 110, marginTop: 20 }}>
+                </ImageBackground>
         </Pressable>
         <Pressable 
         style={GlobalStyles.buttonsCategory}
@@ -44,7 +46,8 @@ const PhysicalCategoryScreen = ({route, navigation}) =>{
                     id:"ofc",
                     array: subCategoryQuestions
                 })}>
-            <Text style={GlobalStyles.textButtonsCaterogry}>Oscilaciones, Fluidos y Calor</Text>
+              <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/fisica/ofc.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 20 }}>
+                </ImageBackground>
         </Pressable>
 
 </ScrollView>
