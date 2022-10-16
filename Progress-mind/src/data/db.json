@@ -524,7 +524,9 @@
                             "id": 19
                         },
                         {
-                            "question": "",
+
+                            "question": "¿Cuál es la sintaxis CSS correcta para poner en negrita todos los elementos <p>?",
+
                             "options": ["p {font-weight:bold;}","<p style=text-size:bold;>","<p style=font-size:bold;>"],
                             "correct_option": "p{font-weight:bold;}",
                             "img": "",
@@ -532,8 +534,90 @@
                             "id": 20
                         }
                     ],
-                    "nivel3": [],
-                    "content": true
+                    "nivel3": [
+                        {
+                            "question": "¿Qué está mal en esta regla de estilo?:.cuadro { border: 1px blue dotted padding: 10px 5px; }",
+                            "options": ["falta una ',' (coma) entre los dos valores de la propiedad padding (10px 5px)","Falta un ';' (punto y coma) al final de la declaración del estilo 'border'"],
+                            "correct_option": "Falta un ';' (punto y coma) al final de la declaración del estilo 'border'",
+                            "img": "",
+                            "withImg": false,
+                            "id": 21
+                        },
+                        {
+                            "question": "¿Cuál es la forma más eficiente de aplicar estilos CSS en un documento HTML?",
+                            "options": ["Hojas de estilo externas","Incrustado en la cabecera"],
+                            "correct_option": "Hojas de estilo externas",
+                            "img": "",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": " ¿Cuáles de las siguientes declaraciones son selectores?",
+                            "options": ["P","font-family","50px"],
+                            "correct_option": "P",
+                            "img": "",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "¿Cómo se cambia el valor del margen derecho de un elemento?",
+                            "options": ["margin-right","marginright","right-magin"],
+                            "correct_option": "margin-right",
+                            "img": "",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": " ¿Cómo se indica que todos los elementos span tienen el texto en negrita?",
+                            "options": ["span {font-weight:bold}","span {font-style:bold}","span {text-weight:bold}"],
+                            "correct_option": "span {font-weight:bold}",
+                            "img": "",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": "¿Qué propiedad se emplea para cambiar el tipo de letra de un elemento?",
+                            "options": ["font-family","text-family","font-type"],
+                            "correct_option": "font-family",
+                            "img": "",
+                            "withImg": false,
+                            "id": 26
+                        },
+                        {
+                            "question": "¿Cómo se indica que el marcador tiene forma de círculo en una lista?",
+                            "options": ["list-style-type: circle;","style-type: circle;","list-type: circle;"],
+                            "correct_option": "list-style-type: circle;",
+                            "img": "",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "list-style-type: circle;",
+                            "options": ["list-style-image: url()","list-style-image: http()"],
+                            "correct_option": "list-style-image: url()",
+                            "img": "",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": "¿Cómo seleccionamos las filas impares de una tabla?",
+                            "options": ["tr:nth-child(2n+1)","td:nth-child(2n+1)","tr:nth-child(2n)"],
+                            "correct_option": "tr:nth-child(2n+1)",
+                            "img": "",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "¿Cuál de los siguientes NO es un pseudo-elemento de CSS?",
+                            "options": ["all-line","after"],
+                            "correct_option": "all-line",
+                            "img": "",
+                            "withImg": false,
+                            "id": 30
+                        }
+                    ],
+                    "content": false
+
                 },
                 "js": {
                     "nivel1": [
@@ -778,17 +862,84 @@
                     ],
                     "nivel3": [
                         {
-                            "question": "",
-                            "options": [
-                                "",
-                                "",
-                                "",
-                                ""
-                            ],
-                            "correct_option": "",
+                            "question": "El límite para nombrar variables es de 8 caracteres.",
+                            "options": ["Verdadero","Falso"],
+                            "correct_option": "Falso",
                             "img": "",
                             "withImg": false,
                             "id": 21
+                        },
+                        {
+                            "question": "Si evaluó la siguiente expresión: ( 4 == '4') el resultado es:",
+                            "options": ["Falso","Verdadero"],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": "¿Cuál es el resultado de: (3%2)?",
+                            "options": ["3","1","1.5"],
+                            "correct_option": "1",
+                            "img": "",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "¿Cuál de estos operadores se utiliza para concatenar cadenas de caracteres?",
+                            "options": ["+","$","*"],
+                            "correct_option": "+",
+                            "img": "",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": "El nombre de una variable puede comenzar con un carácter numérico (dígito).",
+                            "options": ["Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": " Cuando declaras variables en Javascript se utiliza la siguiente palabra reservada:",
+                            "options": ["VAR","PUBLIC","DIM"],
+                            "correct_option": "VAR",
+                            "img": "",
+                            "withImg": false,
+                            "id": 26
+                        },
+                        {
+                            "question": " Si evaluó la siguiente expresión: ( 4 === '4') el resultado es:",
+                            "options": ["Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "Una array en Javascript sólo puede contener elementos de un mismo tipo de datos.",
+                            "options": ["Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": " ¿Cómo obtenemos el número de elementos que tiene un determinado array en javascript?",
+                            "options": [" Utilizando la propiedad length","Utilizando a función count()"," Utilizando a función len()"],
+                            "correct_option": " Utilizando la propiedad length",
+                            "img": "",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "El primer elemento de un array en javascript se accede con el indice 0 (cero).",
+                            "options": ["Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 30
                         }
                     ],
                     "content": true
@@ -958,8 +1109,90 @@
                             "id": 20
                         }
                     ],
-                    "nivel3": [],
-                    "content": true
+                    "nivel3": [
+                        {
+                            "question": "¿Qué significa VOID cuando se encuentra en una clase java?",
+                            "options": [" Se refiere a la capacidad para que varias clases derivadas de una antecesora utilicen un mismo método de forma diferente."," Significa que no va tener un valor de retorno" ],
+                            "correct_option": " Significa que no va tener un valor de retorno",
+                            "img": "",
+                            "withImg": false,
+                            "id": 21
+                        },
+                        {
+                            "question": "La visibilidad de un procedimiento viene determinada por la declaración:",
+                            "options": [" Private, public o internal"," Solo  public","Return" ],
+                            "correct_option": " Private, public o internal",
+                            "img": "",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": "La ejecución de return provoca:",
+                            "options": ["Todas son ciertas"," La salida de la función","El inicio del proceso" ],
+                            "correct_option": "Todas son ciertas",
+                            "img": "",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "¿Que secuencia de escape utilizaremos para un salto de linea?",
+                            "options": ["\\n","\\'","\\\\" ],
+                            "correct_option": "\\'",
+                            "img": "",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": "Short - Float - Long Son tipos de variables numéricas decimales",
+                            "options": ["Falso","Verdadero" ],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": "Double - Float - Decimal Son tipos de variables numéricas decimales",
+                            "options": ["Verdadero","Falso" ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 26
+                        },
+                        {
+                            "question": "La visibilidad de un procedimiento viene determinada por la declaración:",
+                            "options": ["Private, public o internal","try","Solo public " ],
+                            "correct_option": "Private, public o internal",
+                            "img": "",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "¿ Cuál de ellos no es una estructura de control?",
+                            "options": ["Try","While","Double" ],
+                            "correct_option": "Try",
+                            "img": "",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": "La aplicación Windows forms me permite",
+                            "options": ["Crear una forma con varios objetos","Crear un formulario en blanco para agregar objetos" ],
+                            "correct_option": "Crear un formulario en blanco para agregar objetos",
+                            "img": "",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "Como se crea una variable con el numero flotante 2.0",
+                            "options": ["double x=2.8D","byte x=2.0" ],
+                            "correct_option": "double x=2.8D",
+                            "img": "",
+                            "withImg": false,
+                            "id": 30
+                        }
+                    ],
+                    "content": false
+
                 },
                 "php": {
                     "nivel1": [
@@ -1126,7 +1359,88 @@
                             "id": 20
                         }
                     ],
-                    "nivel3": [],
+                    "nivel3": [
+                        {
+                            "question": "Comando para escribir texto o código",
+                            "options": ["echo"," printf()"," trace()"],
+                            "correct_option": "echo",
+                            "img": "",
+                            "withImg": false,
+                            "id": 21
+                        },
+                        {
+                            "question": "¿Cuál de las siguientes variables ha sido declarada en forma incorrecta?",
+                            "options": [" $5alumnos = 50;","$alumnos = 50;"," $_alumnos = 50;"],
+                            "correct_option": " $5alumnos = 50;",
+                            "img": "",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": "Los valores boleanos no son true y false",
+                            "options": ["Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "¿Cuál de las siguientes formas de iniciar un arreglo en PHP es correcta?",
+                            "options": ["$arreglo = [];"," $arreglo = array[];"],
+                            "correct_option": "$arreglo = [];",
+                            "img": "",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": "¿Qué función devuelve el número de elementos de un arreglo?",
+                            "options": [" count()"," array_count()","len()"],
+                            "correct_option": " count()",
+                            "img": "",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": "La función is_array() comprueba si una variable es un arreglo.",
+                            "options": ["Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 26
+                        },
+                        {
+                            "question": "¿Qué es la variable predefinida $GLOBALS?",
+                            "options": ["Es una variable que contiene una referencia a los valores locales de una función."," Variables proporcionadas al script por medio de cualquier mecanismo de entrada del usuario."],
+                            "correct_option": "Es una variable que contiene una referencia a los valores locales de una función.",
+                            "img": "",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "¿Cuál control debe crearse en un formulario para enviar la información proporcionada por el usuario?",
+                            "options": ["Control Submit"," Control Text"," Control Radio"],
+                            "correct_option": "Control Submit",
+                            "img": "",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": " ¿Cuál control debe crearse en un formulario para obtener una respuesta única entre varias opciones?",
+                            "options": ["Control Radio"," Control Select","Control Text"],
+                            "correct_option": "Control Radio",
+                            "img": "",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "¿Cuál control debe crearse en un formulario para que un usuario pueda seleccionar ninguna, una o varias opciones?",
+                            "options": [" Control Checkbox"," Control Radio","Control Select"],
+                            "correct_option": " Control Checkbox",
+                            "img": "",
+                            "withImg": false,
+                            "id": 30
+                        }
+                    ],
                     "content": false
                 },
                 "react": {
@@ -1294,7 +1608,88 @@
                             "id": 20
                         }
                     ],
-                    "nivel3": [],
+                    "nivel3": [
+                        {
+                            "question": "¿Qué accesorios estarán disponibles para el siguiente componente? <Car {...props} />",
+                            "options": ["solo los actualizados","todos son correctas","only static ones  " ],
+                            "correct_option": "todos son correctas",
+                            "img": "",
+                            "withImg": false,
+                            "id": 21
+                        },
+                        {
+                            "question": "¿Por qué debería evitar copiar los valores de los accesorios en el estado de un componente?",
+                            "options": ["Porque nunca debes mutar de estado","Porque eso crearía dos instancias del mismo estado que podrían desincronizarse Respuesta correcta" ],
+                            "correct_option": "Porque eso crearía dos instancias del mismo estado que podrían desincronizarse Respuesta correcta",
+                            "img": "",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": "¿Cuál de las siguientes NO es una regla para React Hooks?",
+                            "options": ["Los Hooks se pueden llamar en componentes de clase o función.","Los Hooks no pueden ser condicionales","Los Hooks solo se pueden llamar en el nivel superior de un componente" ],
+                            "correct_option": "Los Hooks se pueden llamar en componentes de clase o función.",
+                            "img": "",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "React separa la interfaz de usuario en componentes. ¿Cómo se combinan los componentes para crear una interfaz de usuario?",
+                            "options": ["Anidando componentes","Con división de código","con paquete web" ],
+                            "correct_option": "Anidando componentes",
+                            "img": "",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": "function car({make, model}) {return <h1>{make} {model}</h1>;};",
+                            "options": ["La primera letra de la función debe estar en mayúscula","Envuelve la devolución en un fragmento","Agregar paréntesis alrededor del valor de retorno" ],
+                            "correct_option": "La primera letra de la función debe estar en mayúscula",
+                            "img": "",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": "React solo puede representar elementos en el elemento del documento raíz.",
+                            "options": ["Falso","" ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 26
+                        },
+                        {
+                            "question": "¿Cómo puedes combinar las siguientes matrices usando el operador de dispersión?const array1 = [1, 2, 3];const array2 = [4, 5, 6];",
+                            "options": ["const combined = [...array1, ...array2];","const combined = [array1, array2];" ],
+                            "correct_option": "const combined = [...array1, ...array2];",
+                            "img": "",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "¿Cómo puede optimizar el rendimiento de un componente de función que siempre se representa de la misma manera?",
+                            "options": ["Utilice el Hook useMemo.","Envuélvalo en el componente de orden superior React.memo." ],
+                            "correct_option": "Envuélvalo en el componente de orden superior React.memo.",
+                            "img": "",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": "Los nombres de los componentes de React deben comenzar con una letra mayúscula.",
+                            "options": ["Verdadero","Falso" ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "Como se llama una copia del DOM real que se guarda en la memoria",
+                            "options": ["Virtual DOM","ReactDOM" ],
+                            "correct_option": "Virtual DOM",
+                            "img": "",
+                            "withImg": false,
+                            "id": 30
+                        }
+                    ],
                     "content": false
                 }
             }
