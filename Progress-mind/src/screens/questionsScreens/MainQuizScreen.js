@@ -35,10 +35,10 @@ const MainQuizScreen = ({ navigation }) => {
             </Pressable>
 
             <Image
-                        source={require('../../imgs/Fondo.png')}
+                        source={require('../../imgs/Footer.png')}
                         style={{
                             position: 'absolute',
-                            marginTop: 400,
+                            marginTop: 450,
                             zIndex: -1
                         }}
 

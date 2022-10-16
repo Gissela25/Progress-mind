@@ -53,7 +53,7 @@ const QuestionsStyles = StyleSheet.create({
         justifyContent:'center'
     },
     TextQuestionStyle:{
-        fontSize:30, 
+        fontSize:25, 
         color:COLORS.white, 
         textAlign:'center', 
         marginTop:23

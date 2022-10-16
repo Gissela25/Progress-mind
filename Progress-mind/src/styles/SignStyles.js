@@ -78,6 +78,14 @@ const SignStyles = StyleSheet.create({
         width: 300,
         marginLeft: 91,
         marginTop: 10,
+    },
+    Textgooglestyle:{
+        marginLeft: 43,
+        fontSize: 18,
+        color: '#C4FF63',
+        width: 300,
+        marginLeft: 88,
+        marginTop: 10,
     }
 });
 

@@ -1,4 +1,4 @@
-import { View, Text, Pressable, ScrollView, ImageBackground } from "react-native";
+import { View, Text, Pressable, ScrollView, ImageBackground, Image } from "react-native";
 import GlobalStyles from "../../styles/GlobalStyles";
 import axios from 'axios';
 import { useEffect, useState } from "react";
