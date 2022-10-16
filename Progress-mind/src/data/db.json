@@ -368,8 +368,170 @@
                     "content": true
                 },
                 "css": {
-                    "nivel1": [],
-                    "nivel2": [],
+                    "nivel1": [
+                        {
+                            "question": "¿Qué significa CSS?",
+                            "options": ["Cascading Style Sheets","Computer Style Sheets","Colorful Style Sheets" ],
+                            "correct_option": "Cascading Style Sheets",
+                            "img": "",
+                            "withImg": false,
+                            "id": 1
+                        },
+                        {
+                            "question": "¿Qué etiqueta HTML se utiliza para definir una hoja de estilos interna?",
+                            "options": ["<css>","<script>","<style>"],
+                            "correct_option": "<style>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 2
+                        },
+                        {
+                            "question": "¿Qué atributo HTML se utiliza para definir estilos en línea?",
+                            "options": ["class","styles","style"],
+                            "correct_option": "style",
+                            "img": "",
+                            "withImg": false,
+                            "id": 3
+                        },
+                        {
+                            "question": "¿Qué propiedad se utiliza para cambiar el color de fondo?",
+                            "options": ["bgcolor","color","background-color"],
+                            "correct_option": "background-color",
+                            "img": "",
+                            "withImg": false,
+                            "id": 4
+                        },
+                        {
+                            "question": "¿Qué propiedad CSS se utiliza para cambiar el color del texto de un elemento?",
+                            "options": ["fgcolor","color","text-color"],
+                            "correct_option": "color    ",
+                            "img": "",
+                            "withImg": false,
+                            "id": 5
+                        },
+                        {
+                            "question": "Cuando se utiliza la propiedad de relleno; ¿Se le permite usar valores negativos?",
+                            "options": ["SI","NO"],
+                            "correct_option": "NO",
+                            "img": "",
+                            "withImg": false,
+                            "id": 6
+                        },
+                        {
+                            "question": "Cómo se selecciona un elemento con id 'demo'",
+                            "options": ["#demo",".demo","Demo"],
+                            "correct_option": "#demo",
+                            "img": "",
+                            "withImg": false,
+                            "id": 7
+                        },
+                        {
+                            "question": "¿Cómo se seleccionan los elementos con el nombre de clase 'test'?",
+                            "options": ["#test","test",".test"],
+                            "correct_option": ".test",
+                            "img": "",
+                            "withImg": false,
+                            "id": 8
+                        },
+                        {
+                            "question": "¿Cuál es el valor predeterminado de la propiedad position?",
+                            "options": ["relative","absolute","static"],
+                            "correct_option": "static",
+                            "img": "",
+                            "withImg": false,
+                            "id": 9
+                        },
+                        {
+                            "question": "¿Qué propiedad CSS controla el tamaño del texto?",
+                            "options": ["font-size","font-style","text-style"],
+                            "correct_option": "font-size",
+                            "img": "",
+                            "withImg": false,
+                            "id": 10
+                        }
+                    ],
+                    "nivel2": [
+                        {
+                            "question": "¿En qué parte de un documento HTML es el lugar correcto para hacer referencia a una hoja de estilo externa?",
+                            "options": ["En el  <head>","En el  <body>","Al final del documento"],
+                            "correct_option": "En el  <head>",
+                            "img": "",
+                            "withImg": false,
+                            "id": 11
+                        },
+                        {
+                            "question": "¿Cuál es la sintaxis CSS correcta?",
+                            "options": ["body {color: black;}","{body:color=black;}" ],
+                            "correct_option": "body {color: black;}",
+                            "img": "",
+                            "withImg": false,
+                            "id": 12
+                        },
+                        {
+                            "question": "¿Cómo se inserta un comentario en un archivo CSS?",
+                            "options": ["// this is a comment //","this is a comment","/* this is a comment */"],
+                            "correct_option": "/* this is a comment */",
+                            "img": "",
+                            "withImg": false,
+                            "id": 13
+                        },
+                        {
+                            "question": "¿Cómo se seleccionan todos los elementos p dentro de un elemento div?",
+                            "options": ["div.p","div + p","div p "],
+                            "correct_option": "div p",
+                            "img": "",
+                            "withImg": false,
+                            "id": 14
+                        },
+                        {
+                            "question": "¿Cuál es el valor predeterminado de la propiedad position?",
+                            "options": ["absolute","static","relative"],
+                            "correct_option": "static",
+                            "img": "",
+                            "withImg": false,
+                            "id": 15
+                        },
+                        {
+                            "question": "¿Qué propiedad se usa para cambiar el margen izquierdo de un elemento?",
+                            "options": ["indent","padding-left","margin-left" ],
+                            "correct_option": "",
+                            "img": "",
+                            "withImg": false,
+                            "id": 16
+                        },
+                        {
+                            "question": "¿Cómo pones el texto en negrita?",
+                            "options": ["font:bold;","font-weight:bold;","style:bold;"],
+                            "correct_option": "",
+                            "img": "",
+                            "withImg": false,
+                            "id": 17
+                        },
+                        {
+                            "question": "¿Qué propiedad se utiliza para cambiar la fuente de un elemento?",
+                            "options": ["font-weight","font-family","font-style"],
+                            "correct_option": "font-family",
+                            "img": "",
+                            "withImg": false,
+                            "id": 18
+                        },
+                        {
+                            "question": "¿Cómo se agrega un color de fondo para todos los elementos <h1>?",
+                            "options": ["h1.all {background-color:#FFFFFF;}","h1 {background-color:#FFFFFF;}","all.h1 {background-color:#FFFFFF;}"],
+                            "correct_option": "h1{background-color:#FFFFFF;}",
+                            "img": "",
+                            "withImg": false,
+                            "id": 19
+                        },
+                        {
+                            "question": "",
+                            "options": ["p {font-weight:bold;}","<p style=text-size:bold;>","<p style=font-size:bold;>"],
+                            "correct_option": "p{font-weight:bold;}",
+                            "img": "",
+                            "withImg": false,
+                            "id": 20
+                        }
+                    ],
                     "nivel3": [],
                     "content": false
                 },
@@ -632,20 +794,506 @@
                     "content": true
                 },
                 "csharp": {
-                    "nivel1": [],
-                    "nivel2": [],
+                    "nivel1": [
+                        {
+                            "question": "C# es un alias de C++",
+                            "options": ["Verdadero","Falso" ],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 1
+                        },
+                        {
+                            "question": "¿Qué declaración se usa para detener un ciclo?",
+                            "options": ["Break","return","stop" ],
+                            "correct_option": "Break",
+                            "img": "",
+                            "withImg": false,
+                            "id": 2
+                        },
+                        {
+                            "question": "¿Qué palabra clave se utiliza para devolver un valor dentro de un método?",
+                            "options": ["Break","return","stop" ],
+                            "correct_option": "return",
+                            "img": "",
+                            "withImg": false,
+                            "id": 3
+                        },
+                        {
+                            "question": "¿Cómo empiezas a escribir una instrucción if en C#?",
+                            "options": ["if (x > y)","if x > y then:","if x > y:" ],
+                            "correct_option": "if (x > y)",
+                            "img": "",
+                            "withImg": false,
+                            "id": 4
+                        },
+                        {
+                            "question": "¿Qué modificador de acceso hace que el código solo sea accesible dentro de la misma clase?",
+                            "options": ["final","public","private" ],
+                            "correct_option": "private",
+                            "img": "",
+                            "withImg": false,
+                            "id": 5
+                        },
+                        {
+                            "question": "¿Qué operador se usa para multiplicar números?",
+                            "options": ["#","*","X" ],
+                            "correct_option": "*",
+                            "img": "",
+                            "withImg": false,
+                            "id": 6
+                        },
+                        {
+                            "question": "¿Qué palabra clave se usa para crear una clase en C#?",
+                            "options": ["MyClass","className","class" ],
+                            "correct_option": "class",
+                            "img": "",
+                            "withImg": false,
+                            "id": 7
+                        },
+                        {
+                            "question": "Los índices de matriz comienzan con:",
+                            "options": ["0","1" ],
+                            "correct_option": "0",
+                            "img": "",
+                            "withImg": false,
+                            "id": 8
+                        },
+                        {
+                            "question": "Para declarar una matriz en C#, defina el tipo de variable con:",
+                            "options": ["()","[]","{}" ],
+                            "correct_option": "[]",
+                            "img": "",
+                            "withImg": false,
+                            "id": 9
+                        },
+                        {
+                            "question": "La conversión de tipos es cuando asigna un valor de un tipo de datos a otro tipo",
+                            "options": ["Verdadero","Falso" ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 10
+                        }
+                    ],
+                    "nivel2": [
+                        {
+                            "question": "¿Qué operador se puede usar para comparar dos valores?",
+                            "options": ["><","=","==" ],
+                            "correct_option": "==",
+                            "img": "",
+                            "withImg": false,
+                            "id": 11
+                        },
+                        {
+                            "question": "¿Cuál es una sintaxis correcta para generar Hello World en C#?",
+                            "options": ["print (Hello World);","Console.WriteLine(Hello World);","cout << Hello World;" ],
+                            "correct_option": "Console.WriteLine(Hello World)",
+                            "img": "",
+                            "withImg": false,
+                            "id": 12
+                        },
+                        {
+                            "question": "¿Cómo se insertan COMENTARIOS en el código C#?",
+                            "options": ["// This is a comment","# This is a comment","/*This is a comment" ],
+                            "correct_option": "///This is a comment",
+                            "img": "",
+                            "withImg": false,
+                            "id": 13
+                        },
+                        {
+                            "question": "¿Qué tipo de datos se utiliza para crear una variable que debe almacenar texto?",
+                            "options": ["mystring","txt","string" ],
+                            "correct_option": "string",
+                            "img": "",
+                            "withImg": false,
+                            "id": 14
+                        },
+                        {
+                            "question": "¿Qué propiedad se puede usar para encontrar la longitud de una cadena?",
+                            "options": ["Length","length","Length()" ],
+                            "correct_option": "Length",
+                            "img": "",
+                            "withImg": false,
+                            "id": 15
+                        },
+                        {
+                            "question": "El valor de una variable de cadena puede estar entre comillas simples.",
+                            "options": ["Verdadero","Falso" ],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 16
+                        },
+                        {
+                            "question": "¿Qué operador se usa para sumar dos valores?",
+                            "options": ["The+sign","The&sign","The*sign" ],
+                            "correct_option": "The+sign",
+                            "img": "",
+                            "withImg": false,
+                            "id": 17
+                        },
+                        {
+                            "question": "¿Cómo se crea un método en C#?",
+                            "options": ["myMethod[]","MyMethod()","(MyMethod)" ],
+                            "correct_option": "MyMethod()",
+                            "img": "",
+                            "withImg": false,
+                            "id": 18
+                        },
+                        {
+                            "question": "Como llamas a un metodo en C#",
+                            "options": ["myMethod[]","MyMethod()","(MyMethod)" ],
+                            "correct_option": "MyMethod()",
+                            "img": "",
+                            "withImg": false,
+                            "id": 19
+                        },
+                        {
+                            "question": "¿Cuál es el nombre de la clase 'especial' que representa un grupo de constantes?",
+                            "options": ["const","void","enum" ],
+                            "correct_option": "enum",
+                            "img": "",
+                            "withImg": false,
+                            "id": 20
+                        }
+                    ],
                     "nivel3": [],
                     "content": false
                 },
                 "php": {
-                    "nivel1": [],
-                    "nivel2": [],
+                    "nivel1": [
+                        {
+                            "question": "¿Qué significa PHP?",
+                            "options": ["Personal Hypertext Processor","PHP: Hypertext Preprocessor","Private Home Page" ],
+                            "correct_option": "PHP: Hypertext Preprocessor",
+                            "img": "",
+                            "withImg": false,
+                            "id": 1
+                        },
+                        {
+                            "question": "¿Cómo se escribe Hola mundo en PHP?",
+                            "options": ["echo Hello World;","Hello World;","document.write(Hello World);" ],
+                            "correct_option": "echo Hello World;",
+                            "img": "",
+                            "withImg": false,
+                            "id": 2
+                        },
+                        {
+                            "question": "¿Todas las variables en PHP comienzan con qué símbolo?",
+                            "options": ["&","$","!" ],
+                            "correct_option": "$",
+                            "img": "",
+                            "withImg": false,
+                            "id": 3
+                        },
+                        {
+                            "question": "La declaración if se usa para ejecutar algún código solo si una condición específica es verdadera",
+                            "options": ["Falso","Verdadero" ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 4
+                        },
+                        {
+                            "question": "What is the correct way to end a PHP statement?",
+                            "options": [";","new line","</php>" ],
+                            "correct_option": ";",
+                            "img": "",
+                            "withImg": false,
+                            "id": 5
+                        },
+                        {
+                            "question": "Cuando se utiliza el método POST, las variables se muestran en la URL:",
+                            "options": ["Falso","Verdadero" ],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 6
+                        },
+                        {
+                            "question": "Los archivos de inclusión deben tener la extensión de archivo .inc",
+                            "options": ["Falso","Verdadero" ],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 7
+                        },
+                        {
+                            "question": "PHP le permite enviar correos electrónicos directamente desde un script",
+                            "options": ["Falso","Verdadero" ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 8
+                        },
+                        {
+                            "question": "¿Cómo se crea una cookie en PHP?",
+                            "options": ["setcookie()","makecookie()","createcookie" ],
+                            "correct_option": "setcookie()",
+                            "img": "",
+                            "withImg": false,
+                            "id": 9
+                        },
+                        {
+                            "question": "¿Qué operador se usa para verificar si dos valores son iguales y del mismo tipo de datos?",
+                            "options": ["=","!=","==" ],
+                            "correct_option": "==",
+                            "img": "",
+                            "withImg": false,
+                            "id": 10
+                        }
+                    ],
+                    "nivel2": [
+                        {
+                            "question": "¿Cómo se crea una matriz en PHP?",
+                            "options": ["$cars = Volvo, BMW, Toyota.","$cars = array('Volvo', 'BMW', 'Toyota.'","$cars = array['Volvo', 'BMW', 'Toyota.']" ],
+                            "correct_option": "$cars = array('Volvo', 'BMW', 'Toyota.'",
+                            "img": "",
+                            "withImg": false,
+                            "id": 11
+                        },
+                        {
+                            "question": "En PHP, la única forma de generar texto es con eco.",
+                            "options": ["Falso","Verdadero" ],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 12
+                        },
+                        {
+                            "question": "¿Cuál de estas variables tiene un nombre ilegal?",
+                            "options": ["$my-Var","myVar","*myVar" ],
+                            "correct_option": "$my-Var",
+                            "img": "",
+                            "withImg": false,
+                            "id": 13
+                        },
+                        {
+                            "question": "Las funciones die() y exit() hacen exactamente lo mismo.",
+                            "options": ["Falso","Verdadero" ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 14
+                        },
+                        {
+                            "question": "¿Cuál es la forma correcta de sumar 1 a la variable $count?",
+                            "options": ["$count++;","count++;","++count" ],
+                            "correct_option": "$count++;",
+                            "img": "",
+                            "withImg": false,
+                            "id": 15
+                        },
+                        {
+                            "question": "¿Qué variable superglobal contiene información sobre encabezados, rutas y ubicaciones de secuencias de comandos?",
+                            "options": ["$_SERVE","$_SESSION","$_GET" ],
+                            "correct_option": "$_SERVE",
+                            "img": "",
+                            "withImg": false,
+                            "id": 16
+                        },
+                        {
+                            "question": "¿Cuál es la forma correcta de crear una función en PHP?",
+                            "options": ["function myFunction()","new_function myFunction()","create myFunction()" ],
+                            "correct_option": "function myFunction()",
+                            "img": "",
+                            "withImg": false,
+                            "id": 17
+                        },
+                        {
+                            "question": "¿Cuál es la forma correcta de incluir el archivo ‘time.inc’?",
+                            "options": ["<?php include file=’time.inc’;?>" ],
+                            "correct_option": "<?php include 'time.inc';?> ",
+                            "img": "",
+                            "withImg": false,
+                            "id": 18
+                        },
+                        {
+                            "question": "En PHP puede usar comillas simples y comillas dobles para cadenas:",
+                            "options": ["Verdadero","Falso" ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 19
+                        },
+                        {
+                            "question": "¿Cómo se obtiene información de un formulario que se envía mediante el método get?",
+                            "options": ["Request.Form;","$_GET[];","Request.QueryString;" ],
+                            "correct_option": "$_GET[];",
+                            "img": "",
+                            "withImg": false,
+                            "id": 20
+                        }
+                    ],
                     "nivel3": [],
                     "content": false
                 },
                 "react": {
-                    "nivel1": [],
-                    "nivel2": [],
+                    "nivel1": [
+                        {
+                            "question": "¿Cuál es el comando correcto para crear un nuevo proyecto React?",
+                            "options": ["npx create-react-app myReactApp","npm create-react-app","npm create-react-app myReactApp" ],
+                            "correct_option": "npx create-react-app myReactApp",
+                            "img": "",
+                            "withImg": false,
+                            "id": 1
+                        },
+                        {
+                            "question": "¿Qué comando se usa para iniciar el servidor de desarrollo local de React?",
+                            "options": ["npm run dev","npm start","npm build" ],
+                            "correct_option": "npm start",
+                            "img": "",
+                            "withImg": false,
+                            "id": 2
+                        },
+                        {
+                            "question": "¿Cuál es el puerto de host local predeterminado que utiliza un servidor de desarrollo de React?",
+                            "options": ["3000","3500","5000" ],
+                            "correct_option": "3000",
+                            "img": "",
+                            "withImg": false,
+                            "id": 3
+                        },
+                        {
+                            "question": "Para desarrollar y ejecutar código React, se requiere Node.js.",
+                            "options": ["Verdadero","Falso" ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 4
+                        },
+                        {
+                            "question": "¿Qué palabra clave crea una constante en JavaScript?",
+                            "options": ["var","let","const" ],
+                            "correct_option": "const",
+                            "img": "",
+                            "withImg": false,
+                            "id": 5
+                        },
+                        {
+                            "question": "Los nombres de los componentes de React deben comenzar con una letra mayúscula.",
+                            "options": ["Verdadero","Falso" ],
+                            "correct_option": "Verdadero",
+                            "img": "",
+                            "withImg": false,
+                            "id": 6
+                        },
+                        {
+                            "question": "React solo puede representar elementos en el elemento del documento raíz.",
+                            "options": ["Verdadero","Falso" ],
+                            "correct_option": "Falso",
+                            "img": "",
+                            "withImg": false,
+                            "id": 7
+                        },
+                        {
+                            "question": "¿Qué operador se puede usar para renderizar condicionalmente un componente de React?",
+                            "options": [";;","??","&&" ],
+                            "correct_option": "&&",
+                            "img": "",
+                            "withImg": false,
+                            "id": 8
+                        },
+                        {
+                            "question": "¿Cómo se llama una copia del DOM 'real' que se guarda en la memoria?",
+                            "options": ["Virtual DOM","DOM","react DOM" ],
+                            "correct_option": "Virtual DOM",
+                            "img": "",
+                            "withImg": false,
+                            "id": 9
+                        },
+                        {
+                            "question": "Al renderizar una lista usando el método map() de JavaScript, ¿qué se requiere para cada elemento renderizado?",
+                            "options": ["id","key","data" ],
+                            "correct_option": "key",
+                            "img": "",
+                            "withImg": false,
+                            "id": 10
+                        }
+                    ],
+                    "nivel2": [
+                        {
+                            "question": "¿Qué herramienta usa React para compilar JSX?",
+                            "options": ["Babel","ReactDOM","JSX Compiler" ],
+                            "correct_option": "Babel",
+                            "img": "",
+                            "withImg": false,
+                            "id": 11
+                        },
+                        {
+                            "question": "¿Cuál es un caso de uso común para ref?",
+                            "options": ["To directly access a DOM node","To bind the function","To refer to a function" ],
+                            "correct_option": "To directly access a DOM node",
+                            "img": "",
+                            "withImg": false,
+                            "id": 12
+                        },
+                        {
+                            "question": "¿Cuál es la sintaxis correcta para importar un componente de React?",
+                            "options": ["import Component from 'react'","import { Component } from 'react'","import'react'" ],
+                            "correct_option": "import { Component } from 'react'",
+                            "img": "",
+                            "withImg": false,
+                            "id": 13
+                        },
+                        {
+                            "question": "¿A qué se refiere myReactApp en el siguiente comando? npx create-react-app myReactApp",
+                            "options": ["Una referencia a una aplicación existente","El nombre que desea usar para la nueva aplicación","El tipo de aplicación a crear." ],
+                            "correct_option": "El nombre que desea usar para la nueva aplicación",
+                            "img": "",
+                            "withImg": false,
+                            "id": 14
+                        },
+                        {
+                            "question": "¿Qué ES EL children prop?",
+                            "options": ["A property that lets you set an object as a property","A property that lets you pass data to child components","A property that lets you nest components in other components" ],
+                            "correct_option": "A property that lets you nest components in other components  ",
+                            "img": "",
+                            "withImg": false,
+                            "id": 15
+                        },
+                        {
+                            "question": "¿Qué palabra clave crea una constante en JavaScript?",
+                            "options": ["const","let","var" ],
+                            "correct_option": "const",
+                            "img": "",
+                            "withImg": false,
+                            "id": 16
+                        },
+                        {
+                            "question": "¿Cómo puede optimizar el rendimiento de un componente de función que siempre se representa de la misma manera?",
+                            "options": ["Wrap it in the React.memo higher-order component.","Use the shouldComponentUpdate lifecycle method.","Use the useMemo Hook." ],
+                            "correct_option": "Wrap it in the React.memo higher-order component.",
+                            "img": "",
+                            "withImg": false,
+                            "id": 17
+                        },
+                        {
+                            "question": "¿Cuál es la sintaxis correcta para importar un componente de React?",
+                            "options": ["import { Component } from 'react'","import [ Component ] from 'react'","import Component from 'react'" ],
+                            "correct_option": "import { Component } from 'react'",
+                            "img": "",
+                            "withImg": false,
+                            "id": 18
+                        },
+                        {
+                            "question": "¿Cuál es un caso de uso común para ref?",
+                            "options": ["To bind the function","To directly access a DOM node","To refer to a function" ],
+                            "correct_option": "To directly access a DOM node",
+                            "img": "",
+                            "withImg": false,
+                            "id": 19
+                        },
+                        {
+                            "question": "¿Cómo puede optimizar el rendimiento de un componente de función que siempre se representa de la misma manera?",
+                            "options": ["Utilice el gancho useReducer","Utilice el método de ciclo de vida shouldComponentUpdate","Envuélvalo en el componente de orden superior React.memo" ],
+                            "correct_option": "Envuélvalo en el componente de orden superior React.memo",
+                            "img": "",
+                            "withImg": false,
+                            "id": 20
+                        }
+                    ],
                     "nivel3": [],
                     "content": false
                 }

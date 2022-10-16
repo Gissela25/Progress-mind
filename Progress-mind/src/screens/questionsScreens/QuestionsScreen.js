@@ -78,8 +78,16 @@ const QuestionsScreen = ({route, navigation}) =>{
             <RenderOptions  isOptionDisabled={isOptionDisabled} options={options} correctOption={correctOption} currentOptionSelected={currentOptionSelected} validateAnswer={validateAnswer}/>
             <RenderNextButton showNextButton={showNextButton}  handleNext={handleNext}/>
             <RenderModal showScoreModal={showScoreModal} allQuestions={allQuestions} score={score} navigation={navigation}/>      
+            <Image
+                    source={require('../../imgs/Fondo.png')}
+                    style={{
+                        position: 'absolute',
+                        marginTop:600,
+                        zIndex:-1
+                    }}
+
+                />
             </View>
-          
             </SafeAreaView>
         );
 }
