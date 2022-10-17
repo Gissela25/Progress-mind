@@ -54,6 +54,8 @@ Este proyecto utiliza la licencia Reconocimiento-No Comercial-Sin Derivados 2.5(
 
 >Tablero en Trello Primera Fase-->https://trello.com/invite/b/kdfqnAij/e5d2b60a058b4b2eca1f3f3e6b9283d2/primera-fase
 
+>Tablero en Trello Segunda Fase-->https://trello.com/invite/b/GLYeecoN/ATTI82ef9d87dff5a64961cb257670346ea2614B473E/segunda-fase
+
 >Enlace de Figma con los Mock Ups-->https://www.figma.com/file/UUXvSrQcc56LgRY083Jg5D/DPS?node-id=0%3A1
 
 >Documento con Mock Ups-->https://drive.google.com/file/d/1nLLfPbYnoT3sTYuHIVRxuFP9J3TIkMFI/view?usp=sharing
