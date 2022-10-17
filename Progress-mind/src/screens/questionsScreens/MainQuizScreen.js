@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, Button, Pressable, TouchableOpacity, ImageBackground } from "react-native";
+import { Text, View, Button,Image, Pressable, TouchableOpacity, ImageBackground } from "react-native";
 import GlobalStyles from "../../styles/GlobalStyles";
 import { getAuth, signOut } from 'firebase/auth';
 import SignStyles from "../../styles/SignStyles";
@@ -34,13 +34,23 @@ const MainQuizScreen = ({ navigation }) => {
                 </ImageBackground>
             </Pressable>
 
-            <TouchableOpacity
+            <Image
+                        source={require('../../imgs/Footer.png')}
+                        style={{
+                            position: 'absolute',
+                            marginTop: 450,
+                            zIndex: -1
+                        }}
+
+                    />
+
+            {/* <TouchableOpacity
                 onPress={() => signOut(auth)}
                 style={SignStyles.Buttonstyle}
                 activeOpacity={0.9}
             >
                 <Text style={SignStyles.Textsigninstyle2}>Cerrar Sesión</Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
         </View>
     );
 }

@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, Pressable, Alert, ImageBackground } from "react-native";
+import { View, Text, ScrollView, Pressable, Alert, ImageBackground, Image } from "react-native";
 import GlobalStyles from "../../styles/GlobalStyles";
 import axios from 'axios';
 import { useEffect, useState } from "react";
@@ -67,10 +67,9 @@ const MathCategoryScreen = ({route, navigation}) =>{
                     id:"edi",
                     array: subCategoryQuestions
                 })}>
-                <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/edinn.png" }} style={{ width: 100, height: 80, marginLeft: 110, marginTop: 8 }}>
+                 <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/edinn1.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 12 }}>
                 </ImageBackground>
         </Pressable>
-
 </ScrollView>
     );
 }

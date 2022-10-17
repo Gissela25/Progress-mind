@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, Pressable , ImageBackground} from "react-native";
+import { View, Text, ScrollView, Pressable , ImageBackground,Image} from "react-native";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import GlobalStyles from "../../styles/GlobalStyles";
@@ -46,10 +46,9 @@ const PhysicalCategoryScreen = ({route, navigation}) =>{
                     id:"ofc",
                     array: subCategoryQuestions
                 })}>
-              <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/fisica/ofc.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 20 }}>
+                <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/fisica/ofc.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 20 }}>
                 </ImageBackground>
         </Pressable>
-
 </ScrollView>
     );
 }

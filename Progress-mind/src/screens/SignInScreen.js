@@ -75,7 +75,7 @@ const SignInScreen = ({ navigation }) => {
                     <Text style={SignStyles.Textsignupstyle}>Registrarse</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={{ alignItems: 'center' }} disabled={!request} onPress={() => promptAsync()}>
-                    <Text style={SignStyles.Textsignupstyle}>Inicia Sesión con Google</Text>
+                    <Text style={SignStyles.Textgooglestyle}>Inicia Sesión con Google</Text>
                 </TouchableOpacity>
 
             </View>
