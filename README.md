@@ -40,15 +40,15 @@ Este proyecto utiliza la licencia Reconocimiento-No Comercial-Sin Derivados 2.5(
 
 #Autores
 
->Morales López, Jony Edenilson 
+>Morales López, Jony Edenilson 04T
 
->Portán Pineda, William Fernando 
+>Portán Pineda, William Fernando 04T
 
->Serrano López, Gissela Verenice
+>Serrano López, Gissela Verenice 04T
 
->Vides Navas, Rodrigo Josué 
+>Vides Navas, Rodrigo Josué 04T
 
->Zelaya Flores, Susan Abigail 
+>Zelaya Flores, Susan Abigail 04T
 
 #Enlaces de Interes
 
