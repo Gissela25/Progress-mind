@@ -1,38 +1,8 @@
-// import React from 'react';
-// import { NavigationContainer } from '@react-navigation/native';
-// import { createStackNavigator } from '@react-navigation/stack';
-// import ProgrammingCategoryScreen from '../screens/questionsScreens/ProgrammingCategoryScreen';
-// import MainQuizScreen from '../screens/questionsScreens/MainQuizScreen';
-// import SplashScreen from '../screens/SplashScreen';
-// import MathCategoryScreen from '../screens/questionsScreens/MathCategoryScreen';
-// import PhysicalCategoryScreen from '../screens/questionsScreens/PhysicalCategoryScreen';
-// import LevelsScreen from '../screens/questionsScreens/LevelsScreen';
-// import QuestionsScreen from '../screens/questionsScreens/QuestionsScreen';
-// const Stack = createStackNavigator();
-
-// export default function UserStack() {
-//     return (
-//         <NavigationContainer>
-//             <Stack.Navigator screenOptions={{
-//             headerShown: false,
-//         }}>
-//                 <Stack.Screen name="MainQuizScreen" component={MainQuizScreen} />
-//                 <Stack.Screen name="Splash" component={SplashScreen} options={{ title: 'Splash' }} />
-//                 <Stack.Screen name="Programming" component={ProgrammingCategoryScreen} options={{ title: 'Programación' }} />
-//                 <Stack.Screen name="Math" component={MathCategoryScreen} options={{ title: 'Matemática' }} />
-//                 <Stack.Screen name="Physical" component={PhysicalCategoryScreen} options={{ title: 'Física' }} />
-//                 <Stack.Screen name="Levels" component={LevelsScreen} options={{ title: 'Niveles' }} />
-//                 <Stack.Screen name="Questions" component={QuestionsScreen} options={{ title: 'Quiz' }} /> 
-//             </Stack.Navigator>
-//         </NavigationContainer>
-//     );
-// }
-
 import * as React from 'react';
 import { getAuth, signOut } from 'firebase/auth';
 import SignStyles from "../styles/SignStyles";
 const auth = getAuth();
-import { View, Text, Button } from 'react-native';
+import { View, Text, Button, TouchableOpacity } from 'react-native';
 import ProgrammingCategoryScreen from '../screens/questionsScreens/ProgrammingCategoryScreen';
 import MainQuizScreen from '../screens/questionsScreens/MainQuizScreen';
 import SplashScreen from '../screens/SplashScreen';
@@ -52,19 +22,33 @@ import {
 import { COLORS } from '../styles/constants/Theme';
 
 
-function CustomDrawerContent(props) {
+function CustomDrawerContent({props,navigation}) {
     const { user } = useAuthentication();
     return (
         <DrawerContentScrollView {...props}>
             <Text style={{
                 marginLeft: 20,
                 marginTop: 10,
-                color: COLORS.darkblue,
+                color: COLORS.green,
                 fontWeight: '800',
                 fontSize: 15
             }}>{user?.email}</Text>
-            <View style={{marginTop:20}}>
-            <Button title="Sign Out" color="#252C4A" onPress={() => signOut(auth)} />
+            <View style={{ marginTop: 20 }}>
+                {/* <Button title="Sign Out" color='#C4FF63' onPress={() => signOut(auth)} /> */}
+                <TouchableOpacity
+                     onPress={() => navigation.navigate('MainQuizScreen')}
+                    style={SignStyles.Buttonstyledrawer}
+                    activeOpacity={0.9}
+                >
+                    <Text style={SignStyles.Textdrawerstyle}>Inicio</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    onPress={() => signOut(auth)}
+                    style={SignStyles.Buttonstyledrawer}
+                    activeOpacity={0.9}
+                >
+                    <Text style={SignStyles.Textdrawerstyle}>Cerrar Seión</Text>
+                </TouchableOpacity>
             </View>
         </DrawerContentScrollView>
     );
@@ -81,7 +65,7 @@ function MyDrawer() {
                 },
                 headerTintColor: COLORS.darkblue,
                 drawerStyle: {
-                    backgroundColor: COLORS.green,
+                    backgroundColor: COLORS.darkblue,
                     width: 240,
                 },
             }}

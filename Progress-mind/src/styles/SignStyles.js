@@ -86,7 +86,23 @@ const SignStyles = StyleSheet.create({
         width: 300,
         marginLeft: 88,
         marginTop: 10,
-    }
+    },
+    Buttonstyledrawer: {
+        paddingVertical: 10,
+        backgroundColor: COLORS.green,
+        borderWidth: 1,
+        borderColor: COLORS.green,
+        borderRadius: 5,
+        marginTop: 30,
+        width: 400,
+        marginLeft: 0,
+    },
+    Textdrawerstyle: {
+        marginLeft:55,
+        fontSize: 18,
+        color: COLORS.darkblue,
+        width: 300
+    },
 });
 
 export default SignStyles
