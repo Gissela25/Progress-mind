@@ -62,3 +62,9 @@ Este proyecto utiliza la licencia Reconocimiento-No Comercial-Sin Derivados 2.5(
 
 >Docuemento Primer Avance-->https://drive.google.com/file/d/1H4WIaKpQTmlXq5a8ZwX-6aFB3J_7aBDS/view?usp=sharing
 
+>Enlace de Manual de Usuari-->
+
+>Enlace de Manual Técnico-->
+
+>Enlace del Video con el funcionamiento-->
+
