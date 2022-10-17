@@ -1127,7 +1127,7 @@
                         }
                     ],
                     "nivel3": [],
-                    "content": false
+                    "content": true
                 },
                 "react": {
                     "nivel1": [
@@ -1295,7 +1295,7 @@
                         }
                     ],
                     "nivel3": [],
-                    "content": false
+                    "content": true
                 }
             }
         },
@@ -1314,7 +1314,7 @@
                                 "una línea vertical no corta la curva"
                             ],
                             "correct_option": "Una línea vertical la corta en a lo sumo un punto",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 1
                         },
                         {
@@ -1340,7 +1340,7 @@
                                 "Un conjunto de parejas ordenadas del plano"
                             ],
                             "correct_option": "Los posibles valores que puede tomar la variable independiente",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 3
                         },
                         {
@@ -1353,7 +1353,7 @@
                                 "Los números irracionales"
                             ],
                             "correct_option": "Todos los reales, excepto el 2",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 4
                         },
                         {
@@ -1379,7 +1379,7 @@
                                 "y=ex"
                             ],
                             "correct_option": "y=cosx",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 6
                         },
                         {
@@ -1392,7 +1392,7 @@
                                 "x-3"
                             ],
                             "correct_option": "2x^2-1",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 7
                         },
                         {
@@ -1405,7 +1405,7 @@
                                 "y=2"
                             ],
                             "correct_option": "y=2",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 8
                         },
                         {
@@ -1418,7 +1418,7 @@
                                 "x=1"
                             ],
                             "correct_option": "x= -1",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 9
                         },
                         {
@@ -1589,7 +1589,7 @@
                                 "de cotejo"
                             ],
                             "correct_option": "Extremos relativos",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 22
                         },
                         {
@@ -1624,7 +1624,7 @@
                                 "Punto mínimo"
                             ],
                             "correct_option": "un extremo relativo.",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 25
                         },
                         {
@@ -1637,7 +1637,7 @@
                                 "Extremo horizontal"
                             ],
                             "correct_option": "Extremo absoluto",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 26
                         },
                         {
@@ -1659,7 +1659,7 @@
                                 "Verdadero"
                             ],
                             "correct_option": "Verdadero",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 28
                         },
                         {
@@ -1672,7 +1672,7 @@
                                 "Puntos mínimos"
                             ],
                             "correct_option": "Puntos de inflexión",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 29
                         },
                         {
@@ -1685,7 +1685,7 @@
                                 "negativos"
                             ],
                             "correct_option": "Concavidad y convexidad",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 30
                         }
                     ],
@@ -1701,7 +1701,7 @@
                                 "Verdadero"
                             ],
                             "correct_option": "Verdadero",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 1
                         },
                         {
@@ -1747,7 +1747,7 @@
                                 "Falso"
                             ],
                             "correct_option": "Verdadero",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 5
                         },
                         {
@@ -1771,7 +1771,7 @@
                                 "Verdadero"
                             ],
                             "correct_option": "Verdadero",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 7
                         },
                         {
@@ -1793,7 +1793,7 @@
                                 "Verdadero"
                             ],
                             "correct_option": "Verdadero",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 9
                         },
                         {
@@ -1843,7 +1843,7 @@
                                 "Falso"
                             ],
                             "correct_option": "Verdadero",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 13
                         },
                         {
@@ -1930,7 +1930,7 @@
                                 "Verdadero"
                             ],
                             "correct_option": "Verdadero",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 20
                         }
                     ],
@@ -2049,7 +2049,7 @@
                                 "tangente"
                             ],
                             "correct_option": "Por partes",
-                            "withImg": true,
+                            "withImg": false,
                             "id": 29
                         },
                         {

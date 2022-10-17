@@ -43,14 +43,6 @@ const MainQuizScreen = ({ navigation }) => {
                         }}
 
                     />
-
-            {/* <TouchableOpacity
-                onPress={() => signOut(auth)}
-                style={SignStyles.Buttonstyle}
-                activeOpacity={0.9}
-            >
-                <Text style={SignStyles.Textsigninstyle2}>Cerrar Sesión</Text>
-            </TouchableOpacity> */}
         </View>
     );
 }
