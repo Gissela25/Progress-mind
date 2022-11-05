@@ -21,8 +21,15 @@ import QuestionsScreen from './src/screens/questionsScreens/QuestionsScreen';
 import ProgrammingCategoryScreen from './src/screens/questionsScreens/ProgrammingCategoryScreen';
 //import QuestionsScreencomy from './src/screens/questionsScreens/QuestionsScreen copy';
 import ForgotPasswordScreen from "./src/screens/ForgotPasswordScreen";
+import {
+  createDrawerNavigator,
+  DrawerContentScrollView,
+  DrawerItemList,
+  DrawerItem,
+} from '@react-navigation/drawer';
 
 const Stack = createStackNavigator();
+const Drawer = createDrawerNavigator();
 
 function App() {
   const [initializing, setInitializing] = useState(true);
@@ -50,6 +57,9 @@ function App() {
         <Stack.Screen name="Sign In" component={SignInScreen} />
         <Stack.Screen name="Sign Up" component={SignUpScreen} />
         <Stack.Screen name="Forgot" component={ForgotPasswordScreen} options={{ title: 'ForgotPasswordScreen' }} />
+
+
+
         {/* <Stack.Screen name="MainQuizScreen" component={MainQuizScreen} /> */}
       </Stack.Navigator>
     );

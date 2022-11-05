@@ -19,7 +19,7 @@ const SignUpScreen = () => {
             .then(() => {
                 firebase.auth().currentUser.sendEmailVerification({
                     handleCodeInApp: true,
-                    url: 'https://test-268eb.firebaseapp.com',
+                    url: 'https://test-f9568.firebaseapp.com',
                 })
                     .then(() => {
                         alert('Verification email sent')
