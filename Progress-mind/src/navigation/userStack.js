@@ -85,10 +85,76 @@ function MyDrawer() {
     );
 }
 
-export default function App() {
+export default function UserStack() {
     return (
         <NavigationContainer>
             <MyDrawer />
         </NavigationContainer>
     );
 }
+// import React from 'react';
+// import { NavigationContainer } from '@react-navigation/native';
+// import { createStackNavigator } from '@react-navigation/stack';
+// import { createDrawerNavigator } from '@react-navigation/drawer';
+// import MainQuizScreen from '../screens/questionsScreens/MainQuizScreen';
+// import MathCategoryScreen from '../screens/questionsScreens/MathCategoryScreen';
+// import PhysicalCategoryScreen from '../screens/questionsScreens/PhysicalCategoryScreen';
+// import LevelsScreen from '../screens/questionsScreens/LevelsScreen';
+// import QuestionsScreen from '../screens/questionsScreens/QuestionsScreen';
+// import ProgrammingCategoryScreen from '../screens/questionsScreens/ProgrammingCategoryScreen';
+// import QuestionsScreencomy from '../screens/questionsScreens/QuestionsScreen copy';
+// import HomeScreen from '../screens/questionsScreens/MainQuizScreen';
+// import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+// import { View, Text, Button, TouchableOpacity } from 'react-native';
+// const Tab = createBottomTabNavigator();
+// const Stack = createStackNavigator();
+// const Drawer = createDrawerNavigator();
+
+// export default function UserStack() {
+//     return (
+//         // <NavigationContainer>
+//         //     <Stack.Navigator>
+//         //         <Stack.Screen name="Home" component={HomeScreen} options={{
+//         //             headerRight: () => (
+//         //                 <Button
+//         //                     onPress={() => alert('This is a button!')}
+//         //                     title="Info"
+//         //                     color="#fff"
+//         //                 />
+//         //             ),
+//         //         }} />
+//         //         <Stack.Screen name="MainQuizScreen" component={MainQuizScreen} />
+//         //         <Stack.Screen name="Programming" component={ProgrammingCategoryScreen} options={{ title: 'Programación' }} />
+//         //         <Stack.Screen name="Math" component={MathCategoryScreen} options={{ title: 'Matemática' }} />
+//         //         <Stack.Screen name="Physical" component={PhysicalCategoryScreen} options={{ title: 'Física' }} />
+//         //         <Stack.Screen name="Levels" component={LevelsScreen} options={{ title: 'Niveles' }} />
+//         //         <Stack.Screen name="Questions" component={QuestionsScreen} options={{ title: 'Quiz' }} />
+//         //         <Stack.Screen name="Questionscomy" component={QuestionsScreencomy} options={{ title: 'Quiz' }} />
+//         //     </Stack.Navigator>
+//         // </NavigationContainer>
+//         // <NavigationContainer>
+//         //     <Drawer.Navigator>
+//         //         <Drawer.Screen name="Home" component={HomeScreen} />
+//         //         <Drawer.Screen name="MainQuizScreen" component={MainQuizScreen} />
+//         //         <Drawer.Screen name="Programming" component={ProgrammingCategoryScreen} options={{ title: 'Programación' }} />
+//         //         <Drawer.Screen name="Math" component={MathCategoryScreen} options={{ title: 'Matemática' }} />
+//         //         <Drawer.Screen name="Physical" component={PhysicalCategoryScreen} options={{ title: 'Física' }} />
+//         //         <Drawer.Screen name="Levels" component={LevelsScreen} options={{ title: 'Niveles' }} />
+//         //         <Drawer.Screen name="Questions" component={QuestionsScreen} options={{ title: 'Quiz' }} />
+//         //         <Drawer.Screen name="Questionscomy" component={QuestionsScreencomy} options={{ title: 'Quiz' }} />
+//         //     </Drawer.Navigator>
+//         // </NavigationContainer>
+//         // <NavigationContainer>
+//         //     <Tab.Navigator>
+//         //         <Tab.Screen name="Home" component={HomeScreen} />
+//         //         <Tab.Screen name="MainQuizScreen" component={MainQuizScreen} />
+//         //         <Tab.Screen name="Programming" component={ProgrammingCategoryScreen} options={{ title: 'Programación' }} />
+//         //         <Tab.Screen name="Math" component={MathCategoryScreen} options={{ title: 'Matemática' }} />
+//         //         <Tab.Screen name="Physical" component={PhysicalCategoryScreen} options={{ title: 'Física' }} />
+//         //         <Tab.Screen name="Levels" component={LevelsScreen} options={{ title: 'Niveles' }} />
+//         //         <Tab.Screen name="Questions" component={QuestionsScreen} options={{ title: 'Quiz' }} />
+//         //         <Tab.Screen name="Questionscomy" component={QuestionsScreencomy} options={{ title: 'Quiz' }} />
+//         //     </Tab.Navigator>
+//         // </NavigationContainer>
+//     );
+// }

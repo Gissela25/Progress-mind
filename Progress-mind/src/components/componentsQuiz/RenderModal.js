@@ -2,7 +2,7 @@ import { Modal, View, Text, TouchableOpacity } from "react-native";
 import { COLORS } from "../../styles/constants/Theme";
 import QuestionsStyles from "../../styles/QuestionsStyles";
 
-const RenderModal = ({showScoreModal, allQuestions, score, navigation}) => {
+const RenderModal = ({showScoreModal, allQuestions, score, navigation, handleScreen }) => {
     return(
         <Modal
         animationType="slide"
@@ -26,7 +26,7 @@ const RenderModal = ({showScoreModal, allQuestions, score, navigation}) => {
                 </View>
 
                 <TouchableOpacity style={QuestionsStyles.ButtonBackStyle}
-                onPress={()=>navigation.goBack()}
+                onPress={handleScreen()}
                 >
                     <Text style={QuestionsStyles.TextButtonBackStyle}>Finalizar</Text>
                 </TouchableOpacity>

@@ -12,7 +12,7 @@ import RenderOptions from "../../components/componentsQuiz/RenderOptions";
 import QuestionsStyles from "../../styles/QuestionsStyles";
 
 const QuestionsScreen = ({ route, navigation }) => {
-    const { questions } = route.params;
+    const { questions, setConsultAPI } = route.params;
     const [allQuestions, setAllQuestions] = useState([]);
     const [options, setOptions] = useState([]);
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -43,6 +43,12 @@ const QuestionsScreen = ({ route, navigation }) => {
     const handleShuffle = (options) => {
         return options.sort(() => Math.random() - 0.5);
     };
+
+    const handleScreen = () =>{
+        setCurrentQuestionIndex(0);
+        setConsultAPI(true);
+         navigation.goBack();
+    }
 
     const validateAnswer = (selectedOption) => {
         let correct_option = allQuestions[currentQuestionIndex]['correct_option'];
@@ -78,7 +84,7 @@ const QuestionsScreen = ({ route, navigation }) => {
                     <RenderQuestion currentQuestionIndex={currentQuestionIndex} allQuestions={allQuestions} existImg={existImg} />
                     <RenderOptions isOptionDisabled={isOptionDisabled} options={options} correctOption={correctOption} currentOptionSelected={currentOptionSelected} validateAnswer={validateAnswer} />
                     <RenderNextButton showNextButton={showNextButton} handleNext={handleNext} />
-                    <RenderModal showScoreModal={showScoreModal} allQuestions={allQuestions} score={score} navigation={navigation} />
+                    <RenderModal showScoreModal={showScoreModal} allQuestions={allQuestions} score={score} navigation={navigation} handleScreen={handleScreen} />
                     <Image
                         source={require('../../imgs/Fondo.png')}
                         style={{

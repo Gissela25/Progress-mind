@@ -1,25 +1,37 @@
-
 import React, { useEffect, useState } from 'react';
 import { Text, View, Image, TouchableOpacity, TextInput } from 'react-native';
-import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+//import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import * as GoogleSignIn from 'expo-auth-session/providers/google'
 import * as WebBrowser from 'expo-web-browser';
 import SignStyles from '../styles/SignStyles'
 import { Google } from '../config/Google';
+import { useNavigation } from '@react-navigation/native'
+import { firebase } from '../config/config'
 
-const auth = getAuth();
+//const auth = getAuth();
 WebBrowser.maybeCompleteAuthSession();
 
-const SignInScreen = ({ navigation }) => {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [validationMessage, setvalidationMessage] = useState('');
+const SignInScreen = () => {
+
+
+    const navigation = useNavigation();
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
     const [request, response, promptAsync] = GoogleSignIn.useAuthRequest({
         expoClientId: Google.expo,
         iosClientId: Google.ios,
         androidClientId: Google.android,
         //  webClientId: 'GOOGLE_GUID.apps.googleusercontent.com',
     });
+
+
+    loginUser = async (email, password) => {
+        try {
+            await firebase.auth().signInWithEmailAndPassword(email, password)
+        } catch (error) {
+            alert(error.message)
+        }
+    }
 
     useEffect(() => {
         if (response?.type === "success") {
@@ -29,18 +41,18 @@ const SignInScreen = ({ navigation }) => {
         }
     }, [response])
 
-    async function login() {
-        if (email === '' || password === '') {
-            setvalidationMessage('Todos los campos debene estar llenos')
-            return;
-        }
+    // // async function login() {
+    // //     if (email === '' || password === '') {
+    // //         setvalidationMessage('Todos los campos debene estar llenos')
+    // //         return;
+    // //     }
 
-        try {
-            await signInWithEmailAndPassword(auth, email, password);
-        } catch (error) {
-            setvalidationMessage(error.message);
-        }
-    }
+    // //     try {
+    // //         await signInWithEmailAndPassword(auth, email, password);
+    // //     } catch (error) {
+    // //         setvalidationMessage(error.message);
+    // //     }
+    // // }
 
     return (
         <View style={SignStyles.Conteiner}>
@@ -50,22 +62,25 @@ const SignInScreen = ({ navigation }) => {
             <View style={SignStyles.Bottonconteiner}>
                 <TextInput
                     placeholder='Email'
-                    value={email}
-                    onChangeText={(text) => setEmail(text)}
+                    onChangeText={(email) => setEmail(email)}
+                    autoCapitalize="none"
+                    autoCorrect={false}
                     style={SignStyles.Inputstyle}
                 />
 
                 <TextInput
                     placeholder='Password'
-                    value={password}
-                    onChangeText={(text) => setPassword(text)}
+                    onChangeText={(password) => setPassword(password)}
+                    autoCapitalize="none"
+                    autoCorrect={false}
                     secureTextEntry={true}
                     style={SignStyles.Inputstyle}
                 />
-                {<Text style={SignStyles.Errorstyle}>{validationMessage}</Text>}
+                {/* {<Text style={SignStyles.Errorstyle}>{validationMessage}</Text>} */}
 
                 <TouchableOpacity
-                    onPress={login}
+                    //onPress={login}
+                    onPress={() => loginUser(email, password)}
                     style={SignStyles.Buttonstyle}
                     activeOpacity={0.9}
                 >
@@ -76,6 +91,11 @@ const SignInScreen = ({ navigation }) => {
                 </TouchableOpacity>
                 <TouchableOpacity style={{ alignItems: 'center' }} disabled={!request} onPress={() => promptAsync()}>
                     <Text style={SignStyles.Textgooglestyle}>Inicia Sesión con Google</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    onPress={() => navigation.navigate('Forgot')}
+                >
+                    <Text style={SignStyles.Textsignupstyle2}>Olvide mi contraseña</Text>
                 </TouchableOpacity>
 
             </View>

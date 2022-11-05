@@ -5,22 +5,25 @@ import { useEffect, useState } from "react";
 const MathCategoryScreen = ({route, navigation}) =>{
     const {id} = route.params;
     const [subCategoryQuestions, setSubCategoryQuestions] = useState([]);
-    const [consult, setConsult] = useState(true);
+    const [consultAPI, setConsultAPI] = useState(true);
     useEffect(()=>{
         const obtenerSubCategorias = async ()=>{
-            if(consult){
+
                 try {
                     const resultado = await axios.get(`http://10.0.2.2:3000/categorias/${id}`);
                     setSubCategoryQuestions(resultado.data);
-                    setConsult(false);
+                    //setConsult(false);
                    
             } catch (error) {
                 console.table(error);
             }
-            }  
+              
         };
-        obtenerSubCategorias();
-    },[consult])
+        if(consultAPI)
+        {
+            obtenerSubCategorias(); 
+        }
+    },[consultAPI])
     
     
     return(
@@ -29,7 +32,8 @@ const MathCategoryScreen = ({route, navigation}) =>{
         style={GlobalStyles.buttonsCategory}
         onPress={()=>navigation.navigate('Levels',{
                     id:"cad",
-                    array: subCategoryQuestions
+                    array: subCategoryQuestions,
+                    setConsultAPI
                 })}>
                 <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/cadnn.png" }} style={{ width: 100, height: 80, marginLeft: 110, marginTop: 20 }}>
                 </ImageBackground>
@@ -38,7 +42,8 @@ const MathCategoryScreen = ({route, navigation}) =>{
         style={GlobalStyles.buttonsCategory}
         onPress={()=>navigation.navigate('Levels',{
                     id:"cai",
-                    array: subCategoryQuestions
+                    array: subCategoryQuestions,
+                    setConsultAPI
                 })}>
                 <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/cainn.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 20 }}>
                 </ImageBackground>
@@ -47,7 +52,8 @@ const MathCategoryScreen = ({route, navigation}) =>{
         style={GlobalStyles.buttonsCategory}
         onPress={()=>navigation.navigate('Levels',{
                     id:"cvv",
-                    array: subCategoryQuestions
+                    array: subCategoryQuestions,
+                    setConsultAPI
                 })}>
                 <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/cvvnn.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 20 }}>
                 </ImageBackground>
@@ -56,7 +62,8 @@ const MathCategoryScreen = ({route, navigation}) =>{
         style={GlobalStyles.buttonsCategory}
         onPress={()=>navigation.navigate('Levels',{
                     id:"caa",
-                    array: subCategoryQuestions
+                    array: subCategoryQuestions,
+                    setConsultAPI
                 })}>
                 <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/caann.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 20 }}>
                 </ImageBackground>
@@ -65,7 +72,8 @@ const MathCategoryScreen = ({route, navigation}) =>{
         style={GlobalStyles.buttonsCategory}
         onPress={()=>navigation.navigate('Levels',{
                     id:"edi",
-                    array: subCategoryQuestions
+                    array: subCategoryQuestions,
+                    setConsultAPI
                 })}>
                  <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/matematica/edinn1.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 12 }}>
                 </ImageBackground>

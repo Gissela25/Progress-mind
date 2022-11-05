@@ -3,6 +3,7 @@ import { Text, View, Button,Image, Pressable, TouchableOpacity, ImageBackground 
 import GlobalStyles from "../../styles/GlobalStyles";
 import { getAuth, signOut } from 'firebase/auth';
 import SignStyles from "../../styles/SignStyles";
+import { firebase } from '../../config/config'
 
 const auth = getAuth();
 
@@ -33,6 +34,14 @@ const MainQuizScreen = ({ navigation }) => {
                 <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/categorias/fisica.jpg" }} style={{ width: 150, height: 100, marginLeft: 85, marginTop: 20 }}>
                 </ImageBackground>
             </Pressable>
+            <TouchableOpacity
+            onPress={() => {firebase.auth().signOut()}}
+            //style={styles.button}
+            >
+                <Text style={{fontSize:22, fontWeight:'bold'}}>
+              Sing Out
+                </Text>
+            </TouchableOpacity>
 
             <Image
                         source={require('../../imgs/Footer.png')}

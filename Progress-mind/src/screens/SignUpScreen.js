@@ -1,37 +1,75 @@
-
+import { useNavigation } from '@react-navigation/native'
 import { useState } from 'react';
 import { Text, View, Image, TouchableOpacity, TextInput } from 'react-native';
-import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
+//import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 import SignStyles from '../styles/SignStyles'
+import { firebase } from '../config/config'
 
-const auth = getAuth()
-const SignUpScreen = ({ navigation }) => {
+// const auth = getAuth()
+const SignUpScreen = () => {
+
+    const navigation = useNavigation();
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
-    const [confirmPassword, setConfirmPassword] = useState('')
-    const [validationMessage, setValidationMessage] = useState('')
+    const [firstName, setFirstName] = useState('')
+    const [lasName, setLastName] = useState('')
+
+    const registerUser = async (email, password, firstName, lasName) => {
+        await firebase.auth().createUserWithEmailAndPassword(email, password)
+            .then(() => {
+                firebase.auth().currentUser.sendEmailVerification({
+                    handleCodeInApp: true,
+                    url: 'https://test-268eb.firebaseapp.com',
+                })
+                    .then(() => {
+                        alert('Verification email sent')
+                    }).catch(error => {
+                        alert(error.message)
+                    })
+                    .then(() => {
+                        firebase.firestore().collection('users')
+                            .doc(firebase.auth().currentUser.uid)
+                            .set({
+                                firstName,
+                                lasName,
+                                email,
+                            })
+                    })
+                    .catch((error) => {
+                        alert(error.message)
+                    })
+            })
+            .catch((error => {
+                alert(error.message)
+            }))
+    }
+
+    // const [email, setEmail] = useState('')
+    // const [password, setPassword] = useState('')
+    // const [confirmPassword, setConfirmPassword] = useState('')
+    // const [validationMessage, setValidationMessage] = useState('')
 
 
-    let validateAndSet = (value, setValue) => {
-        setValue(value)
-    }
-    function checkPassword(firstpassword, secondpassword) {
-        if (firstpassword !== secondpassword) {
-            setValidationMessage('Password do not match')
-        }
-        else setValidationMessage('')
-    }
-    async function createAccount() {
-        email === '' || password === ''
-            ? setValidationMessage('required filled missing')
-            : ''
-        try {
-            await createUserWithEmailAndPassword(auth, email, password);
-            navigation.navigate('Sign In');
-        } catch (error) {
-            setValidationMessage(error.message);
-        }
-    }
+    // let validateAndSet = (value, setValue) => {
+    //     setValue(value)
+    // }
+    // function checkPassword(firstpassword, secondpassword) {
+    //     if (firstpassword !== secondpassword) {
+    //         setValidationMessage('Las contraseñas no coinciden')
+    //     }
+    //     else setValidationMessage('')
+    // }
+    // async function createAccount() {
+    //     email === '' || password === ''
+    //         ? setValidationMessage('Todos los campos deben estar llenos')
+    //         : ''
+    //     try {
+    //         await createUserWithEmailAndPassword(auth, email, password);
+    //         navigation.navigate('Sign In');
+    //     } catch (error) {
+    //         setValidationMessage(error.message);
+    //     }
+    // }
     return (
         <View style={SignStyles.Conteiner}>
             <View style={SignStyles.Topconteiner2}>
@@ -39,29 +77,44 @@ const SignUpScreen = ({ navigation }) => {
             </View>
             <View style={SignStyles.Bottonconteiner2}>
                 <TextInput
-                    placeholder='Email'
                     style={SignStyles.Inputstyle}
-                    value={email}
-                    onChangeText={(text) => setEmail(text)}
+                    placeholder="Nombre"
+                    onChangeText={(firstName) => setFirstName(firstName)}
+                    autoCapitalize={false}
                 />
                 <TextInput
-                    placeholder='Password'
                     style={SignStyles.Inputstyle}
-                    value={password}
-                    onChangeText={(value) => validateAndSet(value, setPassword)}
-                    secureTextEntry
+                    placeholder="Apellido"
+                    onChangeText={(lastName) => setLastName(lastName)}
+                    autoCorrect={false}
                 />
                 <TextInput
+                    style={SignStyles.Inputstyle}
+                    placeholder="Email"
+                    onChangeText={(email) => setEmail(email)}
+                    autoCapitalize="none"
+                    autoCorrect={false}
+                    keyboardType="email-address"
+                />
+                <TextInput
+                    style={SignStyles.Inputstyle}
+                    placeholder="Password"
+                    onChangeText={(password) => setPassword(password)}
+                    autoCapitalize="none"
+                    autoCorrect={false}
+                    secureTextEntry={true}
+                />
+                {/* <TextInput
                     placeholder='confirm password'
                     style={SignStyles.Inputstyle}
                     value={confirmPassword}
                     onChangeText={(value) => validateAndSet(value, setConfirmPassword)}
                     secureTextEntry
                     onBlur={() => checkPassword(password, confirmPassword)}
-                />
-                {<Text style={SignStyles.Errorstyle}>{validationMessage}</Text>}
+                /> */}
+                {/* {<Text style={SignStyles.Errorstyle}>{validationMessage}</Text>} */}
                 <TouchableOpacity
-                    onPress={createAccount}
+                    onPress={() => registerUser(email,password,firstName,lasName)}
                     style={SignStyles.Buttonstyle}
                     activeOpacity={0.9}
                 >

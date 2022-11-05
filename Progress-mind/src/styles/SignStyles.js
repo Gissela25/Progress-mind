@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { color } from 'react-native-reanimated';
 import { COLORS } from './constants/Theme';
 
 const SignStyles = StyleSheet.create({
@@ -45,7 +46,8 @@ const SignStyles = StyleSheet.create({
         marginTop: 30,
         borderRadius: 20,
         width: 200,
-        marginLeft: 70,
+        //marginLeft: 70,
+        marginHorizontal:70,
     },
     Errorstyle: {
         marginTop: 10,
@@ -103,6 +105,20 @@ const SignStyles = StyleSheet.create({
         color: COLORS.darkblue,
         width: 300
     },
+    ForgotStyle:{
+        color: COLORS.green,
+        textAlign: 'center',
+        fontSize:20,
+        marginBottom: 10, 
+        marginTop:20,
+    },
+    Buttonstylef:{
+        backgroundColor:COLORS.green,
+        marginTop: 30,
+        paddingVertical:10,
+        marginHorizontal:40,
+        borderRadius:20
+    }
 });
 
 export default SignStyles

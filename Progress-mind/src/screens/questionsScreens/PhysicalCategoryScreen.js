@@ -5,28 +5,32 @@ import GlobalStyles from "../../styles/GlobalStyles";
 const PhysicalCategoryScreen = ({route, navigation}) =>{
     const {id} = route.params;
     const [subCategoryQuestions, setSubCategoryQuestions] = useState([]);
-    const [consult, setConsult] = useState(true);
+    const [consultAPI, setConsultAPI] = useState(true);
     useEffect(()=>{
         const obtenerSubCategorias = async ()=>{
-            if(consult){
+            
                 try {
                     const resultado = await axios.get(`http://10.0.2.2:3000/categorias/${id}`);
                     setSubCategoryQuestions(resultado.data);
-                    setConsult(false);
+                    //setConsult(false);
             } catch (error) {
                 console.table(error);
             }
-            }  
+             
         };
-        obtenerSubCategorias();
-    },[consult])
+        if(consultAPI)
+        {
+            obtenerSubCategorias(); 
+        }
+    },[consultAPI])
     return(
         <ScrollView style={GlobalStyles.quizCategoryContainer}>
         <Pressable 
         style={GlobalStyles.buttonsCategory}
         onPress={()=>navigation.navigate('Levels',{
                     id:"cdp",
-                    array: subCategoryQuestions
+                    array: subCategoryQuestions,
+                    setConsultAPI
                 })}>
              <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/fisica/cdpnn.png" }} style={{ width: 100, height: 80, marginLeft: 110, marginTop: 20 }}>
                 </ImageBackground>
@@ -35,7 +39,8 @@ const PhysicalCategoryScreen = ({route, navigation}) =>{
         style={GlobalStyles.buttonsCategory}
         onPress={()=>navigation.navigate('Levels',{
                     id:"eym",
-                    array: subCategoryQuestions
+                    array: subCategoryQuestions,
+                    setConsultAPI
                 })}>
              <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/fisica/EMA.png" }} style={{ width: 100, height: 58, marginLeft: 110, marginTop: 20 }}>
                 </ImageBackground>
@@ -44,7 +49,8 @@ const PhysicalCategoryScreen = ({route, navigation}) =>{
         style={GlobalStyles.buttonsCategory}
         onPress={()=>navigation.navigate('Levels',{
                     id:"ofc",
-                    array: subCategoryQuestions
+                    array: subCategoryQuestions,
+                    setConsultAPI
                 })}>
                 <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/fisica/ofc.png" }} style={{ width: 100, height: 70, marginLeft: 110, marginTop: 20 }}>
                 </ImageBackground>

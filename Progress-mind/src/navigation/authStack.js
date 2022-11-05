@@ -10,6 +10,7 @@ import PhysicalCategoryScreen from '../screens/questionsScreens/PhysicalCategory
 import LevelsScreen from '../screens/questionsScreens/LevelsScreen';
 import QuestionsScreen from '../screens/questionsScreens/QuestionsScreen';
 import ProgrammingCategoryScreen from '../screens/questionsScreens/ProgrammingCategoryScreen';
+import QuestionsScreencomy from '../screens/questionsScreens/QuestionsScreen copy';
 
 const Stack = createStackNavigator();
 
@@ -28,6 +29,7 @@ export default function AuthStack() {
                 <Stack.Screen name="Physical" component={PhysicalCategoryScreen} options={{ title: 'Física' }} />
                 <Stack.Screen name="Levels" component={LevelsScreen} options={{ title: 'Niveles' }} />
                 <Stack.Screen name="Questions" component={QuestionsScreen} options={{ title: 'Quiz' }} /> 
+                <Stack.Screen name="Questionscomy" component={QuestionsScreencomy} options={{ title: 'Quiz' }} />
             </Stack.Navigator>
         </NavigationContainer>
     );
