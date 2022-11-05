@@ -6,6 +6,7 @@ export default
       "name": "Progress-mind",
       "slug": "Progress-mind",
       "version": "1.0.0",
+      "scheme":"host.exp.exponent",
       "orientation": "portrait",
       "icon": "./assets/icon.png",
       "userInterfaceStyle": "light",

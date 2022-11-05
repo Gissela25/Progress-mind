@@ -12,7 +12,7 @@ import RenderOptions from "../../components/componentsQuiz/RenderOptions";
 import QuestionsStyles from "../../styles/QuestionsStyles";
 
 const QuestionsScreen = ({ route, navigation }) => {
-    const { questions, setConsultAPI } = route.params;
+    const { questions } = route.params;
     const [allQuestions, setAllQuestions] = useState([]);
     const [options, setOptions] = useState([]);
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -46,7 +46,6 @@ const QuestionsScreen = ({ route, navigation }) => {
 
     const handleScreen = () =>{
         setCurrentQuestionIndex(0);
-        setConsultAPI(true);
          navigation.goBack();
     }
 

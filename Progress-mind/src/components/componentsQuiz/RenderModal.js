@@ -26,7 +26,7 @@ const RenderModal = ({showScoreModal, allQuestions, score, navigation, handleScr
                 </View>
 
                 <TouchableOpacity style={QuestionsStyles.ButtonBackStyle}
-                onPress={handleScreen()}
+                onPress={handleScreen}
                 >
                     <Text style={QuestionsStyles.TextButtonBackStyle}>Finalizar</Text>
                 </TouchableOpacity>

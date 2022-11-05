@@ -3,7 +3,7 @@ import { View, Text, ScrollView, Pressable, FlatList, Alert, Image } from "react
 import GlobalStyles from "../../styles/GlobalStyles";
 import { List } from 'react-native-paper'
 const LevelsScreen = ({ route, navigation }) => {
-    const { id, array, setConsultAPI } = route.params;
+    const { id, array } = route.params;
 
     const [questionsByLevel, setQuestionsByLevel] = useState([]);
 
@@ -132,7 +132,7 @@ const LevelsScreen = ({ route, navigation }) => {
                 style={GlobalStyles.buttonsCategory}
                 onPress={() => navigation.navigate('Questions', {
                     questions: questionsByLevel.nivel1,
-                    setConsultAPI
+                    
                 })}>
                 <Text style={GlobalStyles.textButtonsCaterogry}>Nivel 1</Text>
             </Pressable>
@@ -140,7 +140,7 @@ const LevelsScreen = ({ route, navigation }) => {
                 style={GlobalStyles.buttonsCategory}
                 onPress={() => navigation.navigate('Questions', {
                     questions: questionsByLevel.nivel2,
-                    setConsultAPI
+                    
                 })}>
                 <Text style={GlobalStyles.textButtonsCaterogry}>Nivel 2</Text>
             </Pressable>
@@ -148,7 +148,7 @@ const LevelsScreen = ({ route, navigation }) => {
                 style={GlobalStyles.buttonsCategory}
                 onPress={() => navigation.navigate('Questions', {
                     questions: questionsByLevel.nivel3,
-                    setConsultAPI
+                    
                 })}>
                 <Text style={GlobalStyles.textButtonsCaterogry}>Nivel 3</Text>
             </Pressable>
