@@ -1,14 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { Text, View, Image, TouchableOpacity, TextInput } from 'react-native';
-//import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
-import * as GoogleSignIn from 'expo-auth-session/providers/google'
+import { getAuth, GoogleAuthProvider, signInWithCredential } from 'firebase/auth';
+import * as Google from 'expo-auth-session/providers/google';
+import {initializeApp} from 'firebase/app'
 import * as WebBrowser from 'expo-web-browser';
 import SignStyles from '../styles/SignStyles'
-import { Google } from '../config/Google';
 import { useNavigation } from '@react-navigation/native'
 import { firebase } from '../config/config'
 
-//const auth = getAuth();
+initializeApp({
+    apiKey: "AIzaSyAcOsEbUK_nkmkR8b-QkXG7j3IaszKq8CA",
+    authDomain: "test-f9568.firebaseapp.com",
+    projectId: "test-f9568",
+    storageBucket: "test-f9568.appspot.com",
+    messagingSenderId: "691579296252",
+    appId: "1:691579296252:web:fee721bcaf1269bec8fa79",
+    measurementId: "G-R5WXYWL27D"
+})
 WebBrowser.maybeCompleteAuthSession();
 
 const SignInScreen = () => {
@@ -17,13 +25,21 @@ const SignInScreen = () => {
     const navigation = useNavigation();
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
-    const [request, response, promptAsync] = GoogleSignIn.useAuthRequest({
-        expoClientId: Google.expo,
-        iosClientId: Google.ios,
-        androidClientId: Google.android,
-        //  webClientId: 'GOOGLE_GUID.apps.googleusercontent.com',
-    });
-
+    const [request, response, promptAsync] = Google.useIdTokenAuthRequest(
+        {
+          clientId: '691579296252-o3r70v2k7j0uo1s90n9glf3hpm7rrvqn.apps.googleusercontent.com',
+        },
+      );
+    
+      React.useEffect(() => {
+        if (response?.type === 'success') {
+          const { id_token } = response.params;
+          const auth = getAuth();
+          const credential = GoogleAuthProvider.credential(id_token);
+          signInWithCredential(auth, credential);
+        }
+      }, [response]);
+    
 
     loginUser = async (email, password) => {
         try {
@@ -32,14 +48,6 @@ const SignInScreen = () => {
             alert(error.message)
         }
     }
-
-    useEffect(() => {
-        if (response?.type === "success") {
-            const { authentication } = response;
-            navigation.navigate('MainQuizScreen');
-            console.log(response);
-        }
-    }, [response])
 
     // // async function login() {
     // //     if (email === '' || password === '') {
