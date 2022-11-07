@@ -4,11 +4,13 @@ import GlobalStyles from "../../styles/GlobalStyles";
 import { getAuth, signOut } from 'firebase/auth';
 import SignStyles from "../../styles/SignStyles";
 import { firebase } from '../../config/config'
+import { ScrollView } from "react-native-gesture-handler";
 
 const auth = getAuth();
 
 const MainQuizScreen = ({ navigation }) => {
     return (
+        <ScrollView>
         <View style={GlobalStyles.quizContainer}>
             <Pressable
                 style={GlobalStyles.buttons}
@@ -34,15 +36,15 @@ const MainQuizScreen = ({ navigation }) => {
                 <ImageBackground source={{ uri: "https://progressmind.000webhostapp.com/Img/Categorias/categorias/fisica.jpg" }} style={{ width: 150, height: 100, marginLeft: 85, marginTop: 20 }}>
                 </ImageBackground>
             </Pressable>
-            <TouchableOpacity
+            {/* <TouchableOpacity
             onPress={() => {firebase.auth().signOut()}}
             //style={styles.button}
             >
                 <Text style={{fontSize:22, fontWeight:'bold'}}>
               Sing Out
                 </Text>
-            </TouchableOpacity>
-
+            </TouchableOpacity> */}
+{/* 
             <Image
                         source={require('../../imgs/Footer.png')}
                         style={{
@@ -51,8 +53,9 @@ const MainQuizScreen = ({ navigation }) => {
                             zIndex: -1
                         }}
 
-                    />
+                    /> */}
         </View>
+        </ScrollView>
     );
 }
 

@@ -10,12 +10,12 @@ const SignStyles = StyleSheet.create({
     Topconteiner: {
         padding: 20,
         backgroundColor: COLORS.white,
-        flex: 3,
+        flex: 2,
     },
     Bottonconteiner: {
         padding: 20,
         backgroundColor: COLORS.darkblue,
-        flex: 3,
+        flex: 2,
     },
     Topconteiner2: {
         padding: 20,
@@ -45,27 +45,23 @@ const SignStyles = StyleSheet.create({
         borderRadius: 5,
         marginTop: 30,
         borderRadius: 20,
-        width: 200,
-        //marginLeft: 70,
-        marginHorizontal:70,
+        marginHorizontal:80,
     },
     Errorstyle: {
         marginTop: 10,
         color: 'red',
     },
     Textsigninstyle: {
-        marginLeft: 43,
         fontSize: 18,
         color: '#000000',
-        width: 300
+        textAlign: 'center'
     },
     Textsignupstyle: {
-        marginLeft: 43,
-        fontSize: 18,
+        fontSize: 22,
         color: '#C4FF63',
-        width: 300,
-        marginLeft: 120,
         marginTop: 10,
+        textAlign: 'center',
+        fontWeight:'800',
     },
     Textsigninstyle2: {
         marginLeft: 50,
@@ -74,11 +70,11 @@ const SignStyles = StyleSheet.create({
         width: 300
     },
     Textsignupstyle2: {
-        marginLeft: 43,
+        //marginLeft: 43,
         fontSize: 18,
         color: '#C4FF63',
-        width: 300,
-        marginLeft: 91,
+        //width: 300,
+        textAlign:'center',
         marginTop: 10,
     },
     Textgooglestyle:{
@@ -95,9 +91,8 @@ const SignStyles = StyleSheet.create({
         borderWidth: 1,
         borderColor: COLORS.green,
         borderRadius: 5,
-        marginTop: 30,
-        width: 400,
-        marginLeft: 0,
+        marginTop:400,
+        marginHorizontal:20,
     },
     Textdrawerstyle: {
         marginLeft:55,
@@ -106,11 +101,20 @@ const SignStyles = StyleSheet.create({
         width: 300
     },
     ForgotStyle:{
-        color: COLORS.green,
+        color: COLORS.white,
+        textAlign: 'center',
+        fontSize:30,
+        marginBottom: 10, 
+        marginTop:60,
+        fontWeight:'600'
+    },
+    ForgotStyle2:{
+        color: COLORS.white,
         textAlign: 'center',
         fontSize:20,
         marginBottom: 10, 
-        marginTop:20,
+        marginTop:10,
+        fontWeight:'300'
     },
     Buttonstylef:{
         backgroundColor:COLORS.green,
@@ -118,6 +122,63 @@ const SignStyles = StyleSheet.create({
         paddingVertical:10,
         marginHorizontal:40,
         borderRadius:20
+    },
+    ButtonEmail:{
+        paddingVertical:20,
+        backgroundColor:COLORS.darkblue,
+        marginVertical:20,
+        borderWidth:2,
+        borderColor:COLORS.green,
+        marginHorizontal:20
+    },
+    TextLog:{
+        color:COLORS.green,
+        textAlign:'center'
+    },
+    TextSing:{
+        color:COLORS.green,
+        textAlign:'center',
+        fontSize:30,
+        marginTop:30,
+        marginBottom:30
+    },
+    TextAccount:{
+    textAlign:'center',
+    color:COLORS.white,
+    marginTop:190
+    },
+    LogSignOut:{
+        marginRight:10
+    },
+    TextName:{
+        color:COLORS.darkblue,
+        fontSize:20,
+        padding:16,
+        textAlign:'center'
+    },
+    TextEmail:{
+        color:COLORS.green,
+        marginTop:9,
+        fontSize:18,
+        textAlign:'center',
+        marginBottom:10
+    },
+    TextlogOut:{
+        color:COLORS.darkblue,
+        //marginTop:400
+        textAlign:'center'
+    },
+    ConteinerName:{
+        backgroundColor:COLORS.white,
+
+    },
+    TextOptions:{
+        color:COLORS.white,
+        fontSize:16,
+        fontWeight:'600'
+    },
+    ConteinerOptions:{
+        marginTop:30
     }
 });
 

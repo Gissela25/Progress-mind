@@ -5,7 +5,7 @@ import {useNavigation} from '@react-navigation/native'
 export default function Splash() {
     const navigate = useNavigation();
     setTimeout(()=>{
-        navigate.navigate('Sign In')
+        navigate.navigate('Log In')
     }, 5000)
 
 

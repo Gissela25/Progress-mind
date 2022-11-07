@@ -19,7 +19,7 @@ const SignUpScreen = () => {
             .then(() => {
                 firebase.auth().currentUser.sendEmailVerification({
                     handleCodeInApp: true,
-                    url: 'https://test-f9568.firebaseapp.com',
+                    url: 'https://progress-mind-29681.firebaseapp.com',
                 })
                     .then(() => {
                         alert('Verification email sent')
@@ -36,11 +36,11 @@ const SignUpScreen = () => {
                             })
                     })
                     .catch((error) => {
-                        alert(error.message)
+                        alert('Todos los campos deben estar completos')
                     })
             })
             .catch((error => {
-                alert(error.message)
+                alert('Todos los campos deben estar completos')
             }))
     }
 
@@ -120,7 +120,7 @@ const SignUpScreen = () => {
                 >
                     <Text style={SignStyles.Textsigninstyle2}>Registrarse</Text>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate('Sign In')}>
+                <TouchableOpacity onPress={() => navigation.navigate('Log In')}>
                     <Text style={SignStyles.Textsignupstyle2}>Ya tengo una cuenta</Text>
                 </TouchableOpacity>
             </View>

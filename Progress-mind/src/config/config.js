@@ -10,13 +10,13 @@ const firebaseConfig = {
     // messagingSenderId: "367925566956",
     // appId: "1:367925566956:web:78dfbbc21dd2ef2c6ef4c9",
     // measurementId: "G-Y6QZ6JM5G3"
-    apiKey: "AIzaSyAcOsEbUK_nkmkR8b-QkXG7j3IaszKq8CA",
-    authDomain: "test-f9568.firebaseapp.com",
-    projectId: "test-f9568",
-    storageBucket: "test-f9568.appspot.com",
-    messagingSenderId: "691579296252",
-    appId: "1:691579296252:web:fee721bcaf1269bec8fa79",
-    measurementId: "G-R5WXYWL27D"
+    apiKey: "AIzaSyAIJZtL6q3-0QPx5ATDyC1ScijP38m8QRs",
+    authDomain: "progress-mind-29681.firebaseapp.com",
+    projectId: "progress-mind-29681",
+    storageBucket: "progress-mind-29681.appspot.com",
+    messagingSenderId: "393239731378",
+    appId: "1:393239731378:web:43d9bc9ba337164f847dab",
+    measurementId: "G-Y0K8VVZXT3"
 }
 
 if (!firebase.apps.length) {

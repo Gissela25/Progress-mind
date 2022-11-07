@@ -2,20 +2,24 @@ import React, { useEffect, useState } from 'react';
 import { Text, View, Image, TouchableOpacity, TextInput } from 'react-native';
 import { getAuth, GoogleAuthProvider, signInWithCredential } from 'firebase/auth';
 import * as Google from 'expo-auth-session/providers/google';
-import {initializeApp} from 'firebase/app'
+import { initializeApp } from 'firebase/app'
 import * as WebBrowser from 'expo-web-browser';
 import SignStyles from '../styles/SignStyles'
 import { useNavigation } from '@react-navigation/native'
 import { firebase } from '../config/config'
+import { SocialIcon } from 'react-native-elements'
+import {
+    Button
+} from 'react-native-elements'
 
 initializeApp({
-    apiKey: "AIzaSyAcOsEbUK_nkmkR8b-QkXG7j3IaszKq8CA",
-    authDomain: "test-f9568.firebaseapp.com",
-    projectId: "test-f9568",
-    storageBucket: "test-f9568.appspot.com",
-    messagingSenderId: "691579296252",
-    appId: "1:691579296252:web:fee721bcaf1269bec8fa79",
-    measurementId: "G-R5WXYWL27D"
+    apiKey: "AIzaSyAIJZtL6q3-0QPx5ATDyC1ScijP38m8QRs",
+    authDomain: "progress-mind-29681.firebaseapp.com",
+    projectId: "progress-mind-29681",
+    storageBucket: "progress-mind-29681.appspot.com",
+    messagingSenderId: "393239731378",
+    appId: "1:393239731378:web:43d9bc9ba337164f847dab",
+    measurementId: "G-Y0K8VVZXT3"
 })
 WebBrowser.maybeCompleteAuthSession();
 
@@ -27,25 +31,25 @@ const SignInScreen = () => {
     const [password, setPassword] = useState('')
     const [request, response, promptAsync] = Google.useIdTokenAuthRequest(
         {
-          clientId: '691579296252-o3r70v2k7j0uo1s90n9glf3hpm7rrvqn.apps.googleusercontent.com',
+            clientId: '393239731378-dh2efq9tfufbmkecjdat92g244mfd0jg.apps.googleusercontent.com',
         },
-      );
-    
-      React.useEffect(() => {
+    );
+
+    React.useEffect(() => {
         if (response?.type === 'success') {
-          const { id_token } = response.params;
-          const auth = getAuth();
-          const credential = GoogleAuthProvider.credential(id_token);
-          signInWithCredential(auth, credential);
+            const { id_token } = response.params;
+            const auth = getAuth();
+            const credential = GoogleAuthProvider.credential(id_token);
+            signInWithCredential(auth, credential);
         }
-      }, [response]);
-    
+    }, [response]);
+
 
     loginUser = async (email, password) => {
         try {
             await firebase.auth().signInWithEmailAndPassword(email, password)
         } catch (error) {
-            alert(error.message)
+            alert('Ingrese email valido y contraseña')
         }
     }
 
@@ -87,25 +91,23 @@ const SignInScreen = () => {
                 {/* {<Text style={SignStyles.Errorstyle}>{validationMessage}</Text>} */}
 
                 <TouchableOpacity
-                    //onPress={login}
                     onPress={() => loginUser(email, password)}
                     style={SignStyles.Buttonstyle}
                     activeOpacity={0.9}
                 >
                     <Text style={SignStyles.Textsigninstyle}>Iniciar Sesión</Text>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate('Sign Up')}>
+                {/* <TouchableOpacity onPress={() => navigation.navigate('Sign Up')}>
                     <Text style={SignStyles.Textsignupstyle}>Registrarse</Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={{ alignItems: 'center' }} disabled={!request} onPress={() => promptAsync()}>
-                    <Text style={SignStyles.Textgooglestyle}>Inicia Sesión con Google</Text>
-                </TouchableOpacity>
+                </TouchableOpacity> */}
+                {/* <TouchableOpacity disabled={!request} onPress={() => promptAsync()}>
+                <Text>GOOGle</Text>
+                </TouchableOpacity> */}
                 <TouchableOpacity
                     onPress={() => navigation.navigate('Forgot')}
                 >
-                    <Text style={SignStyles.Textsignupstyle2}>Olvide mi contraseña</Text>
+                    <Text style={SignStyles.Textsignupstyle2}>¿Has olvidado la contraseña?</Text>
                 </TouchableOpacity>
-
             </View>
         </View>
     );
