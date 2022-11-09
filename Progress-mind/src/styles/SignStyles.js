@@ -91,7 +91,7 @@ const SignStyles = StyleSheet.create({
         borderWidth: 1,
         borderColor: COLORS.green,
         borderRadius: 5,
-        marginTop:200,
+        marginTop:40,
         marginHorizontal:20,
     },
     Textdrawerstyle: {
@@ -154,13 +154,13 @@ const SignStyles = StyleSheet.create({
         color:COLORS.darkblue,
         fontSize:20,
         padding:16,
-        textAlign:'center'
+        textAlign:'left'
     },
     TextEmail:{
         color:COLORS.green,
         marginTop:9,
         fontSize:18,
-        textAlign:'center',
+        textAlign:'left',
         marginBottom:10
     },
     TextlogOut:{

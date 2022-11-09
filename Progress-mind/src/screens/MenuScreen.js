@@ -5,8 +5,12 @@ import { firebase } from '../config/config'
 import Help from './helpScreens/Help'
 import About from './helpScreens/About'
 import Modal from '../components/Modal'
+import { Button } from 'react-native-elements'
+import Theme, { COLORS } from '../styles/constants/Theme'
+import { useNavigation } from '@react-navigation/native'
 
 const MenuScreen = () => {
+    const navigation = useNavigation();
     const [name, setName] = useState('')
     const [showModal, setShowModal] = useState(false)
     const [renderComponent, setRenderComponent] = useState(null)
@@ -25,7 +29,7 @@ const MenuScreen = () => {
         }
         setShowModal(true)
     }
-    
+
     const changePassword = () => {
         firebase.auth().sendPasswordResetEmail(firebase.auth().currentUser.email)
             .then(() => {
@@ -55,7 +59,7 @@ const MenuScreen = () => {
                     </Text>
                 </TouchableOpacity>
                 <Text style={SignStyles.TextEmail}>{name.email} </Text>
-                <TouchableOpacity style={SignStyles.ConteinerOptions}
+                {/* <TouchableOpacity style={SignStyles.ConteinerOptions}
                     onPress={() => {
                         changePassword()
                     }}>
@@ -71,7 +75,97 @@ const MenuScreen = () => {
                    onPress={() => selectedComponent('about')}>
                     <Text style={SignStyles.TextOptions}>Sobre nosotros
                     </Text>
-                </TouchableOpacity>
+                </TouchableOpacity> */}
+                <Button
+                    icon={{ name:'home', type: 'font-awesome', color: COLORS.white, size: 23, }}
+                    containerStyle={{
+                        width: 80,
+                        //marginHorizontal: 50,
+                        marginVertical: 7,
+                    }}
+                    title="Inicio"
+                    type="clear"
+                    titleStyle={{ color: COLORS.white, marginLeft:10, }}
+                    onPress={() => navigation.navigate('MainQuizScreen') }
+                />
+                 <Button
+                    icon={{ name:'calculator', type: 'font-awesome', color: COLORS.white, size: 23, }}
+                    containerStyle={{
+                        width: 140,
+                        //marginHorizontal: 50,
+                        marginVertical: 7,
+                    }}
+                    title="Matemáticas"
+                    type="clear"
+                    titleStyle={{ color: COLORS.white, marginLeft:10 }}
+                    onPress={() => navigation.navigate('Math', {
+                        id: "matematica"
+                    })}
+                />
+                  <Button
+                    icon={{ name:'code-outline', type: 'ionicon', color: COLORS.white, size: 23, }}
+                    containerStyle={{
+                        width: 140,
+                        //marginHorizontal: 50,
+                        marginVertical: 7,
+                    }}
+                    title="Programación"
+                    type="clear"
+                    titleStyle={{ color: COLORS.white, marginLeft:10 }}
+                    onPress={() => navigation.navigate('Programming', {
+                        id: "programacion"
+                    })}
+                />
+                   <Button
+                    icon={{ name:'flask', type: 'font-awesome', color: COLORS.white, size: 23, }}
+                    containerStyle={{
+                        width: 82,
+                        //marginHorizontal: 50,
+                        marginVertical: 7,
+                    }}
+                    title="Fisica"
+                    type="clear"
+                    titleStyle={{ color: COLORS.white, marginLeft:10 }}
+                    onPress={() => navigation.navigate('Physical', {
+                        id: "fisica"
+                    })}
+                />
+                    <Button
+                    icon={{ name:'key-outline', type: 'ionicon', color: COLORS.white, size: 23, }}
+                    containerStyle={{
+                        width: 200,
+                        //marginHorizontal: 50,
+                        marginVertical: 7,
+                    }}
+                    title="Actualizar Contraseña"
+                    type="clear"
+                    titleStyle={{ color: COLORS.white,marginLeft:10 }}
+                    onPress={() => {changePassword()}}
+                />
+                       <Button
+                    icon={{ name:'help-outline', type: 'ionicon', color: COLORS.white, size: 23, }}
+                    containerStyle={{
+                        width: 87,
+                        //marginHorizontal: 50,
+                        marginVertical: 7,
+                    }}
+                    title="Ayuda"
+                    type="clear"
+                    titleStyle={{ color: COLORS.white, marginLeft:10 }}
+                    onPress={() => selectedComponent('ayuda')}
+                />
+                       <Button
+                    icon={{ name:'users', type: 'font-awesome', color: COLORS.white, size: 23, }}
+                    containerStyle={{
+                        width: 165,
+                        //marginHorizontal: 50,
+                        marginVertical: 7,
+                    }}
+                    title="Sobre Nosostros"
+                    type="clear"
+                    titleStyle={{ color: COLORS.white, marginLeft:10 }}
+                    onPress={() => selectedComponent('about')}
+                />
                 <TouchableOpacity
                     onPress={() => { firebase.auth().signOut() }}
                     style={SignStyles.Buttonstyledrawer}
