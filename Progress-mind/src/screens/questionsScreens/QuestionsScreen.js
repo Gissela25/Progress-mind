@@ -35,7 +35,7 @@ const QuestionsScreen = ({ route, navigation }) => {
             setAllQuestions(handleShuffle(questions));
         }
         setOptions(handleShuffle(questions[currentQuestionIndex]?.options))
-        if (questions[currentQuestionIndex]?.withImg == true) {
+        if (questions[currentQuestionIndex]?.withImg === true) {
             setExistImg(true)
         }
     }, [currentQuestionIndex]);
@@ -68,6 +68,7 @@ const QuestionsScreen = ({ route, navigation }) => {
             setCorrectOption(null);
             setIsOptionDisabled(false);
             setShowNextButton(false);
+            setExistImg(false);
         }
         Animated.timing(progress, {
             toValue: currentQuestionIndex + 1,

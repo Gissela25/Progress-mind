@@ -59,7 +59,7 @@ const QuestionsStyles = StyleSheet.create({
         marginTop:23
     },
     ImageQuestionStyle:{   
-        width:230, 
+        width:190, 
         height:100, 
         marginLeft:75, 
         marginTop:10

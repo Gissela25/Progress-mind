@@ -44,16 +44,16 @@ const MainQuizScreen = ({ navigation }) => {
               Sing Out
                 </Text>
             </TouchableOpacity> */}
-{/* 
+
             <Image
-                        source={require('../../imgs/Footer.png')}
+                        source={require('../../imgs/FondoM.png')}
                         style={{
                             position: 'absolute',
                             marginTop: 450,
                             zIndex: -1
                         }}
 
-                    /> */}
+                    />
         </View>
         </ScrollView>
     );

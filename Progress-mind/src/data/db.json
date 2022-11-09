@@ -24,7 +24,7 @@
                                 "<break>",
                                 "<br>"
                             ],
-                            "correct_option": "<br> ",
+                            "correct_option": "<br>",
                             "withImg": false,
                             "img": "",
                             "id": 2
@@ -453,7 +453,7 @@
                     "nivel2": [
                         {
                             "question": "¿En qué parte de un documento HTML es el lugar correcto para hacer referencia a una hoja de estilo externa?",
-                            "options": ["En el  <head>","En el  <body>","Al final del documento"],
+                            "options": ["En el <head>","En el <body>","Al final del documento"],
                             "correct_option": "En el <head>",
                             "img": "",
                             "withImg": false,
@@ -477,7 +477,7 @@
                         },
                         {
                             "question": "¿Cómo se seleccionan todos los elementos p dentro de un elemento div?",
-                            "options": ["div.p","div + p","div p "],
+                            "options": ["div.p","div + p","div p"],
                             "correct_option": "div p",
                             "img": "",
                             "withImg": false,
@@ -518,21 +518,102 @@
                         {
                             "question": "¿Cómo se agrega un color de fondo para todos los elementos <h1>?",
                             "options": ["h1.all {background-color:#FFFFFF;}","h1 {background-color:#FFFFFF;}","all.h1 {background-color:#FFFFFF;}"],
-                            "correct_option": "h1{background-color:#FFFFFF;}",
+                            "correct_option": "h1 {background-color:#FFFFFF;}",
                             "img": "",
                             "withImg": false,
                             "id": 19
                         },
                         {
-                            "question": "",
+                            "question": "¿Cúal es la sintaxis CSS correcta para poner en negrita todos los elementos <p>?",
                             "options": ["p {font-weight:bold;}","<p style=text-size:bold;>","<p style=font-size:bold;>"],
-                            "correct_option": "p{font-weight:bold;}",
+                            "correct_option": "p {font-weight:bold;}",
                             "img": "",
                             "withImg": false,
                             "id": 20
                         }
                     ],
-                    "nivel3": [],
+                    "nivel3": [
+                        {
+                            "question": "¿Qué está mal en esta regla de estilo?:.cuadro { border: 1px blue dotted padding: 10px 5px; }",
+                            "options": ["falta una ',' (coma) entre los dos valores de la propiedad padding (10px 5px)","Falta un ';' (punto y coma) al final de la declaración del estilo 'border'"],
+                            "correct_option": "Falta un ';' (punto y coma) al final de la declaración del estilo 'border'",
+                            "img": "",
+                            "withImg": false,
+                            "id": 21
+                        },
+                        {
+                            "question": "¿Cuál es la forma más eficiente de aplicar estilos CSS en un documento HTML?",
+                            "options": ["Hojas de estilo externas","Incrustado en la cabecera"],
+                            "correct_option": "Hojas de estilo externas",
+                            "img": "",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": " ¿Cuáles de las siguientes declaraciones son selectores?",
+                            "options": ["P","font-family","50px"],
+                            "correct_option": "P",
+                            "img": "",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "¿Cómo se cambia el valor del margen derecho de un elemento?",
+                            "options": ["margin-right","marginright","right-magin"],
+                            "correct_option": "margin-right",
+                            "img": "",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": " ¿Cómo se indica que todos los elementos span tienen el texto en negrita?",
+                            "options": ["span {font-weight:bold}","span {font-style:bold}","span {text-weight:bold}"],
+                            "correct_option": "span {font-weight:bold}",
+                            "img": "",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": "¿Qué propiedad se emplea para cambiar el tipo de letra de un elemento?",
+                            "options": ["font-family","text-family","font-type"],
+                            "correct_option": "font-family",
+                            "img": "",
+                            "withImg": false,
+                            "id": 26
+                        },
+                        {
+                            "question": "¿Cómo se indica que el marcador tiene forma de círculo en una lista?",
+                            "options": ["list-style-type: circle;","style-type: circle;","list-type: circle;"],
+                            "correct_option": "list-style-type: circle;",
+                            "img": "",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "list-style-type: circle;",
+                            "options": ["list-style-image: url()","list-style-image: http()"],
+                            "correct_option": "list-style-image: url()",
+                            "img": "",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": "¿Cómo seleccionamos las filas impares de una tabla?",
+                            "options": ["tr:nth-child(2n+1)","td:nth-child(2n+1)","tr:nth-child(2n)"],
+                            "correct_option": "tr:nth-child(2n+1)",
+                            "img": "",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "¿Cuál de los siguientes NO es un pseudo-elemento de CSS?",
+                            "options": ["all-line","after"],
+                            "correct_option": "all-line",
+                            "img": "",
+                            "withImg": false,
+                            "id": 30
+                        }
+                    ],
                     "content": true
                 },
                 "js": {
@@ -786,7 +867,7 @@
                             "id": 21
                         },
                         {
-                            "question": "Si evaluó la siguiente expresión: ( 4 == '4') el resultado es:",
+                            "question": "Si evaluo la siguiente expresión: ( 4 == '4') el resultado es:",
                             "options": ["Verdadero","Falso"],
                             "correct_option": "Verdadero",
                             "img": "",
@@ -826,8 +907,8 @@
                             "id": 26
                         },
                         {
-                            "question": "Si evaluó la siguiente expresión: ( 4 === '4') el resultado es:",
-                            "options": ["Falso","Verdadero",""],
+                            "question": "Si evaluo la siguiente expresión: ( 4 === '4') el resultado es:",
+                            "options": ["Falso","Verdadero"],
                             "correct_option": "Falso",
                             "img": "",
                             "withImg": false,
@@ -955,15 +1036,15 @@
                         {
                             "question": "¿Cuál es una sintaxis correcta para generar Hello World en C#?",
                             "options": ["print (Hello World);","Console.WriteLine(Hello World);","cout << Hello World;" ],
-                            "correct_option": "Console.WriteLine(Hello World)",
+                            "correct_option": "Console.WriteLine(Hello World);",
                             "img": "",
                             "withImg": false,
                             "id": 12
                         },
                         {
                             "question": "¿Cómo se insertan COMENTARIOS en el código C#?",
-                            "options": ["// This is a comment","# This is a comment","/*This is a comment" ],
-                            "correct_option": "///This is a comment",
+                            "options": ["// This is a comment","# This is a comment","/* This is a comment" ],
+                            "correct_option": "// This is a comment",
                             "img": "",
                             "withImg": false,
                             "id": 13
@@ -1251,8 +1332,8 @@
                         },
                         {
                             "question": "¿Cuál es la forma correcta de incluir el archivo 'time.inc'?",
-                            "options": ["<?php include file='time.inc';?>","<?php='time.inc';?>"],
-                            "correct_option": "<?php include 'time.inc';?> ",
+                            "options": ["<?php include file='time.inc';?>","<?php='time.inc';?>","<?php include 'time.inc';?>"],
+                            "correct_option": "<?php include 'time.inc';?>",
                             "img": "",
                             "withImg": false,
                             "id": 18
@@ -1475,9 +1556,9 @@
                             "id": 14
                         },
                         {
-                            "question": "¿Qué ES EL children prop?",
+                            "question": "¿Qué es el children prop?",
                             "options": ["A property that lets you set an object as a property","A property that lets you pass data to child components","A property that lets you nest components in other components" ],
-                            "correct_option": "A property that lets you nest components in other components  ",
+                            "correct_option": "A property that lets you nest components in other components",
                             "img": "",
                             "withImg": false,
                             "id": 15
@@ -1559,7 +1640,7 @@
                         {
                             "question": "Encuentra el error en este código: function car({make, model}) {return <h1>{make} {model}</h1>;};",
                             "options": ["La primera letra de la función debe estar en mayúscula","Agregar paréntesis alrededor del valor de retorno","Envuelve la devolución en un fragmento"],
-                            "correct_option": "La primera letra de la función debe estar en mayúscula ",
+                            "correct_option": "La primera letra de la función debe estar en mayúscula",
                             "img": "",
                             "withImg": false,
                             "id": 25
@@ -2382,7 +2463,7 @@
                             "question": "La derivada parcial de una función de varias variables es la derivada con respecto a cada una de esas variables manteniendo las otras como constantes.",
                             "img": "",
                             "options": ["Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 1
                         },
@@ -2390,7 +2471,7 @@
                             "question": "La derivación implícita es una técnica que se aplica a funciones definidas implícitamente",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 2
                         },
@@ -2406,15 +2487,15 @@
                             "question": "La parábola, la elipse y la hipérbola son llamadas “secciones cónicas”",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 4
                         },
                         {
-                            "question": " La circunferencia es un caso especial de elipse.",
+                            "question": "La circunferencia es un caso especial de elipse.",
                             "img": "",
-                            "options": [ "Verdadero ","Falso"],
-                            "correct_option": "Verdadero ",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 5
                         },
@@ -2454,7 +2535,7 @@
                             "question": "La curva de intersección entre un plano y una superficie cuadrática es una cónica. algunas de ellas son: paraboloide, esfera",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 10
                         }
@@ -2479,8 +2560,8 @@
                         {
                             "question": "Los planos X Y , X Z y Y Z dividen el espacio en ocho partes son llamados Ecuaciones agrupadas ",
                             "img": "",
-                            "options": [ "Vectores","Octantes "],
-                            "correct_option": "",
+                            "options": [ "Vectores","Octantes"],
+                            "correct_option": "Octantes",
                             "withImg": false,
                             "id": 13
                         },
@@ -2514,7 +2595,7 @@
                             "question": "Teorema de Bonnet-Lagrange o teoría del punto medio es una propiedad de las funciones derivables en un intervalo.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 17
                         },
@@ -2530,7 +2611,7 @@
                             "question": "La derivación implícita es una técnica que se aplica a funciones definidas implícitamente",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 19
                         },
@@ -2538,7 +2619,7 @@
                             "question": "Una función multivariable es simplemente una función cuya entrada o salida consiste de varios números.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 20
                         }
@@ -2689,7 +2770,7 @@
                             "question": "El teorema de la divergencia de Gauss relaciona una integral de superficie con una integral triple.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 18
                         },
@@ -2705,17 +2786,17 @@
                             "question": "Las superficies pueden ser orientables",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 20
                         }
                     ],
                     "nivel3": [
                         {
-                            "question": "",
-                            "img": "https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2FImg%2FCAA%2Fforma%20vectorial.jpg",
-                            "options": [ "Verdadero","Falso",""],
-                            "correct_option": "Verdadero ",
+                            "question": "La forma vectorial de una integral de superficie es:",
+                            "img": "https://progressmind.000webhostapp.com/Img/CAA/forma%20vectorial.jpg",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
                             "withImg": true,
                             "id": 21
                         },
@@ -2747,14 +2828,14 @@
                             "question": "Un vector unitario tangente es un vector con una magnitud de uno",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 25
                         },
                         {
                             "question": "El Trabajo es la integral de línea respecto a los vectores de arco de la componentetangencial de la fuerza.",
                             "img": "",
-                            "options": [ "Falso","Verdadero",""],
+                            "options": [ "Falso","Verdadero"],
                             "correct_option": "Falso",
                             "withImg": false,
                             "id": 26
@@ -2800,7 +2881,7 @@
                             "question": " Las Ecuaciones Diferenciales Ordinarias (EDOs),tienen una sola variable independiente (como y)",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 1
                         },
@@ -2808,7 +2889,7 @@
                             "question": "Las Ecuaciones Diferenciales Parciales (EDPs), tienen dos o más variables independientes.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 2
                         },
@@ -2816,7 +2897,7 @@
                             "question": "El orden de la derivada más alta en una ecuación diferencial se denomina orden de la ecuación.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 3
                         },
@@ -2824,7 +2905,7 @@
                             "question": "Un sistema de ecuaciones es un conjunto de dos o más ecuaciones con varias incógnitas",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 4
                         },
@@ -2832,7 +2913,7 @@
                             "question": "Una ecuación diferencial es lineal y de orden superior si en dicha ecuación existen derivadas n > 1",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 5
                         },
@@ -2856,7 +2937,7 @@
                             "question": "¿Que es una ecuacion?",
                             "img": "",
                             "options": [ "Una ecuación es una igualdad algebraica en la cual aparecen letras (incógnitas) con valor desconocido.","Cantidad de ecuaciones "],
-                            "correct_option": "Una ecuación es una igualdad algebraica en la cual aparecen letras (incógnitas) con valor desconocido. ",
+                            "correct_option": "Una ecuación es una igualdad algebraica en la cual aparecen letras (incógnitas) con valor desconocido.",
                             "withImg": false,
                             "id": 8
                         },
@@ -2882,7 +2963,7 @@
                             "question": "combinación lineal es diferente de cero entonces las funciones son linealmente independientes",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 11
                         },
@@ -2890,7 +2971,7 @@
                             "question": "La integral definida es un concepto utilizado para determinar el valor de las áreas limitadas por curvas y rectas.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 12
                         },
@@ -2898,7 +2979,7 @@
                             "question": "ECUACIONES DIFERENCIALES EXACTAS: si p(x,y)dx+Q(x,y)dt=0",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 13
                         },
@@ -2906,7 +2987,7 @@
                             "question": "La derivada de una constante es igual a 0:",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 14
                         },
@@ -2922,7 +3003,7 @@
                             "question": "función exponencial es una función de la forma f(x)=ab^x",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 16
                         },
@@ -2954,7 +3035,7 @@
                             "question": "La regla de Cramer es un método que permite calcular la solución de un sistema con “n” ecuaciones y “n” incógnitas",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 20
                         }
@@ -2972,7 +3053,7 @@
                             "question": "función exponencial es una función de la forma f(x)=ab^x ",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 22
                         },
@@ -2980,7 +3061,7 @@
                             "question": "En el caso de los polinomios cuadráticos, las raíces son complejas cuando el discriminante es negativo.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 23
                         },
@@ -2988,7 +3069,7 @@
                             "question": "¿Es una regla de derivación métodos que se emplean para calcular la derivada de una función.?",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 24
                         },
@@ -3004,7 +3085,7 @@
                             "question": "El orden es la derivada más alta",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 26
                         },
@@ -3012,7 +3093,7 @@
                             "question": "El grado es el exponente de la derivada más alta.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 27
                         },
@@ -3020,7 +3101,7 @@
                             "question": "Es lineal cuando la variable (y sus derivadas) no tienen exponente u otra función.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 28
                         },
@@ -3028,7 +3109,7 @@
                             "question": "La variacion de parametros es un método más general que los coeficientes indeterminados.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 29
                         },
@@ -3036,7 +3117,7 @@
                             "question": "Coeficientes indeterminados es un método que funciona para una ecuación no homogénea ",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 30
                         }
@@ -3053,8 +3134,8 @@
                         {
                             "question": "Parte de la mecánica que trata del movimiento en sus condiciones de espacio y tiempo, sin tener en cuenta las causas que lo producen",
                             "img": "",
-                            "options": [ " cinemática","Movimiento de objeto","Movimiento rectilineo "],
-                            "correct_option": " cinemática",
+                            "options": [ "cinemática","Movimiento de objeto","Movimiento rectilineo"],
+                            "correct_option": "cinemática",
                             "withImg": false,
                             "id": 1
                         },
@@ -3097,14 +3178,6 @@
                             "correct_option": "A=v/t",
                             "withImg": false,
                             "id": 6
-                        },
-                        {
-                            "question": "",
-                            "img": "",
-                            "options": [ "","","",""],
-                            "correct_option": "",
-                            "withImg": false,
-                            "id": 7
                         },
                         {
                             "question": "¿Cual es la formula para calcular rapidez?",
@@ -3175,8 +3248,8 @@
                         {
                             "question": "Un bote puede moverse a una velocidad constante de 8 km/h en aguas calmas. ¿Cuánto tiempo le tomará al bote recorrer 24 km? ",
                             "img": "",
-                            "options": [ " 4 h "," 10 h "," 8 h "],
-                            "correct_option": " 3 h ",
+                            "options": [ "4 h","10 h","8 h","3 h"],
+                            "correct_option": "3 h",
                             "withImg": false,
                             "id": 16
                         },
@@ -3208,7 +3281,7 @@
                             "question": "Todo cuerpo permanece en su estado de reposo o de movimiento rectilíneo uniforme a menos que otros cuerpos actúen sobre él",
                             "img": "",
                             "options": [ "ley de gravedad","ley de fuerza","primera ley de Newton"],
-                            "correct_option": "",
+                            "correct_option": "primera ley de Newton",
                             "withImg": false,
                             "id": 20
                         }
