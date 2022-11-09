@@ -10,6 +10,19 @@ const GlobalStyles = StyleSheet.create({
         borderWidth:3,
         borderColor:'#FFF700'
     },
+    buttons2:{
+        width: 50,
+        height: 50,
+        backgroundColor:COLORS.darkblue,
+        borderRadius:20,
+        top: 5,
+        marginHorizontal: 10,
+        borderWidth:3,
+        borderColor:'#FFF700',
+        justifyContent: 'center',
+        alignContent: 'center',
+        alignItems: 'center'
+    },
     buttonsCategory:{
         width: 320,
         height: 106,
