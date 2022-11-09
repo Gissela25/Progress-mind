@@ -1,5 +1,5 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { Button, TouchableOpacity } from 'react-native'
+import { Button, TouchableOpacity, Pressable, } from 'react-native'
 import { createStackNavigator } from "@react-navigation/stack";
 import React, { useState, useEffect } from "react";
 import { firebase } from "./src/config/config";
@@ -95,7 +95,7 @@ function App() {
       <Stack.Screen name="Physical" component={PhysicalCategoryScreen} options={{ title: '' }} />
       <Stack.Screen name="Levels" component={LevelsScreen} options={{ title: '' }} />
       <Stack.Screen name="Questions" component={QuestionsScreen} options={{ title: '' }} />
-      <Stack.Screen name="MenuScreen" component={MenuScreen} options={{title:''}}/>
+      <Stack.Screen name="MenuScreen" component={MenuScreen} options={{ title: '' }} />
     </Stack.Navigator>
   )
 }

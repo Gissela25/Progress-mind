@@ -2,10 +2,30 @@ import { View, Text, TouchableOpacity } from 'react-native'
 import React, { useState, useEffect } from 'react'
 import SignStyles from '../styles/SignStyles'
 import { firebase } from '../config/config'
+import Help from './helpScreens/Help'
+import About from './helpScreens/About'
+import Modal from '../components/Modal'
 
 const MenuScreen = () => {
     const [name, setName] = useState('')
-
+    const [showModal, setShowModal] = useState(false)
+    const [renderComponent, setRenderComponent] = useState(null)
+    const selectedComponent = (key) => {
+        switch (key) {
+            case 'ayuda':
+                setRenderComponent(<Help
+                    setShowModal={setShowModal}
+                />)
+                break;
+            case 'about':
+                setRenderComponent(<About
+                    setShowModal={setShowModal}
+                />)
+                break;
+        }
+        setShowModal(true)
+    }
+    
     const changePassword = () => {
         firebase.auth().sendPasswordResetEmail(firebase.auth().currentUser.email)
             .then(() => {
@@ -42,6 +62,16 @@ const MenuScreen = () => {
                     <Text style={SignStyles.TextOptions}>Actualizar contraseña
                     </Text>
                 </TouchableOpacity>
+                <TouchableOpacity style={SignStyles.ConteinerOptions}
+                   onPress={() => selectedComponent('ayuda')}>
+                    <Text style={SignStyles.TextOptions}>Ayuda
+                    </Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={SignStyles.ConteinerOptions}
+                   onPress={() => selectedComponent('about')}>
+                    <Text style={SignStyles.TextOptions}>Sobre nosotros
+                    </Text>
+                </TouchableOpacity>
                 <TouchableOpacity
                     onPress={() => { firebase.auth().signOut() }}
                     style={SignStyles.Buttonstyledrawer}
@@ -50,6 +80,11 @@ const MenuScreen = () => {
                         Cerrar Sesion
                     </Text>
                 </TouchableOpacity>
+                <Modal isVisible={showModal} setVisible={setShowModal}>
+                    {
+                        renderComponent
+                    }
+                </Modal>
             </View>
         </View>
     )

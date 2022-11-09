@@ -1829,19 +1829,6 @@
                     "nivel2": [
                         {
                             "question": "A que derivada corresponde la siguiente formula:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta11.jpg",
-                            "options": [
-                                "Derivada de una constante",
-                                "Derivada de una raíz cuadrada",
-                                "Derivada de un cociente",
-                                "Derivada de una suma"
-                            ],
-                            "correct_option": "Derivada de una constante",
-                            "withImg": true,
-                            "id": 11
-                        },
-                        {
-                            "question": "A que derivada corresponde la siguiente formula:",
                             "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta12.jpg",
                             "options": [
                                 "Derivada de una constante",
@@ -1894,32 +1881,6 @@
                         },
                         {
                             "question": "A que derivada corresponde la siguiente formula:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta16.jpg",
-                            "options": [
-                                "Derivada de seno",
-                                "Derivada de una raíz cuadrada",
-                                "Derivada de un cociente",
-                                "Derivada de una constante por una función"
-                            ],
-                            "correct_option": "Derivada de seno",
-                            "withImg": true,
-                            "id": 16
-                        },
-                        {
-                            "question": "A que derivada corresponde la siguiente formula:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta17.jpg",
-                            "options": [
-                                "Derivada de seno",
-                                "Derivada de un logaritmo",
-                                "Derivada de un cociente",
-                                "Derivada de un logaritmo neperiano"
-                            ],
-                            "correct_option": "Derivada de un logaritmo",
-                            "withImg": true,
-                            "id": 17
-                        },
-                        {
-                            "question": "A que derivada corresponde la siguiente formula:",
                             "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta18.jpg",
                             "options": [
                                 "Derivada de seno",
@@ -1930,46 +1891,9 @@
                             "correct_option": "Derivada de una función exponencial",
                             "withImg": true,
                             "id": 18
-                        },
-                        {
-                            "question": "A que derivada corresponde la siguiente formula:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta19.jpg",
-                            "options": [
-                                "Derivada de seno",
-                                "Derivada de una raíz cuadrada",
-                                "Derivada de un cociente",
-                                "Derivada de una cotangente"
-                            ],
-                            "correct_option": "Derivada de una cotangente",
-                            "withImg": true,
-                            "id": 19
-                        },
-                        {
-                            "question": "A que derivada corresponde la siguiente formula:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta20.jpg",
-                            "options": [
-                                "Derivada de seno",
-                                "Derivada de una raíz cuadrada",
-                                "Derivada de un cociente",
-                                "Derivada de una tangente"
-                            ],
-                            "correct_option": "Derivada de una tangente",
-                            "withImg": true,
-                            "id": 20
                         }
                     ],
                     "nivel3": [
-                        {
-                            "question": "El criterio de la primera derivada proporciona la monotonía de una función f derivable en un intervalo I=(a,b):",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3pregunta21.jpg",
-                            "options": [
-                                "Verdadero",
-                                "Falso"
-                            ],
-                            "correct_option": "Verdadero",
-                            "withImg": true,
-                            "id": 21
-                        },
                         {
                             "question": "los puntos que anulan la primera derivada (llamados puntos críticos) son candidatos a ser:",
                             "img": "",
@@ -1982,28 +1906,6 @@
                             "correct_option": "Extremos relativos",
                             "withImg": false,
                             "id": 22
-                        },
-                        {
-                            "question": "Para resolver un problema de la primera derivada se deben seguir los pasos en el siguiente orden",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3pregunta23.jpg",
-                            "options": [
-                                "Falso",
-                                "Verdadero"
-                            ],
-                            "correct_option": "Verdadero",
-                            "withImg": true,
-                            "id": 23
-                        },
-                        {
-                            "question": "El siguiente enunciado pertenece al criterio de la segunda derivada:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3pregunta24.jpg",
-                            "options": [
-                                "Falso",
-                                "Verdadero"
-                            ],
-                            "correct_option": "Verdadero",
-                            "withImg": true,
-                            "id": 24
                         },
                         {
                             "question": "Si z es un máximo o un mínimo relativo, se dice que es:",
@@ -2030,17 +1932,6 @@
                             "correct_option": "Extremo absoluto",
                             "withImg": false,
                             "id": 26
-                        },
-                        {
-                            "question": "El siguiente concepto pertenece a un extremo relativo o local:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3prregunta27.jpg",
-                            "options": [
-                                "Verdadero",
-                                "Falso"
-                            ],
-                            "correct_option": "Verdadero",
-                            "withImg": true,
-                            "id": 27
                         },
                         {
                             "question": "La aplicación directa del criterio de la segunda derivada es determinar si los puntos críticos de una función (puntos que anulan la primera derivada) son máximos o mínimos",
@@ -2101,8 +1992,7 @@
                             "options": [
                                 "Edén caminó 6 kilómetros en 3 horas",
                                 "Edén caminó 6 kilómetros cada hora",
-                                "Edén caminó 6 kilómetros durante la tercera hora",
-                                "La razón de Edén se incrementó por 6 kilómetros por hora entre las horas 2 y 3"
+                                "Edén caminó 6 kilómetros durante la tercera hora"
                             ],
                             "correct_option": "Edén caminó 6 kilómetros durante la tercera hora",
                             "withImg": true,
@@ -2120,17 +2010,6 @@
                             "id": 3
                         },
                         {
-                            "question": "¿Qué clase de suma de Riemann describe la siguiente grafica?:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta4.png",
-                            "options": [
-                                "Suma de Riemann izquierda",
-                                "Suma de Riemann derecha"
-                            ],
-                            "correct_option": "Suma de Riemann derecha",
-                            "withImg": true,
-                            "id": 4
-                        },
-                        {
                             "question": " términos subdivisiones o particiones son comúnmente mencionados cuando se trabaja con sumas de Riemann. Estos se refieren al número de partes en las que dividimos el intervalo en x para construir los rectángulos.",
                             "img": "",
                             "options": [
@@ -2140,19 +2019,6 @@
                             "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 5
-                        },
-                        {
-                            "question": "¿Cuál es la descripción correcta de las subdivisiones en esta suma de Riemann?",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta6.jpg",
-                            "options": [
-                                "Cinco subdivisiones uniformes",
-                                "Cinco subdivisiones no uniformes",
-                                "Seis subdivisiones uniformes",
-                                "Seis subdivisiones no uniformes"
-                            ],
-                            "correct_option": "Seis subdivisiones uniformes",
-                            "withImg": true,
-                            "id": 6
                         },
                         {
                             "question": "Las sumas de Riemann son aproximaciones del área bajo una curva, por lo que casi siempre serán un poco más grandes que el área real (una sobrestimación) o un poco más pequeñas que el área real (una subestimación)",
@@ -2166,17 +2032,6 @@
                             "id": 7
                         },
                         {
-                            "question": "¿Esta suma de Riemann es una sobrestimación o subestimación del área real?",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta8.jpg",
-                            "options": [
-                                "Sobrestimación",
-                                "Subestimación"
-                            ],
-                            "correct_option": "Sobrestimación",
-                            "withImg": true,
-                            "id": 8
-                        },
-                        {
                             "question": "Mientras más subdivisiones (es decir, rectángulos) usemos para aproximar el área, mejor será la aproximación.",
                             "img": "",
                             "options": [
@@ -2186,17 +2041,6 @@
                             "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 9
-                        },
-                        {
-                            "question": "La siguiente información según lo estudiado sobre sumas de Riemann es:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta10.jpg",
-                            "options": [
-                                "Verdadero",
-                                "Falso"
-                            ],
-                            "correct_option": "Verdadero",
-                            "withImg": true,
-                            "id": 10
                         }
                     ],
                     "nivel2": [
@@ -2205,26 +2049,12 @@
                             "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta11.jpg",
                             "options": [
                                 "3/2 (ln2+2ln3.5+2ln5+2ln6.5+ln8)",
-                                "3(ln2+2ln3.5+2ln5+2ln6.5+ln8)",
                                 "ln2+2ln3.5+2ln5+2ln6.5+ln8",
                                 "9/2 (ln2+2ln3.5+2ln5+2ln6.5+ln8)"
                             ],
                             "correct_option": "3/2 (ln2+2ln3.5+2ln5+2ln6.5+ln8)",
                             "withImg": true,
                             "id": 11
-                        },
-                        {
-                            "question": "Escoge la expresión que utiliza tres trapecios para aproximar el área bajo la gráfica de la función f en el intervalo [-1, 5]",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta12.jpg",
-                            "options": [
-                                "2 (f(-1)+f(1)+f(3)+f(5))",
-                                "1(f(-1)+f(1)+f(3)+f(5))",
-                                "f(-1)+2⋅f(1)+2⋅f(3)+f(5)",
-                                "1/2 (f(-1)+f(1)+f(3)+f(5))"
-                            ],
-                            "correct_option": "f(-1)+2⋅f(1)+2⋅f(3)+f(5)",
-                            "withImg": true,
-                            "id": 12
                         },
                         {
                             "question": "La notación de suma (o notación sigma) nos permite escribir una suma con muchos términos en una sola expresión. Mientras que la notación de suma tiene muchos usos en las matemáticas (y especialmente en el cálculo), queremos enfocarnos en cómo podemos usarla para escribir sumas de Riemann.",
@@ -2236,82 +2066,6 @@
                             "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 13
-                        },
-                        {
-                            "question": "La suma de Riemann completa puede escribirse de la siguiente manera:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta14.jpg",
-                            "options": [
-                                "Falso",
-                                "Verdadero"
-                            ],
-                            "correct_option": "Verdadero",
-                            "withImg": true,
-                            "id": 14
-                        },
-                        {
-                            "question": "Que propiedad de las integrales definidas es la siguiente:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta15.jpg",
-                            "options": [
-                                "Multiplicación por una constante",
-                                "Suma / diferencia",
-                                "Inversión del intervalo de integración",
-                                "Intervalo de longitud cero"
-                            ],
-                            "correct_option": "Suma / diferencia",
-                            "withImg": true,
-                            "id": 15
-                        },
-                        {
-                            "question": "Que propiedad de las integrales definidas es la siguiente:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta16.jpg",
-                            "options": [
-                                "Suma / diferencia",
-                                "Multiplicación por una constante",
-                                "Inversión del intervalo de integración",
-                                "Intervalo de longitud cero"
-                            ],
-                            "correct_option": "Multiplicación por una constante",
-                            "withImg": true,
-                            "id": 16
-                        },
-                        {
-                            "question": "Que propiedad de las integrales definidas es la siguiente:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta17.jpg",
-                            "options": [
-                                "Suma / diferencia",
-                                "Multiplicación por una constante",
-                                "Inversión del intervalo de integración",
-                                "Intervalo de longitud cero"
-                            ],
-                            "correct_option": "Inversión del intervalo de integración",
-                            "withImg": true,
-                            "id": 17
-                        },
-                        {
-                            "question": "Que propiedad de las integrales definidas es la siguiente:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta18.jpg",
-                            "options": [
-                                "Suma / diferencia",
-                                "Multiplicación por una constante",
-                                "Inversión del intervalo de integración",
-                                "Intervalo de longitud cero"
-                            ],
-                            "correct_option": "Intervalo de longitud cero",
-                            "withImg": true,
-                            "id": 18
-                        },
-                        {
-                            "question": "Que propiedad de las integrales definidas es la siguiente:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N2pregunta19.jpg",
-                            "options": [
-                                "Suma de intervalos",
-                                "Multiplicación por una constante",
-                                "Inversión del intervalo de integración",
-                                "Intervalo de longitud cero"
-                            ],
-                            "correct_option": "Suma de intervalos",
-                            "withImg": true,
-                            "id": 19
                         },
                         {
                             "question": "Una suma de Riemann es una aproximación del área bajo la curva, al dividirla en varias formas simples (tales como rectángulos o trapecios).",
@@ -2326,123 +2080,6 @@
                         }
                     ],
                     "nivel3": [
-                        {
-                            "question": "Que tipo de integrales son las siguientes:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3Pregunta21.jpg",
-                            "options": [
-                                "Potenciales",
-                                "Constantes",
-                                "Logarítmicas",
-                                "Exponencial"
-                            ],
-                            "correct_option": "Potenciales",
-                            "withImg": true,
-                            "id": 21
-                        },
-                        {
-                            "question": "Que tipo de integrales son las siguientes:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta22.jpg",
-                            "options": [
-                                "Potenciales",
-                                "Constantes",
-                                "Logarítmicas",
-                                "Exponencial"
-                            ],
-                            "correct_option": "Exponencial",
-                            "withImg": true,
-                            "id": 22
-                        },
-                        {
-                            "question": "Que tipo de integrales son las siguientes:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta23.jpg",
-                            "options": [
-                                "seno",
-                                "Constantes",
-                                "coseno",
-                                "tangente"
-                            ],
-                            "correct_option": "seno",
-                            "withImg": true,
-                            "id": 23
-                        },
-                        {
-                            "question": "",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta24.jpg",
-                            "options": [
-                                "seno",
-                                "Constantes",
-                                "coseno",
-                                "tangente"
-                            ],
-                            "correct_option": "coseno",
-                            "withImg": true,
-                            "id": 24
-                        },
-                        {
-                            "question": "Que tipo de integrales son las siguientes:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta25.jpg",
-                            "options": [
-                                "seno",
-                                "Constantes",
-                                "coseno",
-                                "tangente"
-                            ],
-                            "correct_option": "tangente",
-                            "withImg": true,
-                            "id": 25
-                        },
-                        {
-                            "question": "Qué tipo de integrales son las siguientes",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta26.jpg",
-                            "options": [
-                                "seno",
-                                "cotangente",
-                                "arcoseno",
-                                "arcotangente"
-                            ],
-                            "correct_option": "cotangente",
-                            "withImg": true,
-                            "id": 26
-                        },
-                        {
-                            "question": "Qué tipo de integrales son las siguientes:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta27.jpg",
-                            "options": [
-                                "seno",
-                                "cotangente",
-                                "arcoseno",
-                                "arcotangente"
-                            ],
-                            "correct_option": "arcoseno",
-                            "withImg": true,
-                            "id": 27
-                        },
-                        {
-                            "question": "Qué tipo de integrales son las siguientes:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta28.jpg",
-                            "options": [
-                                "seno",
-                                "cotangente",
-                                "arcoseno",
-                                "arcotangente"
-                            ],
-                            "correct_option": "arcotangente",
-                            "withImg": true,
-                            "id": 28
-                        },
-                        {
-                            "question": "Qué tipo de integrales son las siguientes:",
-                            "img": "",
-                            "options": [
-                                "cotangente",
-                                "arcoseno",
-                                "Por partes",
-                                "tangente"
-                            ],
-                            "correct_option": "Por partes",
-                            "withImg": false,
-                            "id": 29
-                        },
                         {
                             "question": "Los métodos para calcular el volumen de un sólido de revolución mas frecuentes en calculo integral son: Método de las capas y método de discos o arandelas.",
                             "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N3pregunta29.jpg",
@@ -2844,7 +2481,7 @@
                             "question": "La integral de línea en lugar de integrar sobre un intervalo [a, b],integramos a lo largo de una curva C.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 27
                         },
@@ -2868,7 +2505,7 @@
                             "question": "El gradiente es una función de valor vectorial, a diferencia de una derivada, que es una función de valor escalar",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 30
                         }
@@ -3265,7 +2902,7 @@
                             "question": "¿Cuál de los siguientes enunciados es verdadero? ",
                             "img": "",
                             "options": ["El objeto aumenta su velocidad","La velocidad del objeto se mantiene sin cambios","El objeto disminuye su velocidad "],
-                            "correct_option": " La velocidad del objeto se mantiene sin cambios",
+                            "correct_option": "La velocidad del objeto se mantiene sin cambios",
                             "withImg": false,
                             "id": 18
                         },
@@ -3298,7 +2935,7 @@
                         {
                             "question": "Cuando un cuerpo ejerce una fuerza sobre otro, este segundo ejerce sobre el primero una fuerza igual pero en sentido opuesto",
                             "img": "",
-                            "options": [ "principio de accion y reaccion ","gravedad"],
+                            "options": [ "principio de accion y reaccion","gravedad"],
                             "correct_option": "principio de accion y reaccion",
                             "withImg": false,
                             "id": 21
@@ -3363,7 +3000,7 @@
                             "question": "La fisica posee 7 magnitudes fundamentales: tiempo, longitud, masa, temperatura, intensidad luminosa, cantidad de sustancia e intensidad de corriente.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 30
                         }
@@ -3384,7 +3021,7 @@
                             "question": "Un circuito es una interconexión de componentes eléctricos que transportan ",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 2
                         },
@@ -3392,7 +3029,7 @@
                             "question": "Los circuitos eléctricos pueden estar conectados en serie, en paralelo y de manera mixta,",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 4
                         },
@@ -3416,7 +3053,7 @@
                             "question": "Dos resistencias están en serie si por ellas pasa exactamente la misma corriente.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 7
                         },
@@ -3458,7 +3095,7 @@
                             "question": "El campo escalar son aquellos donde la cantidad física son escalares y se dejan definir en unaregión del espacio. ",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 12
                         },
@@ -3498,7 +3135,7 @@
                             "question": "Campo dinámico son aquellos que varían en el tiempo.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 17
                         },
@@ -3522,7 +3159,7 @@
                             "question": "La fuerza electromotriz inducida en un circuito es igual y de signo opuesto a la rapidez con que varía el flujo magnético que atraviesa un circuito, por unidad de tiempo",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 20
                         }
@@ -3531,8 +3168,8 @@
                         {
                             "question": "La corriente inducida crea un campo magnético que se opone siempre a la variación de flujo magnético que la ha producido",
                             "img": "",
-                            "options": [ "Ley de lenz","Newton","ley de fuerza"],
-                            "correct_option": "",
+                            "options": [ "Ley de lenz","Newton","Ley de fuerza"],
+                            "correct_option": "Ley de lenz",
                             "withImg": false,
                             "id": 21
                         },
@@ -3548,7 +3185,7 @@
                             "question": "Los circuitos eléctricos pueden estar conectados en serie, en paralelo y de manera mixta,",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 23
                         },
@@ -3564,7 +3201,7 @@
                             "question": "Las cargas opuestas se atraen: Las cargas iguales se repelen.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 25
                         },
@@ -3572,7 +3209,7 @@
                             "question": "La ley de Coulomb establece que la presencia de una carga puntual general induce en todo el espacio la aparición de un campo de fuerzas que decae según la ley de la inversa del cuadrado.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 26
                         },
@@ -3580,7 +3217,7 @@
                             "question": "La ley de Ohm se usa para determinar la relación entre tensión, corriente y resistencia en un circuito eléctrico.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 27
                         },
@@ -3588,7 +3225,7 @@
                             "question": "Dos resistencias están en serie si por ellas pasa exactamente la misma corriente",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 28
                         },
@@ -3649,7 +3286,7 @@
                             "question": "Un barómetro es un instrumento que mide la presión atmosférica.",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 5
                         },
@@ -3771,7 +3408,7 @@
                             "question": "El péndulo  es un sistema físico que puede oscilar bajo la acción gravitatoria ",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 20
                         }
@@ -3781,7 +3418,7 @@
                             "question": "La gravedad es un fenómeno natural por el cual los objetos con masa son atraídos entre sí",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 21
                         },
@@ -3821,7 +3458,7 @@
                             "question": "El calor es energía en tránsito",
                             "img": "",
                             "options": [ "Verdadero","Falso"],
-                            "correct_option": "",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 26
                         },
@@ -3845,7 +3482,7 @@
                             "question": "La presión atmosférica es el peso por unidad de superficie ejercida por la atmósfera",
                             "img": "",
                             "options": [ "Falso","Verdadero"],
-                            "correct_option": "Verdadero ",
+                            "correct_option": "Verdadero",
                             "withImg": false,
                             "id": 29
                         },

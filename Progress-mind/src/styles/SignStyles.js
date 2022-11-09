@@ -91,7 +91,7 @@ const SignStyles = StyleSheet.create({
         borderWidth: 1,
         borderColor: COLORS.green,
         borderRadius: 5,
-        marginTop:400,
+        marginTop:200,
         marginHorizontal:20,
     },
     Textdrawerstyle: {

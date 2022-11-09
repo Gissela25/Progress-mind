@@ -152,8 +152,6 @@ const LevelsScreen = ({ route, navigation }) => {
                 })}>
                 <Text style={GlobalStyles.textButtonsCaterogry}>Nivel 3</Text>
             </Pressable>
-
-
         </ScrollView>
     );
 }

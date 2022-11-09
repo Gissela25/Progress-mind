@@ -17,12 +17,12 @@ const RenderModal = ({showScoreModal, allQuestions, score, navigation, handleScr
                 <Text style={{
                     fontSize:30,
                     fontWeight:'bold',
-                    color:score> (allQuestions.length/2)? COLORS.success: COLORS.error
+                    color:score> (allQuestions.length/(5/3))? COLORS.success: COLORS.error
                 }}>{score}</Text>
                 <Text style={QuestionsStyles.TextResultStyle}> / {allQuestions.length}</Text>
                 </View>
                 <View>
-                    <Text style={QuestionsStyles.TextResultStyle} >Puntuación: { (score / allQuestions.length)*10}</Text>
+                    <Text style={QuestionsStyles.TextResultStyle} >Puntuación: { ((score / allQuestions.length)*10).toFixed(2)}</Text>
                 </View>
 
                 <TouchableOpacity style={QuestionsStyles.ButtonBackStyle}
