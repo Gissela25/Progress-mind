@@ -22,7 +22,7 @@ const RenderModal = ({showScoreModal, allQuestions, score, navigation}) => {
                 <Text style={QuestionsStyles.TextResultStyle}> / {allQuestions.length}</Text>
                 </View>
                 <View>
-                    <Text style={QuestionsStyles.TextResultStyle} >Puntuación: { (score / allQuestions.length)*10}</Text>
+                    <Text style={QuestionsStyles.TextResultStyle} >Puntuación: { ((score / allQuestions.length)*10).toFixed(2)}</Text>
                 </View>
 
                 <TouchableOpacity style={QuestionsStyles.ButtonBackStyle}

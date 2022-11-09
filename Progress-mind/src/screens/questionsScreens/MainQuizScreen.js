@@ -35,7 +35,11 @@ const MainQuizScreen = ({ navigation }) => {
             </Pressable>
 
             <Image
+<<<<<<< Updated upstream
                         source={require('../../imgs/Footer.png')}
+=======
+                        source={require('../../imgs/FondoM2.png')}
+>>>>>>> Stashed changes
                         style={{
                             position: 'absolute',
                             marginTop: 450,

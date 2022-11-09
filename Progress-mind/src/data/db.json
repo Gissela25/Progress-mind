@@ -1833,19 +1833,6 @@
                     "nivel2": [
                         {
                             "question": "A que derivada corresponde la siguiente formula:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta11.jpg",
-                            "options": [
-                                "Derivada de una constante",
-                                "Derivada de una raíz cuadrada",
-                                "Derivada de un cociente",
-                                "Derivada de una suma"
-                            ],
-                            "correct_option": "Derivada de una constante",
-                            "withImg": true,
-                            "id": 11
-                        },
-                        {
-                            "question": "A que derivada corresponde la siguiente formula:",
                             "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta12.jpg",
                             "options": [
                                 "Derivada de una constante",
@@ -1898,32 +1885,6 @@
                         },
                         {
                             "question": "A que derivada corresponde la siguiente formula:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta16.jpg",
-                            "options": [
-                                "Derivada de seno",
-                                "Derivada de una raíz cuadrada",
-                                "Derivada de un cociente",
-                                "Derivada de una constante por una función"
-                            ],
-                            "correct_option": "Derivada de seno",
-                            "withImg": true,
-                            "id": 16
-                        },
-                        {
-                            "question": "A que derivada corresponde la siguiente formula:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta17.jpg",
-                            "options": [
-                                "Derivada de seno",
-                                "Derivada de un logaritmo",
-                                "Derivada de un cociente",
-                                "Derivada de un logaritmo neperiano"
-                            ],
-                            "correct_option": "Derivada de un logaritmo",
-                            "withImg": true,
-                            "id": 17
-                        },
-                        {
-                            "question": "A que derivada corresponde la siguiente formula:",
                             "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta18.jpg",
                             "options": [
                                 "Derivada de seno",
@@ -1934,46 +1895,9 @@
                             "correct_option": "Derivada de una función exponencial",
                             "withImg": true,
                             "id": 18
-                        },
-                        {
-                            "question": "A que derivada corresponde la siguiente formula:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta19.jpg",
-                            "options": [
-                                "Derivada de seno",
-                                "Derivada de una raíz cuadrada",
-                                "Derivada de un cociente",
-                                "Derivada de una cotangente"
-                            ],
-                            "correct_option": "Derivada de una cotangente",
-                            "withImg": true,
-                            "id": 19
-                        },
-                        {
-                            "question": "A que derivada corresponde la siguiente formula:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N2pregunta20.jpg",
-                            "options": [
-                                "Derivada de seno",
-                                "Derivada de una raíz cuadrada",
-                                "Derivada de un cociente",
-                                "Derivada de una tangente"
-                            ],
-                            "correct_option": "Derivada de una tangente",
-                            "withImg": true,
-                            "id": 20
                         }
                     ],
                     "nivel3": [
-                        {
-                            "question": "El criterio de la primera derivada proporciona la monotonía de una función f derivable en un intervalo I=(a,b):",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3pregunta21.jpg",
-                            "options": [
-                                "Verdadero",
-                                "Falso"
-                            ],
-                            "correct_option": "Verdadero",
-                            "withImg": true,
-                            "id": 21
-                        },
                         {
                             "question": "los puntos que anulan la primera derivada (llamados puntos críticos) son candidatos a ser:",
                             "img": "",
@@ -1986,28 +1910,6 @@
                             "correct_option": "Extremos relativos",
                             "withImg": true,
                             "id": 22
-                        },
-                        {
-                            "question": "Para resolver un problema de la primera derivada se deben seguir los pasos en el siguiente orden",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3pregunta23.jpg",
-                            "options": [
-                                "Falso",
-                                "Verdadero"
-                            ],
-                            "correct_option": "Verdadero",
-                            "withImg": true,
-                            "id": 23
-                        },
-                        {
-                            "question": "El siguiente enunciado pertenece al criterio de la segunda derivada:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3pregunta24.jpg",
-                            "options": [
-                                "Falso",
-                                "Verdadero"
-                            ],
-                            "correct_option": "Verdadero",
-                            "withImg": true,
-                            "id": 24
                         },
                         {
                             "question": "Si z es un máximo o un mínimo relativo, se dice que es:",
@@ -2034,17 +1936,6 @@
                             "correct_option": "Extremo absoluto",
                             "withImg": true,
                             "id": 26
-                        },
-                        {
-                            "question": "El siguiente concepto pertenece a un extremo relativo o local:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Diferencial/N3prregunta27.jpg",
-                            "options": [
-                                "Verdadero",
-                                "Falso"
-                            ],
-                            "correct_option": "Verdadero",
-                            "withImg": true,
-                            "id": 27
                         },
                         {
                             "question": "La aplicación directa del criterio de la segunda derivada es determinar si los puntos críticos de una función (puntos que anulan la primera derivada) son máximos o mínimos",
@@ -2098,19 +1989,6 @@
                             "correct_option": "Verdadero",
                             "withImg": true,
                             "id": 1
-                        },
-                        {
-                            "question": "Edén caminó a una razón de r(t)kilómetros por hora (donde t es el tiempo en horas) ¿Que representa la siguiente expresión?",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta2.jpg",
-                            "options": [
-                                "Edén caminó 6 kilómetros en 3 horas",
-                                "Edén caminó 6 kilómetros cada hora",
-                                "Edén caminó 6 kilómetros durante la tercera hora",
-                                "La razón de Edén se incrementó por 6 kilómetros por hora entre las horas 2 y 3"
-                            ],
-                            "correct_option": "Edén caminó 6 kilómetros durante la tercera hora",
-                            "withImg": true,
-                            "id": 2
                         },
                         {
                             "question": "Para cualquier función r la integral definida describe la acumulación de valores entre t=a y t=b",
@@ -2170,17 +2048,6 @@
                             "id": 7
                         },
                         {
-                            "question": "¿Esta suma de Riemann es una sobrestimación o subestimación del área real?",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta8.jpg",
-                            "options": [
-                                "Sobrestimación",
-                                "Subestimación"
-                            ],
-                            "correct_option": "Sobrestimación",
-                            "withImg": true,
-                            "id": 8
-                        },
-                        {
                             "question": "Mientras más subdivisiones (es decir, rectángulos) usemos para aproximar el área, mejor será la aproximación.",
                             "img": "",
                             "options": [
@@ -2190,17 +2057,6 @@
                             "correct_option": "Verdadero",
                             "withImg": true,
                             "id": 9
-                        },
-                        {
-                            "question": "La siguiente información según lo estudiado sobre sumas de Riemann es:",
-                            "img": "https://progressmind.000webhostapp.com/Img/IMG%20Integral/N1pregunta10.jpg",
-                            "options": [
-                                "Verdadero",
-                                "Falso"
-                            ],
-                            "correct_option": "Verdadero",
-                            "withImg": true,
-                            "id": 10
                         }
                     ],
                     "nivel2": [
@@ -2468,6 +2324,7 @@
                     "content": false
                 },
                 "caa": {
+<<<<<<< Updated upstream
                     "nivel1": [],
                     "nivel2": [],
                     "nivel3": [],
@@ -2478,6 +2335,504 @@
                     "nivel2": [],
                     "nivel3": [],
                     "content": false
+=======
+                    "nivel1": [
+                        {
+                            "question": "¿Que es un campo vectorial?",
+                            "img": "",
+                            "options": [ "Un campo vectorial asocia un vector a cada punto en el espacio","Línea de vectores","Punto a hacia b"],
+                            "correct_option": "Un campo vectorial asocia un vector a cada punto en el espacio",
+                            "withImg": false,
+                            "id": 1
+                        },
+                        {
+                            "question": "¿Fue un matemático y físico francés conocido por sus trabajos sobre la descomposición de funciones periódicas en series trigonométricas convergentes?",
+                            "img": "",
+                            "options": [ "Jean-Baptiste Joseph Fourier","Jean carlo II"],
+                            "correct_option": "Jean-Baptiste Joseph Fourier",
+                            "withImg": false,
+                            "id": 2
+                        },
+                        {
+                            "question": "¿Considerado el príncipe de las matemáticas y el matemático más grande desde la antigüedad por aportar varios teoremas?",
+                            "img": "",
+                            "options": [ "Gauss jordán","Isaac newton"],
+                            "correct_option": "Gauss jordán",
+                            "withImg": false,
+                            "id": 3
+                        },
+                        {
+                            "question": "¿Esto es una función impar g(-x)=g(x)?",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 4
+                        },
+                        {
+                            "question": "¿Esto es una función par (-x)=-h(x)?",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 5
+                        },
+                        {
+                            "question": "¿Qué es una función periodica?",
+                            "img": "",
+                            "options": [ "funciones que se comportan en una manera cíclica","Son dos vectores conectados","Es lo mismo que campo vectorial"],
+                            "correct_option": "funciones que se comportan en una manera cíclica",
+                            "withImg": false,
+                            "id": 6
+                        },
+                        {
+                            "question": "Las derivadas de orden superior se obtienen derivando sucesivamente las funciones lineales ",
+                            "img": "",
+                            "options": [ "Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "withImg": false,
+                            "id": 7
+                        },
+                        {
+                            "question": "¿Qué es una integral de superficie?",
+                            "img": "",
+                            "options": [ "es aquella integral cuya función es evaluada sobre una superficie","Es lo mismo que campo vectorial","Son dos vectores conectados"],
+                            "correct_option": "es aquella integral cuya función es evaluada sobre una superficie",
+                            "withImg": false,
+                            "id": 8
+                        },
+                        {
+                            "question": "El teorema de Green dice que podemos calcular una integral doble sobre la región D basándonos únicamente en la información sobre el borde de D.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 9
+                        },
+                        {
+                            "question": "teorema relaciona la integral del rotacional de un campo vectorial sobre una superficie, con la integral de línea del campo",
+                            "img": "",
+                            "options": [ "Teorema de Stokes","Teorema de Jordan","Teorema de Pascal"],
+                            "correct_option": "Teorema de Stokes",
+                            "withImg": false,
+                            "id": 10
+                        }
+                    ],
+                    "nivel2": [
+                        {
+                            "question": "Son tipos de series",
+                            "img": "",
+                            "options": [ "Convergentes, divergentes y geométricas","Amplitud, distancia","Vectorial, línea y espacial"],
+                            "correct_option": "Convergentes, divergentes y geométricas",
+                            "withImg": false,
+                            "id": 11
+                        },
+                        {
+                            "question": "Son ejemplos de tipos de curvas",
+                            "img": "",
+                            "options": [ "Simples,cerradas,alisada","Vectoriales y simples","Hexagonales y octagonales"],
+                            "correct_option": "Simples,cerradas,alisada",
+                            "withImg": false,
+                            "id": 12
+                        },
+                        {
+                            "question": "Determine qué tipo de sucesión monótona se presenta 4, 6, 8, 10, ...",
+                            "img": "",
+                            "options": [ "Monótona creciente","Monótona decreciente","No crece"],
+                            "correct_option": "Monótona creciente",
+                            "withImg": false,
+                            "id": 13
+                        },
+                        {
+                            "question": "¿Será la sucesión {n} = 1, 2, 3, 4, ... acotada?",
+                            "img": "",
+                            "options": [ "Acotada en 1","Acotada en 5","Acotada en 6"],
+                            "correct_option": "Acotada en 1",
+                            "withImg": false,
+                            "id": 14
+                        },
+                        {
+                            "question": "¿Como es llamado también el teorema de divergencia?",
+                            "img": "",
+                            "options": [ "Teorema de gauss","Teorema de newton","Teorema de sarrus"],
+                            "correct_option": "Teorema de gauss",
+                            "withImg": false,
+                            "id": 15
+                        },
+                        {
+                            "question": "un campo de fuerzas es conservativo si el trabajo total realizado por el campo sobre una partícula que realiza un desplazamiento en una trayectoria cerrada es nulo.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 16
+                        },
+                        {
+                            "question": "El teorema de Stokes relaciona una integral de línea con una integral de superficie",
+                            "img": "",
+                            "options": [ "Falso","Verdadero"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 17
+                        },
+                        {
+                            "question": "El teorema de la divergencia de Gauss relaciona una integral de superficie con una integral triple.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 18
+                        },
+                        {
+                            "question": "Es un ejemplo de función periódica",
+                            "img": "",
+                            "options": [ "f(x+T)=f(x)","f-f(x)","f(x+T)-f(x)"],
+                            "correct_option": "f(x+T)=f(x)",
+                            "withImg": false,
+                            "id": 19
+                        },
+                        {
+                            "question": "Las superficies pueden ser orientables",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 20
+                        }
+                    ],
+                    "nivel3": [
+                        {
+                            "question": "La forma vectorial de una integral de superficie es:",
+                            "img": "https://progressmind.000webhostapp.com/Img/CAA/forma%20vectorial.jpg",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": true,
+                            "id": 21
+                        },
+                        {
+                            "question": "Si la superficie es cerrada: no existen vectores normales saliendo y entrando a la superficie.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Falso",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": "¿Qué es una función periodica?",
+                            "img": "",
+                            "options": [ "funciones que se comportan en una manera cíclica","Son dos vectores conectados ","Es lo mismo que campo vectorial"],
+                            "correct_option": "funciones que se comportan en una manera cíclica",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "Las derivadas de orden superior se obtienen derivando sucesivamente las funciones lineales ",
+                            "img": "",
+                            "options": [ "Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": "Un vector unitario tangente es un vector con una magnitud de uno",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": "El Trabajo es la integral de línea respecto a los vectores de arco de la componentetangencial de la fuerza.",
+                            "img": "",
+                            "options": [ "Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "withImg": false,
+                            "id": 26
+                        },
+                        {
+                            "question": "La integral de línea en lugar de integrar sobre un intervalo [a, b],integramos a lo largo de una curva C.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "asocia un vector a cada punto en el espacio:",
+                            "img": "",
+                            "options": [ "campo vectorial","Línea de vectores","Punto a hacia b"],
+                            "correct_option": "campo vectorial",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": "Son ejemplos de tipos de curvas",
+                            "img": "",
+                            "options": [ "Simples,cerradas,alisada","Vectoriales y simples","Hexagonales y octagonales"],
+                            "correct_option": "Simples,cerradas,alisada",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "El gradiente es una función de valor vectorial, a diferencia de una derivada, que es una función de valor escalar",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 30
+                        }
+                    ],
+                    "content": true
+                },
+                "edi": {
+                    "nivel1": [
+                        {
+                            "question": " Las Ecuaciones Diferenciales Ordinarias (EDOs),tienen una sola variable independiente (como y)",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 1
+                        },
+                        {
+                            "question": "Las Ecuaciones Diferenciales Parciales (EDPs), tienen dos o más variables independientes.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 2
+                        },
+                        {
+                            "question": "El orden de la derivada más alta en una ecuación diferencial se denomina orden de la ecuación.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 3
+                        },
+                        {
+                            "question": "Un sistema de ecuaciones es un conjunto de dos o más ecuaciones con varias incógnitas",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 4
+                        },
+                        {
+                            "question": "Una ecuación diferencial es lineal y de orden superior si en dicha ecuación existen derivadas n > 1",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 5
+                        },
+                        {
+                            "question": "paso para determinar si una ecuación diferencial de orden superior tiene solución única",
+                            "img": "",
+                            "options": [ "Determinar donde los an(x) ,...a1(x),a0(x) son continuos","Verificar números significativos","Hacer la integral"],
+                            "correct_option": "Determinar donde los an(x) ,...a1(x),a0(x) son continuos",
+                            "withImg": false,
+                            "id": 6
+                        },
+                        {
+                            "question": "¿Qué es una ecuación diferencial?",
+                            "img": "",
+                            "options": [ "Números significativos","Una ecuación diferencial es una ecuación matemática que relaciona una función con sus derivadas.","Cantidad de ecuaciones "],
+                            "correct_option": "Una ecuación diferencial es una ecuación matemática que relaciona una función con sus derivadas.",
+                            "withImg": false,
+                            "id": 7
+                        },
+                        {
+                            "question": "¿Que es una ecuacion?",
+                            "img": "",
+                            "options": [ "Una ecuación es una igualdad algebraica en la cual aparecen letras (incógnitas) con valor desconocido.","Cantidad de ecuaciones "],
+                            "correct_option": "Una ecuación es una igualdad algebraica en la cual aparecen letras (incógnitas) con valor desconocido.",
+                            "withImg": false,
+                            "id": 8
+                        },
+                        {
+                            "question": "paso  para determinar si existe una ecuación única",
+                            "img": "",
+                            "options": [ "Determinar donde el g(x) es continuo(dominio de g(x))","Verificar números significativos"],
+                            "correct_option": "Determinar donde el g(x) es continuo(dominio de g(x))",
+                            "withImg": false,
+                            "id": 9
+                        },
+                        {
+                            "question": "Un conjunto de funciones es linealmente dependientes en un intervalo del eje x si existen constantes no todas",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 10
+                        }
+                    ],
+                    "nivel2": [
+                        {
+                            "question": "combinación lineal es diferente de cero entonces las funciones son linealmente independientes",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 11
+                        },
+                        {
+                            "question": "La integral definida es un concepto utilizado para determinar el valor de las áreas limitadas por curvas y rectas.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 12
+                        },
+                        {
+                            "question": "ECUACIONES DIFERENCIALES EXACTAS: si p(x,y)dx+Q(x,y)dt=0",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 13
+                        },
+                        {
+                            "question": "La derivada de una constante es igual a 0:",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 14
+                        },
+                        {
+                            "question": "Una función polinómica es una función cuya expresión algebraica no es  polinomio",
+                            "img": "",
+                            "options": [ "Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "withImg": false,
+                            "id": 15
+                        },
+                        {
+                            "question": "función exponencial es una función de la forma f(x)=ab^x",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 16
+                        },
+                        {
+                            "question": "Un sistema de ecuaciones es un conjunto de dos o más ecuaciones con varias incógnitas",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 17
+                        },
+                        {
+                            "question": "Una ecuación diferencial de segundo orden es equivalente a un sistema de unas ecuaciones diferenciales de primer orden",
+                            "img": "",
+                            "options": [ "Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "withImg": false,
+                            "id": 18
+                        },
+                        {
+                            "question": "El método de variación de parámetros es un procedimiento útil para la obtención de una solución particular yp",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 19
+                        },
+                        {
+                            "question": "La regla de Cramer es un método que permite calcular la solución de un sistema con “n” ecuaciones y “n” incógnitas",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 20
+                        }
+                    ],
+                    "nivel3": [
+                        {
+                            "question": "Una convolución es un operador matemático que transforma dos funciones f y g en una cuarta función",
+                            "img": "",
+                            "options": [ "Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "withImg": false,
+                            "id": 21
+                        },
+                        {
+                            "question": "función exponencial es una función de la forma f(x)=ab^x ",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": "En el caso de los polinomios cuadráticos, las raíces son complejas cuando el discriminante es negativo.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "¿Es una regla de derivación métodos que se emplean para calcular la derivada de una función.?",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": "Permite simplificar el cálculo de determinantes en matrices de elevadas dimensiones a base de descomponerlo en la suma de determinantes menores",
+                            "img": "",
+                            "options": [ "Teorema Laplace","Teorema de gauss","Teorema de sarrus"],
+                            "correct_option": "Teorema Laplace",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": "El orden es la derivada más alta",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 26
+                        },
+                        {
+                            "question": "El grado es el exponente de la derivada más alta.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "Es lineal cuando la variable (y sus derivadas) no tienen exponente u otra función.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": "La variacion de parametros es un método más general que los coeficientes indeterminados.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "Coeficientes indeterminados es un método que funciona para una ecuación no homogénea ",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 30
+                        }
+                    ],
+                    "content": true
+>>>>>>> Stashed changes
                 }
             }
         },
@@ -2485,6 +2840,7 @@
             "id": "fisica",
             "subcategoria": {
                 "cdp": {
+<<<<<<< Updated upstream
                     "nivel1": [],
                     "nivel2": [],
                     "nivel3": [],
@@ -2501,6 +2857,737 @@
                     "nivel2": [],
                     "nivel3": [],
                     "content": false
+=======
+                    "nivel1": [
+                        {
+                            "question": "Parte de la mecánica que trata del movimiento en sus condiciones de espacio y tiempo, sin tener en cuenta las causas que lo producen",
+                            "img": "",
+                            "options": [ "cinemática","Movimiento de objeto","Movimiento rectilineo"],
+                            "correct_option": "cinemática",
+                            "withImg": false,
+                            "id": 1
+                        },
+                        {
+                            "question": "¿Que es velocidad?",
+                            "img": "",
+                            "options": [ "La velocidad es el cambio de posición de un objeto con respecto al tiempo.","La caída y el tiempo que toma un objeto","Rapidez de un objeto"],
+                            "correct_option": "La velocidad es el cambio de posición de un objeto con respecto al tiempo.",
+                            "withImg": false,
+                            "id": 2
+                        },
+                        {
+                            "question": "¿Que es rapidez?",
+                            "img": "",
+                            "options": [ "Tiempo de caída libre","Moverse de un punto a a un punto b","rapidez es la relación entre la distancia recorrida y el tiempo empleado en completarla"],
+                            "correct_option": "rapidez es la relación entre la distancia recorrida y el tiempo empleado en completarla",
+                            "withImg": false,
+                            "id": 3
+                        },
+                        {
+                            "question": "Es distancia:  la distancia entre dos puntos del espacio, equivale a la longitud del segmento de la recta que los une, expresado numéricamente.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 4
+                        },
+                        {
+                            "question": "En física, un movimiento es rectilíneo uniforme cuando un «objeto» viaja en una trayectoria recta a una velocidad constante,  dado que su aceleración es nula.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 5
+                        },
+                        {
+                            "question": "¿Cual es la formula para calcular aceleración?",
+                            "img": "",
+                            "options": [ "A=v/t","A=t/v"],
+                            "correct_option": "A=v/t",
+                            "withImg": false,
+                            "id": 6
+                        },
+                        {
+                            "question": "¿Cual es la formula para calcular rapidez?",
+                            "img": "",
+                            "options": [ "r = d/Δt","r=t/v"],
+                            "correct_option": "r = d/Δt",
+                            "withImg": false,
+                            "id": 8
+                        },
+                        {
+                            "question": "velocidad media se define como la distancia recorrida por un objeto dividido por el tiempo transcurrido",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 9
+                        },
+                        {
+                            "question": "El desplazamiento es el vector que define la posición de un punto o partícula en relación con un origen A con respecto a una posición B",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 10
+                        }
+                    ],
+                    "nivel2": [
+                        {
+                            "question": "Cual es el valor de la gravedad",
+                            "img": "",
+                            "options": [ "9.8 m/s2","9.8 s2","9.8 s/m"],
+                            "correct_option": "9.8 m/s2",
+                            "withImg": false,
+                            "id": 11
+                        },
+                        {
+                            "question": "La caída libre es un movimiento rectilíneo uniformemente acelerado o movimiento rectilíneo uniformemente variado  en el que se deja caer un cuerpo verticalmente desde cierta altura y no encuentra resistencia alguna en su camino.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 12
+                        },
+                        {
+                            "question": "Un objeto se mueve con una rapidez constante de 6 m/s. Esto significa que el objeto:",
+                            "img": "",
+                            "options": [ "Se mueve 6 metros cada segundo"," Disminuye su rapidez en 6 m/s cada segundo"," Aumenta su rapidez en 6 m/s cada segundo"],
+                            "correct_option": "Se mueve 6 metros cada segundo",
+                            "withImg": false,
+                            "id": 13
+                        },
+                        {
+                            "question": "Un automóvil de juguete se mueve 8 m en 4 s con una velocidad constante. ¿Cuál es la velocidad el automóvil? ",
+                            "img": "",
+                            "options": [ "2 m/s","5 m/s","4 m/s"],
+                            "correct_option": "2 m/s",
+                            "withImg": false,
+                            "id": 14
+                        },
+                        {
+                            "question": "Un tren se mueve con una velocidad constante de 50 km/h. ¿Qué tan lejos habrá llegado después de 0,5 h?  ",
+                            "img": "",
+                            "options": [ "25 km","75 km","10 km"],
+                            "correct_option": "25 km",
+                            "withImg": false,
+                            "id": 15
+                        },
+                        {
+                            "question": "Un bote puede moverse a una velocidad constante de 8 km/h en aguas calmas. ¿Cuánto tiempo le tomará al bote recorrer 24 km? ",
+                            "img": "",
+                            "options": [ "4 h","10 h","8 h","3 h"],
+                            "correct_option": "3 h",
+                            "withImg": false,
+                            "id": 16
+                        },
+                        {
+                            "question": "Un ciclista se mueve con una rapidez constante de 4 m/s. ¿Cuánto tiempo le tomará al ciclista recorrer 36 m?",
+                            "img": "",
+                            "options": [ " 9 s ","10 s","14 s","11 s"],
+                            "correct_option": " 9 s ",
+                            "withImg": false,
+                            "id": 17
+                        },
+                        {
+                            "question": "¿Cuál de los siguientes enunciados es verdadero? ",
+                            "img": "",
+                            "options": ["El objeto aumenta su velocidad","La velocidad del objeto se mantiene sin cambios","El objeto disminuye su velocidad "],
+                            "correct_option": " La velocidad del objeto se mantiene sin cambios",
+                            "withImg": false,
+                            "id": 18
+                        },
+                        {
+                            "question": "La fuerza que actúa sobre un cuerpo es directamente proporcional a su aceleración",
+                            "img": "",
+                            "options": [ "segunda ley de Newton","ley de inercia","ley de ataraccion"],
+                            "correct_option": "segunda ley de Newton",
+                            "withImg": false,
+                            "id": 19
+                        },
+                        {
+                            "question": "Todo cuerpo permanece en su estado de reposo o de movimiento rectilíneo uniforme a menos que otros cuerpos actúen sobre él",
+                            "img": "",
+                            "options": [ "ley de gravedad","ley de fuerza","primera ley de Newton"],
+                            "correct_option": "primera ley de Newton",
+                            "withImg": false,
+                            "id": 20
+                        }
+                    ],
+                    "nivel3": [
+                        {
+                            "question": "siempre que se realice una fuerza sobre algo, este “algo” generará una fuerza de intensidad y dirección idénticas pero en sentido opuesto.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 21
+                        },
+                        {
+                            "question": "Cuando un cuerpo ejerce una fuerza sobre otro, este segundo ejerce sobre el primero una fuerza igual pero en sentido opuesto",
+                            "img": "",
+                            "options": [ "principio de accion y reaccion","gravedad"],
+                            "correct_option": "principio de accion y reaccion",
+                            "withImg": false,
+                            "id": 21
+                        },
+                        {
+                            "question": "Un objeto deja de estar en reposo y cae en la ausencia de resistencia de aire. ¿Cuál de los siguientes enunciados es verdadero acerca de su movimiento?",
+                            "img": "",
+                            "options": [ "Su aceleración es constante","Su aceleración es igual a cero"],
+                            "correct_option": "Su aceleración es constante",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": "Una pelota, un disco de hockey y una pelota de tenis caen en la ausencia de resistencia de aire. ¿Cuál de los siguientes enunciados es verdadero acerca de su aceleración?",
+                            "img": "",
+                            "options": [ "no todos caen con la misma aceleración constante"," Todos caen con la misma aceleración constante"],
+                            "correct_option": " Todos caen con la misma aceleración constante",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "Un objeto se mueve con una rapidez constante de 6 m/s. Esto significa que el objeto:",
+                            "img": "",
+                            "options": [ "2 m/s ","4 m/s "],
+                            "correct_option": "2 m/s ",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": "la masa por la aceleración es igual a la fuerza",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": "En fisica se conocen dos tipos de colisiones: las colisiones elásticas y las colisiones inelásticas.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "¿A qué tipo de movimiento se atribuye la velocidad angular?",
+                            "img": "",
+                            "options": [ "Movimiento de objeto","movimiento circular"],
+                            "correct_option": "movimiento circular",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": "En el movimiento circular hay dos tipos de aceleración, la aceleración tangencial y la aceleración centrípeta",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "La fisica posee 7 magnitudes fundamentales: tiempo, longitud, masa, temperatura, intensidad luminosa, cantidad de sustancia e intensidad de corriente.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 30
+                        }
+                    ],
+                    "content": true
+                },
+                "eym": {
+                    "nivel1": [
+                        {
+                            "question": "Que es La Ley de Coulomb ",
+                            "img": "",
+                            "options": [ "es una ley de fuerzas que requiere de dos cuerpos (cargas) para que funcione.","La ley que hace que los cuerpos se desplacen"],
+                            "correct_option": "es una ley de fuerzas que requiere de dos cuerpos (cargas) para que funcione.",
+                            "withImg": false,
+                            "id": 1
+                        },
+                        {
+                            "question": "Un circuito es una interconexión de componentes eléctricos que transportan ",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 2
+                        },
+                        {
+                            "question": "Los circuitos eléctricos pueden estar conectados en serie, en paralelo y de manera mixta,",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 4
+                        },
+                        {
+                            "question": "Son los dispositivos destinados a proporcionar la energía eléctrica a un elemento",
+                            "img": "",
+                            "options": [ "Fuente de energía","Campo electromagnético","Es un fenómeno natural"],
+                            "correct_option": "Fuente de energía",
+                            "withImg": false,
+                            "id": 5
+                        },
+                        {
+                            "question": "Es una propiedad de un objeto o sustancia que hace que se resista u oponga al paso de una correinte electrica",
+                            "img": "",
+                            "options": [ "Resistencia","Campo electromagnético","Fuente de energía "],
+                            "correct_option": "Resistencia",
+                            "withImg": false,
+                            "id": 6
+                        },
+                        {
+                            "question": "Dos resistencias están en serie si por ellas pasa exactamente la misma corriente.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 7
+                        },
+                        {
+                            "question": "El voltaje no es la diferencia de potencial que existe entre dos puntos de un circuito.",
+                            "img": "",
+                            "options": [ "Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "withImg": false,
+                            "id": 8
+                        },
+                        {
+                            "question": "es la función del instrumento que se utiliza estrictamente para medir la diferencia de potencial o voltaje",
+                            "img": "",
+                            "options": [ "voltímetro","calculadora eléctrica"],
+                            "correct_option": "voltímetro",
+                            "withImg": false,
+                            "id": 9
+                        },
+                        {
+                            "question": "Este dispositivo se utiliza para almacenar carga eléctrica",
+                            "img": "",
+                            "options": [ "Capacitor","Voltímetro","escaner"],
+                            "correct_option": "Capacitor",
+                            "withImg": false,
+                            "id": 10
+                        }
+                    ],
+                    "nivel2": [
+                        {
+                            "question": "La Resistividad Eléctrica ρ es una propiedad intrínseca de los materiales.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 11
+                        },
+                        {
+                            "question": "El campo escalar son aquellos donde la cantidad física son escalares y se dejan definir en unaregión del espacio. ",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 12
+                        },
+                        {
+                            "question": "Campo vectorial son aquellos donde la cantidad física no  se describe mejor mediante un vector.",
+                            "img": "",
+                            "options": [ "Falso","Verdadero"],
+                            "correct_option": "Falso",
+                            "withImg": false,
+                            "id": 13
+                        },
+                        {
+                            "question": "es un dispositivo capaz de mantener una diferencia de potencial o una corriente en un circuito eléctrico.",
+                            "img": "",
+                            "options": [ "Fuente de Fuerza Electromotriz","calculadora eléctrica","escáner"],
+                            "correct_option": "Fuente de Fuerza Electromotriz",
+                            "withImg": false,
+                            "id": 14
+                        },
+                        {
+                            "question": "Es la acción eléctrica producida por una fuente no eléctrica, medida en voltios",
+                            "img": "",
+                            "options": [ "Electromotriz","Fuente de Fuerza Electromotriz","Escáner"],
+                            "correct_option": "Electromotriz",
+                            "withImg": false,
+                            "id": 15
+                        },
+                        {
+                            "question": "¿Que es campo estacionario?",
+                            "img": "",
+                            "options": [ "son aquellos que no varían significantemente en el tiempo.","Son aquellos que se basan en vectores","Son aquellos que se basan según el tiempo de oscilación"],
+                            "correct_option": "son aquellos que no varían significantemente en el tiempo.",
+                            "withImg": false,
+                            "id": 16
+                        },
+                        {
+                            "question": "Campo dinámico son aquellos que varían en el tiempo.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 17
+                        },
+                        {
+                            "question": "¿Qué es electromagnetismo?",
+                            "img": "",
+                            "options": [ "es la parte de la física que estudia los fenómenos eléctricos y magnéticos y su relación.","Es la ciencia de la energía"],
+                            "correct_option": "es la parte de la física que estudia los fenómenos eléctricos y magnéticos y su relación.",
+                            "withImg": false,
+                            "id": 18
+                        },
+                        {
+                            "question": "¿un cuerpo puede tener solamente tres cargas?",
+                            "img": "",
+                            "options": [ "Positiva y negativa ","Neutro","Todas las anteriores"],
+                            "correct_option": "Todas las anteriores",
+                            "withImg": false,
+                            "id": 19
+                        },
+                        {
+                            "question": "La fuerza electromotriz inducida en un circuito es igual y de signo opuesto a la rapidez con que varía el flujo magnético que atraviesa un circuito, por unidad de tiempo",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 20
+                        }
+                    ],
+                    "nivel3": [
+                        {
+                            "question": "La corriente inducida crea un campo magnético que se opone siempre a la variación de flujo magnético que la ha producido",
+                            "img": "",
+                            "options": [ "Ley de lenz","Newton","Ley de fuerza"],
+                            "correct_option": "Ley de lenz",
+                            "withImg": false,
+                            "id": 21
+                        },
+                        {
+                            "question": "¿Cómo también son conocidas las corrientes Foucault?",
+                            "img": "",
+                            "options": [ "corrientes parásitas","corrientes fuertes","corrientes magneticas"],
+                            "correct_option": "corrientes parásitas",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": "Los circuitos eléctricos pueden estar conectados en serie, en paralelo y de manera mixta,",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "Son los dispositivos destinados a proporcionar la energía eléctrica a un elemento",
+                            "img": "",
+                            "options": [ "Fuente de energía","Campo electromagnético","Es un fenómeno natural"],
+                            "correct_option": "Fuente de energía",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": "Las cargas opuestas se atraen: Las cargas iguales se repelen.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": "La ley de Coulomb establece que la presencia de una carga puntual general induce en todo el espacio la aparición de un campo de fuerzas que decae según la ley de la inversa del cuadrado.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 26
+                        },
+                        {
+                            "question": "La ley de Ohm se usa para determinar la relación entre tensión, corriente y resistencia en un circuito eléctrico.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "Dos resistencias están en serie si por ellas pasa exactamente la misma corriente",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": "La Ley de Coulomb es una ley de fuerzas que no requiere de dos cuerpos (cargas) para que funcione.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Falso",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "son aquellos que varían en el tiempo.",
+                            "img": "",
+                            "options": [ "Campo dinámico","Ley de newton","Vectores"],
+                            "correct_option": "Campo dinámico",
+                            "withImg": false,
+                            "id": 30
+                        }
+                    ],
+                    "content": true
+                },
+                "ofc": {
+                    "nivel1": [
+                        {
+                            "question": "El imán es un cuerpo o dispositivo con un magnetismo significativo",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 1
+                        },
+                        {
+                            "question": " ¿Cuál es el peso molecular del aire?",
+                            "img": "",
+                            "options": [ "28.97","29.50","29"],
+                            "correct_option": "28.97",
+                            "withImg": false,
+                            "id": 2
+                        },
+                        {
+                            "question": "El gas es un estado de agregación de la materia ",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 3
+                        },
+                        {
+                            "question": "El manómetro no es un instrumento de medición para la presión de fluidos contenidos en recipientes cerrados.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Falso",
+                            "withImg": false,
+                            "id": 4
+                        },
+                        {
+                            "question": "Un barómetro es un instrumento que mide la presión atmosférica.",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 5
+                        },
+                        {
+                            "question": "Estudia el flujo de un líquido contenido en un recipiente",
+                            "img": "",
+                            "options": [ "El teorema de Torricelli","Termodinámica","Electroestática"],
+                            "correct_option": "El teorema de Torricelli",
+                            "withImg": false,
+                            "id": 6
+                        },
+                        {
+                            "question": "Italiano que inventó el barómetro de mercurio ",
+                            "img": "",
+                            "options": [ "Evangelista Torricelli","Newton"],
+                            "correct_option": "Evangelista Torricelli",
+                            "withImg": false,
+                            "id": 7
+                        },
+                        {
+                            "question": "proceso físico por el cual se producen cambios de volumen como resultado de cambios de temperatura",
+                            "img": "",
+                            "options": [ "Dilatación","Frecuencia","Calor"],
+                            "correct_option": "Dilatación",
+                            "withImg": false,
+                            "id": 8
+                        },
+                        {
+                            "question": "magnitud física que se define como la cantidad de calor que hay que suministrar a la unidad de masa de una sustancia ",
+                            "img": "",
+                            "options": [ "Calor especifico","Termodinámica"],
+                            "correct_option": "Calor especifico",
+                            "withImg": false,
+                            "id": 9
+                        },
+                        {
+                            "question": "¿ Que es calor?",
+                            "img": "",
+                            "options": [ "Energía que se manifiesta por un aumento de temperatura","Oscilaciones que generan energía "],
+                            "correct_option": "Energía que se manifiesta por un aumento de temperatura",
+                            "withImg": false,
+                            "id": 10
+                        }
+                    ],
+                    "nivel2": [
+                        {
+                            "question": "Cuando una partícula, en un movimiento periódico, se mueve a lo largo de una misma trayectoria de ida y vuelta respecto a una posición de equilibrio",
+                            "img": "",
+                            "options": [ "Oscilacion","Energía que se manifiesta por un aumento de temperatura"],
+                            "correct_option": "Oscilacion",
+                            "withImg": false,
+                            "id": 11
+                        },
+                        {
+                            "question": "Sustancia material cuyas partículas presentan una gran movilidad y se desplazan libremente debido a la poca cohesión existente entre ellas.",
+                            "img": "",
+                            "options": [ "Fluido","Temperatura"],
+                            "correct_option": "Fluido",
+                            "withImg": false,
+                            "id": 12
+                        },
+                        {
+                            "question": "¿Cuál es la ciencia que estudia el calor?",
+                            "img": "",
+                            "options": [ "Termodinámica"," cinemática"],
+                            "correct_option": "Termodinámica",
+                            "withImg": false,
+                            "id": 13
+                        },
+                        {
+                            "question": "¿Cuál es la ciencia que estudia el movimiento?",
+                            "img": "",
+                            "options": [ "mecanica","Termodinámica"],
+                            "correct_option": "mecanica",
+                            "withImg": false,
+                            "id": 14
+                        },
+                        {
+                            "question": "¿Qué es un Hertz?",
+                            "img": "",
+                            "options": [ "Unidad de frecuencia del Sistema Internacional","Electroestática"],
+                            "correct_option": "Unidad de frecuencia del Sistema Internacional",
+                            "withImg": false,
+                            "id": 15
+                        },
+                        {
+                            "question": "Unidad de trabajo, energía y cantidad de calor del Sistema Internacional",
+                            "img": "",
+                            "options": [ "Un Joule","cinematica"],
+                            "correct_option": "Un Joule",
+                            "withImg": false,
+                            "id": 16
+                        },
+                        {
+                            "question": "¿Qué es un vatio?",
+                            "img": "",
+                            "options": [ "Unidad de potencia, de símbolo W","Unidad de frecuencia del Sistema Internacional"],
+                            "correct_option": "Unidad de potencia, de símbolo W",
+                            "withImg": false,
+                            "id": 17
+                        },
+                        {
+                            "question": "¿Qué es Manometría?",
+                            "img": "",
+                            "options": [ "Unidad de potencia, de símbolo W","Medición de la presión de los fluidos."],
+                            "correct_option": "Unidad de potencia, de símbolo W",
+                            "withImg": false,
+                            "id": 18
+                        },
+                        {
+                            "question": "Un cuerpo total o parcialmente sumergido en un fluido en reposo experimenta un empuje vertical ",
+                            "img": "",
+                            "options": [ "Principio de Arquímedes","Principio de Jordan"],
+                            "correct_option": "Principio de Arquímedes",
+                            "withImg": false,
+                            "id": 19
+                        },
+                        {
+                            "question": "El péndulo  es un sistema físico que puede oscilar bajo la acción gravitatoria ",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 20
+                        }
+                    ],
+                    "nivel3": [
+                        {
+                            "question": "La gravedad es un fenómeno natural por el cual los objetos con masa son atraídos entre sí",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 21
+                        },
+                        {
+                            "question": "¿Qué es frecuencia?",
+                            "img": "",
+                            "options": [ "Medida del número de veces que se repite un fenómeno por unidad de tiempo.","gravedad"],
+                            "correct_option": "Medida del número de veces que se repite un fenómeno por unidad de tiempo.",
+                            "withImg": false,
+                            "id": 22
+                        },
+                        {
+                            "question": "trasmisión de energía sin desplazamiento de materia",
+                            "img": "",
+                            "options": [ "Ondas","Desplazamiento"],
+                            "correct_option": "Ondas",
+                            "withImg": false,
+                            "id": 23
+                        },
+                        {
+                            "question": "¿Cuál es la ciencia que estudia el calor?",
+                            "img": "",
+                            "options": [ "Termodinámica","Electroestática"],
+                            "correct_option": "Termodinámica",
+                            "withImg": false,
+                            "id": 24
+                        },
+                        {
+                            "question": "¿Cuál es la ciencia que estudia el movimiento?",
+                            "img": "",
+                            "options": [ "Mecánica","Electroestática"],
+                            "correct_option": "Mecánica",
+                            "withImg": false,
+                            "id": 25
+                        },
+                        {
+                            "question": "El calor es energía en tránsito",
+                            "img": "",
+                            "options": [ "Verdadero","Falso"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 26
+                        },
+                        {
+                            "question": "¿Qué es un oscilador magnético?",
+                            "img": "",
+                            "options": [ "Un oscilador es un sistema capaz de crear perturbaciones o cambios periódicos","Electroestática"],
+                            "correct_option": "Un oscilador es un sistema capaz de crear perturbaciones o cambios periódicos",
+                            "withImg": false,
+                            "id": 27
+                        },
+                        {
+                            "question": "¿Cuál es la ciencia que estudia el movimiento?",
+                            "img": "",
+                            "options": [ "Mecánica ","Termodinámica"],
+                            "correct_option": "Mecánica ",
+                            "withImg": false,
+                            "id": 28
+                        },
+                        {
+                            "question": "La presión atmosférica es el peso por unidad de superficie ejercida por la atmósfera",
+                            "img": "",
+                            "options": [ "Falso","Verdadero"],
+                            "correct_option": "Verdadero",
+                            "withImg": false,
+                            "id": 29
+                        },
+                        {
+                            "question": "Italiano que inventó el barómetro de mercurio ",
+                            "img": "",
+                            "options": [ "Evangelista Torricelli","Newton"],
+                            "correct_option": "Evangelista Torricelli",
+                            "withImg": false,
+                            "id": 30
+                        }
+                    ],
+                    "content": true
+>>>>>>> Stashed changes
                 }
             }
         }
