@@ -25,7 +25,7 @@ const SignStyles = StyleSheet.create({
     Bottonconteiner2: {
         padding: 20,
         backgroundColor: COLORS.darkblue,
-        flex: 3,
+        flex: 4,
     },
     Inputstyle: {
         padding: 10,
@@ -33,7 +33,7 @@ const SignStyles = StyleSheet.create({
         borderWidth: 1,
         width: '100%',
         borderRadius: 20,
-        marginTop: 25,
+        marginTop: 10,
         backgroundColor: COLORS.white,
         marginBottom: 10
     },
@@ -43,12 +43,12 @@ const SignStyles = StyleSheet.create({
         borderWidth: 1,
         borderColor: COLORS.green,
         borderRadius: 5,
-        marginTop: 30,
+        marginTop: 10,
         borderRadius: 20,
         marginHorizontal:80,
     },
     Errorstyle: {
-        marginTop: 10,
+        marginTop: 1,
         color: 'red',
     },
     Textsigninstyle: {
@@ -179,7 +179,11 @@ const SignStyles = StyleSheet.create({
     },
     ConteinerOptions:{
         marginTop:30
-    }
+    },
+    error: {
+        marginTop: 10,
+        color: 'red',
+    },
 });
 
 export default SignStyles

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Text, View, Image, TouchableOpacity, TextInput } from 'react-native';
+import { Text, View, Image, TouchableOpacity, TextInput,Alert } from 'react-native';
 import { getAuth, GoogleAuthProvider, signInWithCredential } from 'firebase/auth';
 import * as Google from 'expo-auth-session/providers/google';
 import { initializeApp } from 'firebase/app'
@@ -24,11 +24,13 @@ initializeApp({
 WebBrowser.maybeCompleteAuthSession();
 
 const SignInScreen = () => {
-
-
     const navigation = useNavigation();
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+    const [error, setError] = useState('')
+    const [error2, setError2] = useState('')
+    let regexPassword = /^[a-zA-Z0-9$#%()+*-_.&]{8,}$/gm; 
+    let regexEmai = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/gm;
     const [request, response, promptAsync] = Google.useIdTokenAuthRequest(
         {
             clientId: '393239731378-dh2efq9tfufbmkecjdat92g244mfd0jg.apps.googleusercontent.com',
@@ -46,10 +48,30 @@ const SignInScreen = () => {
 
 
     loginUser = async (email, password) => {
-        try {
-            await firebase.auth().signInWithEmailAndPassword(email, password)
-        } catch (error) {
-            alert('Ingrese email valido y contraseña')
+        if (regexEmai.test(email) && regexPassword.test(password)) {
+            try {
+                await firebase.auth().signInWithEmailAndPassword(email, password)
+            } catch (error) {
+                alert('Email o Contraseña incorrectos')
+            }
+        }
+        else if (email !== "" && !regexEmai.test(email) && password !== "" && !regexPassword.test(password)) {
+            if(email !== "" && !regexEmai.test(email)){
+                setError('Debes ingresar el formato de email correcto')
+               }
+               if(password !== "" && !regexPassword.test(password)){
+                setError2('La contraseña debe tener almenos 8 caracteres')
+               }
+                Alert.alert(
+                    'Error',
+                    'Debe Ingresar el formato correcto',
+                )
+                return
+        }else{
+            Alert.alert(
+                'Error',
+                'Todos los campos deben estar llenos'
+            )
         }
     }
 
@@ -73,21 +95,22 @@ const SignInScreen = () => {
             </View>
             <View style={SignStyles.Bottonconteiner}>
                 <TextInput
-                    placeholder='Email'
+                    placeholder='Correo Electrónico'
                     onChangeText={(email) => setEmail(email)}
                     autoCapitalize="none"
                     autoCorrect={false}
                     style={SignStyles.Inputstyle}
                 />
-
+                <Text style={SignStyles.Errorstyle}>{error}</Text>
                 <TextInput
-                    placeholder='Password'
+                    placeholder='Contraseña'
                     onChangeText={(password) => setPassword(password)}
                     autoCapitalize="none"
                     autoCorrect={false}
                     secureTextEntry={true}
                     style={SignStyles.Inputstyle}
                 />
+                <Text style={SignStyles.Errorstyle}>{error2}</Text>
                 {/* {<Text style={SignStyles.Errorstyle}>{validationMessage}</Text>} */}
 
                 <TouchableOpacity

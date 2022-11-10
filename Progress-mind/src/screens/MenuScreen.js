@@ -55,7 +55,7 @@ const MenuScreen = () => {
             <View style={SignStyles.Bottonconteiner}>
                 <TouchableOpacity style={SignStyles.ConteinerName}>
                     <Text style={SignStyles.TextName}>
-                        Hello, {name.firstName} {name.lasName}
+                        Hola, {name.firstName} {name.lasName}
                     </Text>
                 </TouchableOpacity>
                 <Text style={SignStyles.TextEmail}>{name.email} </Text>

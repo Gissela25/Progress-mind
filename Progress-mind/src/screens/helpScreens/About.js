@@ -23,8 +23,8 @@ export default function About() {
     </View>
     <Text style={{fontSize: 14, fontWeight: 'bold'}}>© Todos los derechos reservados</Text>
 
-    <Image
-                        source={require('../../imgs/FondoM.png')}
+    {/* <Image
+                        source={require('../../imgs/Lo.png')}
                         style={{
                             position: 'absolute',
                             marginTop: 200,
@@ -32,7 +32,8 @@ export default function About() {
                             zIndex: -1
                         }}
 
-                    />
+                    /> */}
+                    <Image source={require('../../imgs/Logo.png')} style={{ width: 200, height: 120, alignSelf: 'center' }} />
     </View>
   )
 }
