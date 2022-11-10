@@ -147,7 +147,7 @@ const MenuScreen = () => {
                     style={SignStyles.Buttonstyledrawer}
                 >
                     <Text style={SignStyles.TextlogOut}>
-                        Cerrar Sesion
+                        Cerrar Sesión
                     </Text>
                 </TouchableOpacity>
                 <Modal isVisible={showModal} setVisible={setShowModal}>

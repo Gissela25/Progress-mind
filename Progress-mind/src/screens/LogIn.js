@@ -34,7 +34,7 @@ const LogIn = () => {
                 <Text style={SignStyles.TextSing}>Iniciar Sesión</Text>
                 <Button
                     icon={{ name: 'mail-outline', type: 'ionicon', color: COLORS.darkblue,  size: 30, }}
-                    title='Iniciar sesion con tu correo electronico'
+                    title='Iniciar sesión con tu correo electrónico'
                     titleStyle={{ color: COLORS.darkblue, fontSize:20 }}
                     buttonStyle={{
                         backgroundColor: COLORS.green
@@ -47,7 +47,7 @@ const LogIn = () => {
                 />
                  <Button
                     icon={{ name: 'logo-google', type: 'ionicon', color: COLORS.darkblue,  size: 30, }}
-                    title='Iniciar sesion con Google'
+                    title='Iniciar sesión con Google'
                     titleStyle={{ color: COLORS.darkblue, fontSize:20 }}
                     buttonStyle={{
                         backgroundColor: COLORS.green
