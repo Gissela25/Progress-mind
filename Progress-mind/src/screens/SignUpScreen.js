@@ -1,7 +1,6 @@
 import { useNavigation } from '@react-navigation/native'
 import { useState } from 'react';
-import { Text, View, Image, TouchableOpacity, TextInput, ScrollView, Alert } from 'react-native';
-//import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
+import { Text, View, Image, TouchableOpacity, TextInput, Alert } from 'react-native';
 import SignStyles from '../styles/SignStyles'
 import { firebase } from '../config/config'
 
@@ -76,15 +75,11 @@ const SignUpScreen = () => {
             if (password !== "" && !regexPassword.test(password)) {
                 setError4('La contraseña debe tener almenos 8 caracteres')
             }
-            Alert.alert(
-                'Error',
-                'Debe Ingresar el formato correcto',
-            )
             return
         }else{
             Alert.alert(
                 'Error',
-                'Todos los campos deben estar llenos'
+                'Ops! Ha habido un problema, vuelve a intentarlo'
             )
         }
     }
@@ -120,7 +115,6 @@ const SignUpScreen = () => {
                 <TextInput
                     style={SignStyles.Inputstyle}
                     placeholder="Contraseña"
-                    //onChangeText={(password) => setPassword(password)}
                     onChangeText={(value) => validateAndSet(value, setPassword)}
                     autoCapitalize="none"
                     autoCorrect={false}
@@ -131,7 +125,6 @@ const SignUpScreen = () => {
                 <TextInput
                     style={SignStyles.Inputstyle}
                     placeholder="Confirmar Contraseña"
-                    //onChangeText={(password) => setPassword(password)}
                     onChangeText={(value) => validateAndSet(value, setConfirmPassword)}
                     autoCapitalize="none"
                     autoCorrect={false}
@@ -140,15 +133,6 @@ const SignUpScreen = () => {
                     onBlur={() => checkPassword(password, confirmPassword)}
                 />
                 {<Text style={SignStyles.error}>{validationMessage}</Text>}
-                {/* <TextInput
-                    placeholder='confirm password'
-                    style={SignStyles.Inputstyle}
-                    value={confirmPassword}
-                    onChangeText={(value) => validateAndSet(value, setConfirmPassword)}
-                    secureTextEntry
-                    onBlur={() => checkPassword(password, confirmPassword)}
-                /> */}
-                {/* {<Text style={SignStyles.Errorstyle}>{validationMessage}</Text>} */}
                 <TouchableOpacity
                     onPress={() => registerUser(email, password, firstName, lasName)}
                     style={SignStyles.Buttonstyle}

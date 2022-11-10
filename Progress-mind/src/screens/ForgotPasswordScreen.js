@@ -13,33 +13,26 @@ const ForgotPasswordScreen = () => {
     const forgotPassword = () => {
         if (regexEmai.test(email)) {
             firebase.auth().sendPasswordResetEmail(email)
-            .then(() => {
-                alert("Email enviado")
-            }).catch((error) => {
-                alert(error)
-            })
-        navigation.navigate('Sign In')
-        }else if (email !== "" && !regexEmai.test(email)){
-            if(email !== "" && !regexEmai.test(email)){
+                .then(() => {
+                    alert("Email enviado")
+                }).catch((error) => {
+                    alert(error)
+                })
+            navigation.navigate('Sign In')
+        } else if (email !== "" && !regexEmai.test(email)) {
+            if (email !== "" && !regexEmai.test(email)) {
                 setError('Debes ingresar el formato de email correcto')
-               }
-               Alert.alert(
-                'Error',
-                'Debe Ingresar el formato correcto',
-            )
+            }
             return
-        }else{
+        } else {
             Alert.alert(
                 'Error',
-                'Todos los campos deben estar llenos'
+                'Ops! Ha habido un problema, vuelve a intentarlo'
             )
         }
     }
     return (
         <View style={SignStyles.Conteiner}>
-            {/* <View style={SignStyles.Topconteiner}>
-                <Image source={require('../imgs/Logo.png')} style={{ width: 450, height: 400, alignSelf: 'center' }} />
-            </View> */}
             <View style={SignStyles.Bottonconteiner2}>
                 <Text style={SignStyles.ForgotStyle}>Restablecer la contraseña</Text>
                 <Text style={SignStyles.ForgotStyle2}>Escribe la direccion de correo electronico asociada a tu cuenta y te enviaremos un enlace para que puedas restablecer tu contraseña</Text>
@@ -50,7 +43,7 @@ const ForgotPasswordScreen = () => {
                     autoCorrect={false}
                     style={SignStyles.Inputstyle}
                 />
-                     <Text style={SignStyles.Errorstyle}>{error}</Text>
+                <Text style={SignStyles.Errorstyle}>{error}</Text>
                 <TouchableOpacity
                     onPress={() => forgotPassword()}
                     style={SignStyles.Buttonstylef}
@@ -58,9 +51,6 @@ const ForgotPasswordScreen = () => {
                 >
                     <Text style={SignStyles.Textsigninstyle2}>Recuperar contraseña</Text>
                 </TouchableOpacity>
-                {/* <TouchableOpacity onPress={() => navigation.navigate('Sign In')}>
-                    <Text style={SignStyles.Textsignupstyle2}>Regresar</Text>
-                </TouchableOpacity> */}
                 <TouchableOpacity onPress={() => navigation.navigate('Log In')}>
                     <Text style={SignStyles.Textsignupstyle2}>Inicio Sesion</Text>
                 </TouchableOpacity>

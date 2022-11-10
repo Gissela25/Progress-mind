@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Text, View, Image, TouchableOpacity, TextInput,Alert } from 'react-native';
+import { Text, View, Image, TouchableOpacity, TextInput, Alert } from 'react-native';
 import { getAuth, GoogleAuthProvider, signInWithCredential } from 'firebase/auth';
 import * as Google from 'expo-auth-session/providers/google';
 import { initializeApp } from 'firebase/app'
@@ -29,7 +29,7 @@ const SignInScreen = () => {
     const [password, setPassword] = useState('')
     const [error, setError] = useState('')
     const [error2, setError2] = useState('')
-    let regexPassword = /^[a-zA-Z0-9$#%()+*-_.&]{8,}$/gm; 
+    let regexPassword = /^[a-zA-Z0-9$#%()+*-_.&]{8,}$/gm;
     let regexEmai = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/gm;
     const [request, response, promptAsync] = Google.useIdTokenAuthRequest(
         {
@@ -52,42 +52,24 @@ const SignInScreen = () => {
             try {
                 await firebase.auth().signInWithEmailAndPassword(email, password)
             } catch (error) {
-                alert('Email o Contraseña incorrectos')
+                alert(error.message)
             }
         }
         else if (email !== "" && !regexEmai.test(email) && password !== "" && !regexPassword.test(password)) {
-            if(email !== "" && !regexEmai.test(email)){
+            if (email !== "" && !regexEmai.test(email)) {
                 setError('Debes ingresar el formato de email correcto')
-               }
-               if(password !== "" && !regexPassword.test(password)){
+            }
+            if (password !== "" && !regexPassword.test(password)) {
                 setError2('La contraseña debe tener almenos 8 caracteres')
-               }
-                Alert.alert(
-                    'Error',
-                    'Debe Ingresar el formato correcto',
-                )
-                return
-        }else{
+            }
+            return
+        } else {
             Alert.alert(
                 'Error',
-                'Todos los campos deben estar llenos'
+                'Ops! Ha habido un problema, vuelve a intentarlo'
             )
         }
     }
-
-    // // async function login() {
-    // //     if (email === '' || password === '') {
-    // //         setvalidationMessage('Todos los campos debene estar llenos')
-    // //         return;
-    // //     }
-
-    // //     try {
-    // //         await signInWithEmailAndPassword(auth, email, password);
-    // //     } catch (error) {
-    // //         setvalidationMessage(error.message);
-    // //     }
-    // // }
-
     return (
         <View style={SignStyles.Conteiner}>
             <View style={SignStyles.Topconteiner}>
@@ -111,8 +93,6 @@ const SignInScreen = () => {
                     style={SignStyles.Inputstyle}
                 />
                 <Text style={SignStyles.Errorstyle}>{error2}</Text>
-                {/* {<Text style={SignStyles.Errorstyle}>{validationMessage}</Text>} */}
-
                 <TouchableOpacity
                     onPress={() => loginUser(email, password)}
                     style={SignStyles.Buttonstyle}
@@ -120,12 +100,6 @@ const SignInScreen = () => {
                 >
                     <Text style={SignStyles.Textsigninstyle}>Iniciar Sesión</Text>
                 </TouchableOpacity>
-                {/* <TouchableOpacity onPress={() => navigation.navigate('Sign Up')}>
-                    <Text style={SignStyles.Textsignupstyle}>Registrarse</Text>
-                </TouchableOpacity> */}
-                {/* <TouchableOpacity disabled={!request} onPress={() => promptAsync()}>
-                <Text>GOOGle</Text>
-                </TouchableOpacity> */}
                 <TouchableOpacity
                     onPress={() => navigation.navigate('Forgot')}
                 >

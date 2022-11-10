@@ -1,6 +1,5 @@
 import { Pressable, StyleSheet, Text, View, ScrollView, Image } from 'react-native'
 import React from 'react'
-import GlobalStyles from '../../styles/GlobalStyles'
 import { COLORS } from '../../styles/constants/Theme'
 
 export default function Help({navigation}) {

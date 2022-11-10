@@ -59,28 +59,10 @@ const MenuScreen = () => {
                     </Text>
                 </TouchableOpacity>
                 <Text style={SignStyles.TextEmail}>{name.email} </Text>
-                {/* <TouchableOpacity style={SignStyles.ConteinerOptions}
-                    onPress={() => {
-                        changePassword()
-                    }}>
-                    <Text style={SignStyles.TextOptions}>Actualizar contraseña
-                    </Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={SignStyles.ConteinerOptions}
-                   onPress={() => selectedComponent('ayuda')}>
-                    <Text style={SignStyles.TextOptions}>Ayuda
-                    </Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={SignStyles.ConteinerOptions}
-                   onPress={() => selectedComponent('about')}>
-                    <Text style={SignStyles.TextOptions}>Sobre nosotros
-                    </Text>
-                </TouchableOpacity> */}
                 <Button
                     icon={{ name:'home', type: 'font-awesome', color: COLORS.white, size: 23, }}
                     containerStyle={{
                         width: 80,
-                        //marginHorizontal: 50,
                         marginVertical: 7,
                     }}
                     title="Inicio"
@@ -92,7 +74,6 @@ const MenuScreen = () => {
                     icon={{ name:'calculator', type: 'font-awesome', color: COLORS.white, size: 23, }}
                     containerStyle={{
                         width: 140,
-                        //marginHorizontal: 50,
                         marginVertical: 7,
                     }}
                     title="Matemáticas"
@@ -106,7 +87,6 @@ const MenuScreen = () => {
                     icon={{ name:'code-outline', type: 'ionicon', color: COLORS.white, size: 23, }}
                     containerStyle={{
                         width: 140,
-                        //marginHorizontal: 50,
                         marginVertical: 7,
                     }}
                     title="Programación"
@@ -120,7 +100,6 @@ const MenuScreen = () => {
                     icon={{ name:'flask', type: 'font-awesome', color: COLORS.white, size: 23, }}
                     containerStyle={{
                         width: 82,
-                        //marginHorizontal: 50,
                         marginVertical: 7,
                     }}
                     title="Fisica"
@@ -134,7 +113,6 @@ const MenuScreen = () => {
                     icon={{ name:'key-outline', type: 'ionicon', color: COLORS.white, size: 23, }}
                     containerStyle={{
                         width: 200,
-                        //marginHorizontal: 50,
                         marginVertical: 7,
                     }}
                     title="Actualizar Contraseña"
@@ -146,7 +124,6 @@ const MenuScreen = () => {
                     icon={{ name:'help-outline', type: 'ionicon', color: COLORS.white, size: 23, }}
                     containerStyle={{
                         width: 87,
-                        //marginHorizontal: 50,
                         marginVertical: 7,
                     }}
                     title="Ayuda"
@@ -158,7 +135,6 @@ const MenuScreen = () => {
                     icon={{ name:'users', type: 'font-awesome', color: COLORS.white, size: 23, }}
                     containerStyle={{
                         width: 165,
-                        //marginHorizontal: 50,
                         marginVertical: 7,
                     }}
                     title="Sobre Nosostros"

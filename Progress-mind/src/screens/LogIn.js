@@ -2,7 +2,6 @@ import { View, Text,TouchableOpacity } from 'react-native'
 import React from 'react'
 import SignStyles from '../styles/SignStyles'
 import { Button } from 'react-native-elements'
-//import { Button } from '@rneui/themed';
 import Theme, { COLORS } from '../styles/constants/Theme'
 import { color } from 'react-native-reanimated'
 import { useNavigation } from '@react-navigation/native'
@@ -41,9 +40,7 @@ const LogIn = () => {
                         backgroundColor: COLORS.green
                     }}
                     containerStyle={{
-                        //width: 200,
                         marginHorizontal: 10,
-                        //marginVertical: 10,
                         marginTop:140,
                     }}
                     onPress={() => navigation.navigate('Sign In')}
@@ -56,9 +53,7 @@ const LogIn = () => {
                         backgroundColor: COLORS.green
                     }}
                     containerStyle={{
-                        //width: 200,
                         marginHorizontal: 10,
-                        //marginVertical: 10,
                         marginTop:30,
                     }}
                     disabled={!request} onPress={() => promptAsync()}
