@@ -64,7 +64,6 @@ Este proyecto utiliza la licencia Reconocimiento-No Comercial-Sin Derivados 2.5(
 
 > [Enlace de Manual de Usuario](https://drive.google.com/file/d/1i6gGzqUMIN-EpmottJSAH8YpliQFWll5/view?usp=share_link)
 
-> [Enlace de Manual Técnico](https://drive.google.com/file/d/18hlO9pid12ZMuTMHMnO8LTNd9OEwC9k5/view)
-
+> [Enlace de Manual Técnico](https://drive.google.com/file/d/1CX5pb-uTkVpcQl-DICpLmhQ3eDl3BTfc/view?usp=share_link)
 > [Enlace del Video con el funcionamiento](https://drive.google.com/file/d/1yqcjwbw1ocCx58zxvVpi2ldpmWTEOGha/view?usp=sharing)
 
